@@ -1,0 +1,2 @@
+# RebornOSSettings
+-keep class com.rebornos.settings.**
