@@ -28,13 +28,13 @@ android_library {
     ],
 
     srcs: ["src/**/*.java",
-           "RebornOSSettings/src/**/*.java",
+           "RebornSettings/src/**/*.java",
     ],
 
     aaptflags: ["--extra-packages com.rebornos.settings"],
 
     resource_dirs: ["res",
-                    "RebornOSSettings/res"
+                    "RebornSettings/res"
     ],
 
     static_libs: [

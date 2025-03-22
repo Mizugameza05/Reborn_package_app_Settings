@@ -1,0 +1,2486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2016-2022 RebornOS Android Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App Title -->
+    <string name="rebornos_settings_title">سی آر ڈرائڈ کی ترتیبات</string>
+    <string name="rebornos_settings_summary">اچھائی کھولیں</string>
+    <string name="rebornos_personalization_category">ذاتی بنانا</string>
+    <string name="rebornos_addons_category">اضافی خصوصیات</string>
+    <!-- Personalization Categories -->
+    <string name="button_title">بٹن</string>
+    <string name="lockscreen_title">لاک سکرین</string>
+    <string name="misc_title">متفرق</string>
+    <string name="navbar_title">سمت شناسی</string>
+    <string name="notifications_title">اطلاعات</string>
+    <string name="quicksettings_title">فوری ترتیبات</string>
+    <string name="recents_title">حالیہ سکرین</string>
+    <string name="sound_title">آواز</string>
+    <string name="statusbar_title">اسٹیٹس بار</string>
+    <string name="display_title">نمائش</string>
+    <string name="ui_title">صارفی انٹرفیس</string>
+    <!-- Power Menu -->
+    <string name="powermenu_title">پاور مینو</string>
+    <string name="powermenu_summary">پاور مینو کے اختیارات کو اپنی مرضی کے مطابق بنانا</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">رنگ اٹھانے والا</string>
+    <string name="press_color_to_apply">لاگو کرنے کے لیے نیچے دیئے گئے رنگ کو دبائیں</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">ترتیب</string>
+    <string name="color_default">طے شدہ</string>
+    <!-- General strings -->
+    <string name="ok">ٹھیک ہے</string>
+    <string name="reset">دوبارہ ترتیب دیں</string>
+    <string name="cancel">منسوخ</string>
+    <string name="save">محفوظ</string>
+    <!-- Misc strings -->
+    <string name="lockclock_title">گھڑی ویجیٹ</string>
+    <string name="lockclock_summary">دیکھیں یا تبدیل کریں کیسے ’گھڑی‘ کا ویجیٹ ظاہر ہو گا</string>
+    <!-- Network traffic -->
+    <string name="network_traffic_settings_title">انٹرنیٹ سپیڈ کی نگرانی</string>
+    <string name="network_traffic_settings_summary">نیٹ ورک ٹریفک کی نگرانی اور اپنے حساب سے تبدیل کریں</string>
+    <string name="network_traffic_location_title">جگہ</string>
+    <string name="network_traffic_location_disable">غیرفعال</string>
+    <string name="network_traffic_location_statusbar">سٹیٹس بار</string>
+    <string name="network_traffic_location_quick_statusbar">مختصر سٹیٹس بار</string>
+    <string name="network_traffic_mode_title">ڈسپلے موڈ</string>
+    <string name="network_traffic_mode_up">صرف اپ لوڈ کریں</string>
+    <string name="network_traffic_mode_down">صرف ڈاؤن لوڈ کریں</string>
+    <string name="network_traffic_mode_all">اپ لوڈ اور ڈاؤن لوڈ کریں</string>
+    <string name="network_traffic_autohide">خود بخود چُھپنا</string>
+    <string name="network_traffic_autohide_summary">جب کوئی سرگرمی نہ ہو تو ٹریفک کی نگرانی چھپا دیں</string>
+    <string name="network_traffic_autohide_kilobits">ک۔ب/س</string>
+    <string name="network_traffic_autohide_kilobytes">ک۔با/س</string>
+    <string name="network_traffic_autohide_threshold">غیر فعالی کی حد</string>
+    <string name="network_traffic_show_units">یونٹ دکھائیں</string>
+    <string name="network_traffic_show_units_summary">کیا آپ ٹریفک پیمائش یونٹ دیکھنا چاہیں گے</string>
+    <string name="network_traffic_units_title">ٹریفک کی پیمائش کے یونٹ</string>
+    <string name="network_traffic_units_bits">بٹس فی سیکنڈ (ب/س)</string>
+    <string name="network_traffic_units_kilobits">کلو بٹس فی سیکنڈ (کب/س)</string>
+    <string name="network_traffic_units_megabits">میگا بٹس فی سیکنڈ (م۔ب/س)</string>
+    <string name="network_traffic_units_bytes">بائٹس فی سیکنڈ (با/س)</string>
+    <string name="network_traffic_units_kilobytes">کلو بائٹس فی سیکنڈ (ک۔با/س)</string>
+    <string name="network_traffic_units_megabytes">میگا بائٹس فی سیکنڈ (م۔با/س)</string>
+    <string name="network_traffic_hidearrow">تیر چھپائیں</string>
+    <string name="network_traffic_hidearrow_summary">نیٹ ورک ٹریفک اشارے کے تیروں کو چھپائیں</string>
+    <string name="network_traffic_refresh_interval_title">تازه معلومات کا درمیانی وقفہ</string>
+    <string name="network_traffic_refresh_interval_summary">وقت جس کے بعد رفتار کی دوبارہ پیمائش کی جائے</string>
+    <!-- Settings summary  -->
+    <string name="remove_settings_summary_title">ترتیبات کا خلاصہ حذف کریں</string>
+    <string name="remove_settings_summary_summary">ٹائل عنوانات کے نیچے خلاصہ ہٹائیں</string>
+    <!-- Immersive Recents -->
+    <string name="immersive_recents_title">حالیہ مستغرق</string>
+    <string name="immersive_recents_summary">حالیہ سکرین کا منظر تبدیل کریں</string>
+    <string name="immersive_recents_dialog_title">حالیہ منظر منتخب کریں</string>
+    <string name="immersive_recents_default">معین شدہ</string>
+    <string name="immersive_recents_fullscreen">مکمل سکرین</string>
+    <string name="immersive_recents_statusbar">صرف سٹیٹس بار</string>
+    <string name="immersive_recents_navbar">صرف نیوبار</string>
+    <!-- Recents categories -->
+    <string name="recents_default_category">اے-او-ایس-پی</string>
+    <string name="recents_omni_category">اومنی سویچ</string>
+    <!-- AOSP Recents -->
+    <string name="aosp_first_time_title">اے-او-ایس-پی حالیہ</string>
+    <string name="aosp_first_time_message">جب توسیع شدہ ڈیسک ٹاپ کو فعال کیا جاتا ہے توحالیہ مستغرق کی ترتیب ختم ہو گئی ہے۔.</string>
+    <!-- Hide Apps from Recents -->
+    <string name="hide_apps_from_recents_title">ایپس چھپائیں حالیہ سے</string>
+    <string name="hide_apps_from_recents_summary">ایپس کو چھپائیں حالیہ اسکرین میں نمودار ہونے سے</string>
+    <string name="hide_from_recents_add_app">ایپ کو چھپانے والی فہرست میں شامل کریں</string>
+    <string name="hide_from_recents_picker_title">ان ایپ کے لیے خودبخود چھپا دیں</string>
+    <string name="hide_from_recents_picker_summary">جب یہ ایپ اگلے دفاع کھلے گی تو یہ خودبخود recents والی سکرین سے چپ جائے گی</string>
+    <!-- OmniSwitch Recents -->
+    <string name="recents_use_omniswitch_title">حالیہ کے لیے استعمال کریں</string>
+    <string name="recents_use_omniswitch_summary">پہلے سے طے شدہ حالیہ منظر کی بجائے OmniSwitch استعمال کریں</string>
+    <string name="omniswitch_start_settings_title">ترتیبات</string>
+    <string name="omniswitch_start_settings_summary">OmniSwitch کی ترتیبات دیکھیں</string>
+    <string name="omniswitch_first_time_title">OmniSwitch حالیہ</string>
+    <string name="omniswitch_first_time_message">اس بات کا یقین کر لیں کہ آپ نے OmniSwitch کو بھی OmniSwitch کی ترتیبات کھول کر فعال کر دیا ہے ۔</string>
+    <!-- Lockscreen categories -->
+    <string name="lockscreen_shortcuts_category">شارٹ کٹ</string>
+    <string name="lockscreen_interface_category">انٹرفیس</string>
+    <string name="lockscreen_clockdate_category">گھڑی &amp; تاریخ</string>
+    <string name="lockscreen_misc_category">متفرق</string>
+    <!-- Lockscreen shortcuts -->
+    <string name="lockscreen_shortcuts_slim_title">بالائی شارٹ کٹس</string>
+    <string name="lockscreen_shortcuts_slim_summary">لاک اسکرین کلاک کے نیچے شارٹ کٹس کو تبدیل کریں۔</string>
+    <string name="lockscreen_shorcuts_launch_type_title">شارٹ کٹ کلک کی قسم</string>
+    <string name="lockscreen_shortcuts_single_tap">تھپتھپی</string>
+    <string name="lockscreen_shortcuts_double_tap">دوہرا تھپ تھپانا</string>
+    <string name="lockscreen_shortcuts_longpress">دیر تک دبانا</string>
+    <string name="lockscreen_shortcuts_title">شارٹ کٹس</string>
+    <string name="lockscreen_shortcuts_summary">اسکرین کے نیچے شارٹ کٹس کو ترتیب دیں۔</string>
+    <!-- Slim DSLV -->
+    <string name="shortcut_action_longpress">دیر تک دبانا:</string>
+    <string name="shortcut_action_select_action_longpress">دیر تک دبانے کی کروائی کا انتخاب کریں:</string>
+    <string name="shortcut_action_select_action">کارروائی کا انتخاب کریں:</string>
+    <string name="shortcut_action_select_action_newaction">نئی کارروائی منتخب کریں:</string>
+    <string name="shortcut_action_reset">اپنی اصلی حالت میں بحال کریں</string>
+    <string name="shortcut_action_add">اندراج کریں</string>
+    <string name="shortcut_action_reset_message">تمام اندراجات کو پہلے سے طے شدہ پر پھر سیٹ کریں؟</string>
+    <string name="shortcut_action_max">زیادہ سے زیادہ اندراجات کا سائز پہنچ گیا ہے۔</string>
+    <string name="shortcut_action_warning">انتباہ</string>
+    <string name="shortcut_action_warning_message">آخری اندراج کو حذف کرنا ممکن نہیں ہے۔</string>
+    <string name="shortcut_action_disable_message">غیر فعال\nاس خصوصیت کو فعال کرنے کے لیے ایک اندراج شامل کریں۔</string>
+    <string name="shortcut_image_not_valid">منتخب کردہ ایپ نے درست آئیکن واپس نہیں کیا یا امیج تراشنے کی حمایت نہیں کرتا ہے۔ کوئی اور ایپ استعمال کریں۔.</string>
+    <string name="shortcut_duplicate_entry">منتخب عمل کو دو بار شامل نہیں کیا جا سکتا</string>
+    <string name="shortcut_action_help_shortcut">شارٹ کٹ</string>
+    <string name="shortcut_action_help_button">بٹن</string>
+    <string name="shortcut_action_help_app">ایپ</string>
+    <string name="shortcut_action_help_icon">آئیکن کو منتخب کرتے وقت حسب ضرورت کے اختیارات سامنے آئیں گے۔</string>
+    <string name="shortcut_action_help_main">%1$s شامل کرنے کے لیے، شامل کریں آئیکن کو منتخب کریں۔ %1$s کے شامل ہونے کے بعد، قطار کو منتخب کرنے سے ہدف %2$s بدل جائے گا\n\n%1$s کو ہٹانے کے لیے، قطار کو افقی طور پر بائیں یا دائیں سوائپ کریں۔ اینکر کو عمودی طور پر بائیں طرف گھسیٹ کر فہرست میں %1$s کو دوبارہ ترتیب دیں۔\n\nڈیفالٹس کو صاف کرنے یا ری سیٹ کرنے کے لیے، ری سیٹ آئیکن کو منتخب کریں۔.</string>
+    <string name="shortcut_action_help_delete_last_entry">فہرست میں سے ہر %1$s کو ہٹانے سے یہ خصوصیت مکمل طور پر غیر فعال ہو جائے گی۔</string>
+    <string name="shortcut_action_help_pie_second_layer_delete_last_entry">فہرست میں سے ہر %1$s کو ہٹانے سے دوسری پائی لیئر مکمل طور پر غیر فعال ہو جائے گی۔</string>
+    <string name="shortcuts_applications">اپلیکیشنز</string>
+    <string name="shortcuts_select_custom_app_title">اپنی مرضی کے مطابق ایپلی کیشن منتخب کریں۔</string>
+    <string name="shortcuts_icon_picker_type">آئیکن کی قسم منتخب کریں:</string>
+    <string name="shortcuts_icon_default">معین شدہ</string>
+    <string name="shortcuts_icon_presets">سسٹم آئیکنز</string>
+    <string name="shortcuts_icon_custom">گیلری</string>
+    <string name="shortcuts_icon_picker_choose_icon_title">آئیکن کا انتخاب کریں۔</string>
+    <string name="shortcuts_icon_picker_alarm">الارم</string>
+    <string name="shortcuts_icon_picker_andy">اینڈی</string>
+    <string name="shortcuts_icon_picker_battery">بیٹری</string>
+    <string name="shortcuts_icon_picker_browser">براؤزر</string>
+    <string name="shortcuts_icon_picker_calendar">کیلنڈر</string>
+    <string name="shortcuts_icon_picker_camera">کیمرا</string>
+    <string name="shortcuts_icon_picker_cloud">کلائوڈ</string>
+    <string name="shortcuts_icon_picker_contact">رابطہ</string>
+    <string name="shortcuts_icon_picker_directdial">براہ راست ڈائل </string>
+    <string name="shortcuts_icon_picker_directmessage">براہ راست پیغام</string>
+    <string name="shortcuts_icon_picker_drive">ڈرائیو</string>
+    <string name="shortcuts_icon_picker_dropbox">ڈراپ باکس</string>
+    <string name="shortcuts_icon_picker_email">ای میل</string>
+    <string name="shortcuts_icon_picker_email2">ای میل متبادل</string>
+    <string name="shortcuts_icon_picker_evernote">ایورنوٹ</string>
+    <string name="shortcuts_icon_picker_facebook">فیس بک</string>
+    <string name="shortcuts_icon_picker_favorite">پسندیدہ</string>
+    <string name="shortcuts_icon_picker_file_browser">فائل براؤزر</string>
+    <string name="shortcuts_icon_picker_file_browser2">فائل براؤزر متبادل</string>
+    <string name="shortcuts_icon_picker_fitness">فٹنس</string>
+    <string name="shortcuts_icon_picker_gallery">گیلری</string>
+    <string name="shortcuts_icon_picker_gears">گیئرز</string>
+    <string name="shortcuts_icon_picker_google_small">گوگل</string>
+    <string name="shortcuts_icon_picker_gplus">گوگل پلس</string>
+    <string name="shortcuts_icon_picker_gtalk">ہینگ آئوٹس</string>
+    <string name="shortcuts_icon_picker_help">مدد</string>
+    <string name="shortcuts_icon_picker_joystick">جوائس اسٹک</string>
+    <string name="shortcuts_icon_picker_key">کی/اکائونٹس</string>
+    <string name="shortcuts_icon_picker_laptop">لیپ ٹاپ</string>
+    <string name="shortcuts_icon_picker_notes">نوٹ</string>
+    <string name="shortcuts_icon_picker_luggage">سفر</string>
+    <string name="shortcuts_icon_picker_maps">نقشہ</string>
+    <string name="shortcuts_icon_picker_market">بازار</string>
+    <string name="shortcuts_icon_picker_movie">فلمیں</string>
+    <string name="shortcuts_icon_picker_music">موسیقی</string>
+    <string name="shortcuts_icon_picker_nav">سمت شناسی</string>
+    <string name="shortcuts_icon_picker_phone">فون</string>
+    <string name="shortcuts_icon_picker_package">پیکیج</string>
+    <string name="shortcuts_icon_picker_pinterest">پنٹیرسٹ</string>
+    <string name="shortcuts_icon_picker_play">چلائیں</string>
+    <string name="shortcuts_icon_picker_pocket">جیب</string>
+    <string name="shortcuts_icon_picker_quicksettings">فوری ترتیبات</string>
+    <string name="shortcuts_icon_picker_rss">آر ایس ایس فیڈ</string>
+    <string name="shortcuts_icon_picker_sdcard">SDCard</string>
+    <string name="shortcuts_icon_picker_search">تلاش</string>
+    <string name="shortcuts_icon_picker_sms">پیغام رسانی</string>
+    <string name="shortcuts_icon_picker_tasks">کام</string>
+    <string name="shortcuts_icon_picker_terminal">ٹرمینل</string>
+    <string name="shortcuts_icon_picker_transit">منتقلی</string>
+    <string name="shortcuts_icon_picker_tv">ٹی وی</string>
+    <string name="shortcuts_icon_picker_twitter">ٹویٹر</string>
+    <string name="shortcuts_icon_picker_unlock">غیر مقفل </string>
+    <string name="airplay">ایئر پلے</string>
+    <string name="android">اینڈرائیڈ</string>
+    <string name="badoo">Badoo</string>
+    <string name="battery">بیٹری</string>
+    <string name="bluetooth">بلوٹوتھ</string>
+    <string name="bookmarks">نشانی</string>
+    <string name="browser">براؤزر</string>
+    <string name="browser2">براؤزر2</string>
+    <string name="calculator">کیلکولیٹرز</string>
+    <string name="calendar">کیلنڈر</string>
+    <string name="calls">کالز</string>
+    <string name="camera">کیمرا</string>
+    <string name="chrome">کروم</string>
+    <string name="clock">گھڑی</string>
+    <string name="cnn">Cnn</string>
+    <string name="deezer2">ڈیزر2</string>
+    <string name="deezer">ڈیزر</string>
+    <string name="dolphin2">ڈالفن</string>
+    <string name="downloads">ڈاؤن لوڈ</string>
+    <string name="dropbox">ڈراپ باکس</string>
+    <string name="ebay">Ebay</string>
+    <string name="email">ای میل</string>
+    <string name="evernote">ایورنوٹ</string>
+    <string name="explorer">دریافت کریں</string>
+    <string name="falcon">فالکن</string>
+    <string name="fb">فیس بک</string>
+    <string name="flipboard">فلپ بورڈ</string>
+    <string name="foursquare">چوکور</string>
+    <string name="firefox">فائر فاکس</string>
+    <string name="googlebuzz">گوگل بز</string>
+    <string name="googledocs">گوگل کے دستاویزات</string>
+    <string name="googlewallet">گوگل والیٹ</string>
+    <string name="line">لکیر</string>
+    <string name="mic">مائک</string>
+    <string name="newyorktimes">نیویارک ٹائمز</string>
+    <string name="rootexplorer">روٹ ایکسپلورر</string>
+    <string name="sim">سم</string>
+    <string name="teamviewer">Teamviewer</string>
+    <string name="totalcommander">ٹوٹل کمانڈر</string>
+    <string name="weather">موسم</string>
+    <string name="golocker">گو لاکر</string>
+    <string name="googlecurrents">گوگل حالیہ</string>
+    <string name="googletalk">Google Talk</string>
+    <string name="gosms">گو پیغامات</string>
+    <string name="meebo">میبو</string>
+    <string name="maps2">Maps2</string>
+    <string name="memorycleaner">میموری کلینر</string>
+    <string name="navigation">سمت شناسی</string>
+    <string name="pulse">دھڑکن</string>
+    <string name="shazam">Shazam</string>
+    <string name="swiftkey">سوفٹ کی </string>
+    <string name="tmobile">ٹی موبائل</string>
+    <string name="trash">ردی کی ٹوکری</string>
+    <string name="games">گیمز</string>
+    <string name="gmail">Gmail</string>
+    <string name="docs">دستاویزات</string>
+    <string name="googledrive">گوگل ڈرائیو</string>
+    <string name="googleearth">گوگل ارتھ</string>
+    <string name="googlehangouts">گوگل hangouts</string>
+    <string name="googlekeep">گوگل کیپس</string>
+    <string name="googleplay">گوگل پلے</string>
+    <string name="googletranslate">گوگل مترجم</string>
+    <string name="google">گوگل</string>
+    <string name="googleplus">گوگل پلس</string>
+    <string name="imdb">imdb</string>
+    <string name="instagram">instagram</string>
+    <string name="lastfm">Lastfm</string>
+    <string name="maps">نقشہ</string>
+    <string name="messages">پیغامات</string>
+    <string name="music">موسیقی</string>
+    <string name="mxplayer">ایم ایکس پلیئر</string>
+    <string name="notepad">براہ راست پیغام</string>
+    <string name="opera">اوپرا</string>
+    <string name="paint">پینٹ</string>
+    <string name="paypal">پے پال</string>
+    <string name="phone">فون</string>
+    <string name="picasa">پکاسا</string>
+    <string name="pictures2">Pictures2</string>
+    <string name="player_pro">پلیئر پرو</string>
+    <string name="playstation">پلے اسٹیشن</string>
+    <string name="reddit">Reddit</string>
+    <string name="settings">ترتیبات</string>
+    <string name="skype">سکائپ</string>
+    <string name="soundscloud">ساؤنڈ کلاؤڈ</string>
+    <string name="spotifiy">Spotify</string>
+    <string name="tapatalk">Tapatalk</string>
+    <string name="tunein">Tunein</string>
+    <string name="twitter">ٹویٹر</string>
+    <string name="viber">وائبر</string>
+    <string name="videocamera">وڈیو کیمرہ</string>
+    <string name="whatsapp">واٹس ایپ</string>
+    <string name="wifi">وائی فائی</string>
+    <string name="xda">Xda</string>
+    <string name="yahoo">یاہو</string>
+    <string name="youtube">یوٹیوب</string>
+    <string name="zedge">زیڈج</string>
+    <string name="shortcut_action_none">کوئی بھی نہیں</string>
+    <string name="shortcut_action_app">کسٹم ایپس</string>
+    <string name="shortcut_action_home">گھر</string>
+    <string name="shortcut_action_back">واپس جائیں</string>
+    <string name="shortcut_action_menu">مینو</string>
+    <string name="shortcut_action_ime">IME سوئچر کھولیں۔</string>
+    <string name="shortcut_action_power_menu">پاور مینو</string>
+    <string name="shortcut_action_recent">حالیہ</string>
+    <string name="shortcut_action_power">سکرین بند</string>
+    <string name="shortcut_action_search">ایپ میں تلاش کریں۔</string>
+    <string name="shortcut_action_ring_vib">رنگ/ویب</string>
+    <string name="shortcut_action_ring_silent">رنگ/خاموش</string>
+    <string name="shortcut_action_ring_vib_silent">رنگ/خاموش/تھرتھراہٹ</string>
+    <string name="shortcut_action_camera">کیمرا</string>
+    <string name="shortcut_action_media_next">موسیقی - اگلا ٹریک</string>
+    <string name="shortcut_action_media_play_pause">موسیقی - چلائیں/روکیں۔</string>
+    <string name="shortcut_action_media_previous">موسیقی - پچھلا ٹریک</string>
+    <string name="shortcut_action_wake_device">آلہ کو بیدار</string>
+    <string name="shortcut_picker_choose_longpress_action">دیر تک دبانے کی کروائی کا انتخاب کریں:</string>
+    <string name="shortcut_picker_choose_new_action">نئی کارروائی منتخب کریں:</string>
+    <string name="shortcut_picker_reassign_action">دوبارہ تفویض کارروائی:</string>
+    <string name="shortcut_picker_choose_action">کارروائی کا انتخاب کریں:</string>
+    <string name="shortcut_picker_applications_title">اپلیکیشنز</string>
+    <string name="shortcut_picker_activities_title">سرگرمیاں</string>
+    <string name="shortcut_picker_select_app_title">ایپلیکیشن منتخب کریں:</string>
+    <string name="shortcut_picker_select_activity_title">کاروائی منتخب کریں:</string>
+    <string name="shortcut_picker_choose_icon_type_title">آئیکن کی قسم منتخب کریں:</string>
+    <string name="shortcut_picker_icon_type_default_title">معین شدہ</string>
+    <string name="shortcut_picker_icon_type_system_title">سسٹم آئیکنز</string>
+    <string name="shortcut_picker_select_system_icon_title">سسٹم آئیکن منتخب کریں:</string>
+    <string name="shortcut_picker_icon_type_custom_title">گیلری</string>
+    <!-- Media art -->
+    <string name="media_art_title">میڈیا کور آرٹ</string>
+    <string name="media_art_summary">میڈیا کور آرٹ دکھائیں جب موجود ہوں</string>
+    <!-- Hide Lockscreen clock, date & alarm -->
+    <string name="hide_lockscreen_clock_title">گھڑی</string>
+    <string name="hide_lockscreen_clock_summary">حالیہ وقت دکھائیں</string>
+    <string name="hide_lockscreen_date_title">تاریخ</string>
+    <string name="hide_lockscreen_date_summary">آج کی تاریخ دکھائیں</string>
+    <string name="hide_lockscreen_alarm_title">الارم</string>
+    <string name="hide_lockscreen_alarm_summary">الارم دکھائیں جب یہ سیٹ ہو</string>
+    <!-- Lockscreen notif count -->
+    <string name="lockscreen_maxnotif_title">اطلاعات کی تعداد</string>
+    <string name="lockscreen_maxnotif_sumary">اطلاعات کی ایڈجسٹمنٹ کو فعال کریں</string>
+    <string name="lockscreen_maxnotif_config">زیادہ سے زیادہ اجازت شدہ اطلاعات</string>
+    <!-- Lockscreen tap-to sleep -->
+    <string name="double_tap_sleep_anywhere_title">سونے کے لیے ٹیپ کریں</string>
+    <string name="double_tap_sleep_anywhere_summary">ڈیوائس کو سلانے کے لیے مقفل سکرین پر کسی بھی جگہ دو دفعہ ٹیپ کریں</string>
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">پاور مینو</string>
+    <string name="lockscreen_enable_power_menu_summary">محفوظ لاک اسکرین پر پاور مینو تک رسائی کی اجازت دیں۔</string>
+    <string name="lockscreen_secure_power_menu_title">محفوظ پاور مینو</string>
+    <string name="lockscreen_secure_power_menu_summary">توثیق کے بعد ہی پاور مینو کارروائی کی اجازت دیں۔</string>
+    <!-- Quick settings on secure lockscreen -->
+    <string name="lockscreen_enable_qs_title">فوری ترتیبات</string>
+    <string name="lockscreen_enable_qs_summary">محفوظ لاک سکرین پہ فوری ترتیبات تک رسائی کی اجازت دیں</string>
+    <!-- Screenshot Sound  -->
+    <string name="screenshot_sound_title">آواز کا سکرین شاٹ</string>
+    <string name="screenshot_sound_summary">جب سکرین شاٹ لیا جا رہا ہو تو بجنے والی آواز کو بدل دیں</string>
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">آواز کے قدم</string>
+    <string name="volume_steps_summary">آواز کے پینل میں اقدامات کی تعداد کو اپنی مرضی سے ترتیب دیں</string>
+    <string name="volume_steps_alarm_title">آواز کے اقدامات: الارم</string>
+    <string name="volume_steps_dtmf_title">آواز کے اقدامات:DTMF</string>
+    <string name="volume_steps_music_title">آواز کے اقدامات: موسیقی</string>
+    <string name="volume_steps_notification_title">آواز کے اقدامات: اطلاع</string>
+    <string name="volume_steps_ring_title">آواز کے اقدامات: رنگر</string>
+    <string name="volume_steps_system_title">آواز کے اقدامات: سسٹم</string>
+    <string name="volume_steps_voice_call_title">آواز کے اقدامات: آواز کال</string>
+    <string name="volume_steps_reset">ری سیٹ</string>
+    <string name="volume_steps_60">60</string>
+    <string name="volume_steps_45">45</string>
+    <string name="volume_steps_30">30</string>
+    <string name="volume_steps_15">15</string>
+    <string name="volume_steps_7">7</string>
+    <string name="volume_steps_5">5</string>
+    <!-- SU indicator -->
+    <string name="show_su_indicator_title">سپر صارف آئکون</string>
+    <string name="show_su_indicator_summary">جب مقامی روٹ استعمال ہو رہا ہو تو سپر صارف آئیکون ظاہر کریں</string>
+    <!-- Launch music player when headset is connected -->
+    <string name="headset_connect_player_title">موسیقی پلئیر چالو کریں</string>
+    <string name="headset_connect_player_summary">ہیڈسیٹ منسلک ہونے پر پہلے سے طے شدہ موسیقی پلیئر چالو کریں</string>
+    <string name="headset_connect_player_disabled">غیرفعال کردہ</string>
+    <string name="headset_connect_player_wired">جب وائرڈ ہیڈسیٹ پلگ ان ہوتا ہے۔</string>
+    <string name="headset_connect_player_bt_no_carkit">جب BT ہیڈسیٹ (کوئی کارکٹ نہیں) پلگ ان ہوتا ہے۔</string>
+    <string name="headset_connect_player_bt">جب بلیو ٹوتھ ہیڈ سیٹ پلگ ان ہوتا ہے۔</string>
+    <string name="headset_connect_player_both_no_carkit">جب وائیرڈ یا بلو ٹوتھ ہیڈ سیٹ (کوئی کارکٹ نہیں) پلگ ان ہوتا ہے۔</string>
+    <string name="headset_connect_player_both">جب وائرڈ یا بلیوٹوتھ  ہیڈ سیٹ پلگ ان ہوتا ہے۔</string>
+    <!-- Quick setting categories -->
+    <string name="qs_tiles_category">ٹائلز</string>
+    <string name="qs_toggles_category">تبدیلیاں</string>
+    <string name="qs_misc_category">متفرق</string>
+    <string name="qs_footer_category">ذیل تحریر</string>
+    <!-- Quick settings tiles -->
+    <string name="sysui_qqs_count_title">چھوٹے QS ٹائلز</string>
+    <string name="qs_rows_portrait_title">قطاریں (عمودی)</string>
+    <string name="qs_rows_landscape_title">قطاریں (افقی)</string>
+    <string name="qs_columns_portrait_title">کالمز (عمودی)</string>
+    <string name="qs_columns_landscape_title">کالمز (افقی)</string>
+    <!-- WiFi easy toggle  -->
+    <string name="qs_wifi_easy_toggle_title">وائی فائی آسانی سے تبدیل کریں</string>
+    <string name="qs_wifi_easy_toggle_summary">وائی ​​فائی تبدیل کرنے کیلئے ایک ٹیپ کے عمل کو فعال کریں</string>
+    <!-- BT easy toggle  -->
+    <string name="qs_bt_easy_toggle_title">بلیو ٹوتھ آسانی سے تبدیل کریں</string>
+    <string name="qs_bt_easy_toggle_summary">بلیوٹوتھ تبدیل کرنے کیلئے ایک ٹیپ کے عمل کو فعال کریں</string>
+    <!-- Advanced data tile -->
+    <string name="qs_advanced_data_title">ڈیٹا آسانی سے تبدیل کریں</string>
+    <string name="qs_advanced_data_summary">ڈیٹا تبدیل کرنے کیلئے ایک ٹیپ کے عمل کو فعال کریں</string>
+    <!-- Battery Saver easy toggle -->
+    <string name="qs_battery_easy_toggle_title">بیٹری آسانی سے بدلیں</string>
+    <string name="qs_battery_easy_toggle_summary">بیٹری سیور بدلنے کیلئے ایک ٹیپ کے عمل کو فعال کریں</string>
+    <!-- Location easy toggle -->
+    <string name="qs_location_easy_toggle_title">جگہ کو آسانی سے بدلیں</string>
+    <string name="qs_location_easy_toggle_summary">جگہ بدلنے کیلئے ایک ٹیپ کے عمل کو فعال کریں</string>
+    <!-- Quick settings brightness slider -->
+    <string name="qs_brightness_slider_title">چمک سلائیڈر</string>
+    <string name="qs_brightness_slider_summary">فوری ترتیبات کے پینل میں ایک چمک سلائیڈر دکھائیں</string>
+    <!-- Quick settings brightness icon -->
+    <string name="brightness_icon_title">خودکار چمک</string>
+    <string name="brightness_icon_summary">سلائیڈر کے قریب حسب منشاء چمک کے لئے ٹوگل دکھائیں</string>
+    <!-- Quick settings haptic feedback -->
+    <string name="quick_settings_vibrate_title">چھونے پر وائبریٹ کرے</string>
+    <string name="quick_settings_vibrate_summary">ٹائلوں کو چھونے پر وائیبریٹ کرے</string>
+    <!-- Force expanded notifications -->
+    <string name="force_expanded_notifications_title">اطلاعات کی جبری توسیع</string>
+    <string name="force_expanded_notifications_summary">ان ایپس کو مجبور کریں جو وسیع اطلاعات کی حمایت کرتے ہیں</string>
+    <!-- Disabling immersive mode messages -->
+    <string name="disable_immersive_message_title">امرسیو موڈ کے پیغامات کو غیر فعال بنائیں</string>
+    <string name="disable_immersive_message_summary">امرسیو موڈ میں دکھائی دینے والے تمام پیغامات چھپا دیں</string>
+    <!-- Statusbar categories -->
+    <string name="status_bar_icons_category_title">آئیکونز</string>
+    <string name="status_bar_clock_category_title">گھڑی &amp; تاریخ</string>
+    <string name="status_bar_battery_category_title">بیٹری کو اپنے حساب سے سیٹ کریں</string>
+    <string name="status_bar_logo_category_title">علامت</string>
+    <string name="status_bar_misc_category_title">متفرق</string>
+    <!-- Statusbar RebornOS logo -->
+    <string name="status_bar_rebornos_logo_title">علامت دیکھائیں</string>
+    <string name="status_bar_rebornos_logo_summary">علامت کو سٹیٹس بار میں ظاہر کرنے کے فعال بنائیں</string>
+    <string name="status_bar_rebornos_logo_color">علامت کا رنگ</string>
+    <string name="status_bar_rebornos_logo_position">علامت کی جگہ</string>
+    <string name="status_bar_rebornos_logo_position_summary">علامت کو کس طرف ظاہر کرنا ہے منتخب کریں، بائیں یا دائیں</string>
+    <string name="status_bar_rebornos_logo_style">علامت کا طرز</string>
+    <string name="status_bar_logo_position_right">دائیں</string>
+    <string name="status_bar_logo_position_left">بائیں</string>
+    <string name="status_bar_logo_style_rebornos">سی-آر-ڈرئیڈ</string>
+    <string name="status_bar_logo_style_android">اینڈرائیڈ</string>
+    <string name="status_bar_logo_style_apple">ایپل</string>
+    <string name="status_bar_logo_style_ios">آئی-او-ایس</string>
+    <string name="status_bar_logo_style_emoticon">ایموٹی کونز</string>
+    <string name="status_bar_logo_style_emoticon_cool">امیٹیکان کول</string>
+    <string name="status_bar_logo_style_emoticon_dead">امیٹیکان ہلاک</string>
+    <string name="status_bar_logo_style_emoticon_devil">امیٹیکان شیطان</string>
+    <string name="status_bar_logo_style_emoticon_happy">امیٹیکان خوش</string>
+    <string name="status_bar_logo_style_emoticon_neutral">امیٹیکان غیر جانبدار</string>
+    <string name="status_bar_logo_style_emoticon_poop">امیٹیکان ٹٹی شکل</string>
+    <string name="status_bar_logo_style_emoticon_sad">ایموٹی کونز افسردہ</string>
+    <string name="status_bar_logo_style_emoticon_tongue">امو ٹیکان زبان</string>
+    <string name="status_bar_logo_style_blackberry">بلیک بیری</string>
+    <string name="status_bar_logo_style_cake">کیک</string>
+    <string name="status_bar_logo_style_blogger">بلاگر</string>
+    <string name="status_bar_logo_style_biohazard">حیاتیاتی خطرہ</string>
+    <string name="status_bar_logo_style_linux">لینکس</string>
+    <string name="status_bar_logo_style_yin_yang">ین یانگ</string>
+    <string name="status_bar_logo_style_windows">ونڈوز</string>
+    <string name="status_bar_logo_style_robot">روبوٹ</string>
+    <string name="status_bar_logo_style_ninja">ننجا</string>
+    <string name="status_bar_logo_style_heart">دل</string>
+    <string name="status_bar_logo_style_flower">پھول</string>
+    <string name="status_bar_logo_style_ghost">بھوت</string>
+    <string name="status_bar_logo_style_google">گوگل</string>
+    <string name="status_bar_logo_style_human_male">آدمی</string>
+    <string name="status_bar_logo_style_human_female">عورت</string>
+    <string name="status_bar_logo_style_human_male_female">آدمی &amp; عورت</string>
+    <string name="status_bar_logo_style_gender_male">مرد</string>
+    <string name="status_bar_logo_style_gender_female">عورت</string>
+    <string name="status_bar_logo_style_gender_male_female">مرد &amp; عورت</string>
+    <string name="status_bar_logo_style_guitar_electric">برقی گیٹار</string>
+    <string name="status_bar_logo_style_batman">بیٹ مین</string>
+    <string name="status_bar_logo_style_deadpool">ڈیڈ پول</string>
+    <string name="status_bar_logo_style_decepticons">فریب کاری</string>
+    <string name="status_bar_logo_style_ironman">فولادی ادمی</string>
+    <string name="status_bar_logo_style_minions">منینز</string>
+    <string name="status_bar_logo_style_spiderman">مکڑی انسان</string>
+    <string name="status_bar_logo_style_superman">سپرمین</string>
+    <!-- Expanded Desktop -->
+    <string name="expanded_desktop_title">توسیع شدہ ڈیسک ٹاپ</string>
+    <string name="expanded_desktop_summary">سٹیٹس بار، نیو یگیشن بار یا دونوں کو چھپا کر اپنے ڈیسک ٹاپ کی جگہ وسیع کریں</string>
+    <string name="expanded_hide_nothing">کچھ بھی نہ چھپائیں</string>
+    <string name="expanded_hide_status">اسٹیٹس بار کو چھپائیں</string>
+    <string name="expanded_hide_navigation">نیویگیشن بار کو چھپائیں</string>
+    <string name="expanded_hide_both">دونوں کو چھپائیں</string>
+    <string name="expanded_nothing_to_show">برہتی ہوی کیفیت کے لئے ایک حسب ضرورت فی - ایپ کی ترتیب کو شامل کرنے کے لئے، آف پوزیشن پر \"سب کے لئے فعال\" مقرر کریں</string>
+    <string name="expanded_desktop_state">توسیع شدہ حالت</string>
+    <string name="expanded_enabled_for_all">سب کے لیے فعال بن گیا</string>
+    <string name="expanded_user_configurable">صارف کے لیے ترتیب کنندہ</string>
+    <string name="expanded_desktop_style">توسیع کردہ ڈیسک ٹاپ سٹائل</string>
+    <string name="expanded_desktop_style_description">پہلے سے طے شدہ توسیعی ڈیسک ٹاپ سٹائل منتخب کریں</string>
+    <!-- Less Notification sounds -->
+    <string name="notifications_category_title">اطلاعات</string>
+    <string name="less_notification_sounds_title">کم کثرت کے ساتھ اطلاع کی آواز</string>
+    <string name="less_notification_sounds_summary">اطلاعات کی آوازوں کو مقرر کیے گئے وقت میں ہر ایپ کے لیے صرف ایک بار چلائیں</string>
+    <string name="less_notification_sounds_default">پہلے سے طے شدہ رویہ</string>
+    <string name="less_notification_sounds_3s">3 سیکنڈز</string>
+    <string name="less_notification_sounds_5s">5 سیکنڈز</string>
+    <string name="less_notification_sounds_10s">10 سیکنڈز</string>
+    <string name="less_notification_sounds_15s">15 سیکنڈز</string>
+    <string name="less_notification_sounds_30s">30 سیکنڈز</string>
+    <string name="less_notification_sounds_45s">45 سیکنڈز</string>
+    <string name="less_notification_sounds_1m">1 منٹ</string>
+    <string name="less_notification_sounds_2m">2 منٹس</string>
+    <string name="less_notification_sounds_5m">5 منٹس</string>
+    <!-- General strings -->
+    <string name="attention">توجہ</string>
+    <string name="enabled">فعال بنا دیا گیا</string>
+    <string name="disabled">غیرفعال کردہ</string>
+    <string name="default_string">پہلے سے طے شدہ</string>
+    <string name="default_settings">پہلے سے طے شدہ ترتیبات</string>
+    <string name="add">اندراج کریں</string>
+    <string name="choose_app">اپلی کیشن کا انتخاب کریں</string>
+    <string name="empty_title">خالی</string>
+    <string name="normal_title">عام</string>
+    <string name="hidden_title">پوشیدہ</string>
+    <string name="position_title">مقام</string>
+    <string name="position_right_title">دائیں</string>
+    <string name="position_centered_title">درمیان</string>
+    <string name="help">مدد</string>
+    <string name="reset_message">تمام اندراجات کو پہلے سے طے شدہ پر پھر سیٹ کریں؟</string>
+    <string name="profiles_add">اندراج کریں</string>
+    <string name="profile_choose_app">اپلی کیشن کا انتخاب کریں</string>
+    <string name="profile_reset_title">دوبارہ ترتیب دینا</string>
+    <string name="show_title">دکھائیں</string>
+    <string name="stock">سٹاک</string>
+    <string name="reset_paranoid">پاگل</string>
+    <string name="reset_android">اینڈرائیڈ</string>
+    <!-- Navigation Bar -->
+    <string name="navbar_interface_title">انٹرفیس</string>
+    <string name="navbar_size">بار سائز</string>
+    <string name="navbar_mode">نیویگیشن موڈ</string>
+    <string name="navbar_mode_summary">یا تو سمارٹ بار یا فلنگ کو فعال کرنے کے لئے منتخب کریں</string>
+    <string name="navbar_visibility">نیویگیشن بار</string>
+    <string name="navbar_visibility_summary">نیویگیشن بار کی ظاہری حالت تبدیل کریں</string>
+    <string name="navigationbar_settings_title">نیویگیشن بار</string>
+    <string name="navigationbar_settings_summary">نیویگیشن سٹائل اور رویہ اپنی مرضی سے ترتیب دیں</string>
+    <string name="navbar_general_title">دیگر ترتیبات</string>
+    <string name="navigation_bar_left_title">بائیں ہاتھ کا موڈ</string>
+    <string name="navigation_bar_left_summary">نیویگیشن بار کو سکرین کے افقی موڈ میں بائیں طرف لگائیں</string>
+    <string name="info_pref_note_title">نوٹ</string>
+    <string name="smartbar_interface">سمارٹ بار</string>
+    <string name="icon_pack_picker_dialog_title">آئیکون پیک</string>
+    <string name="image_exceeds_max_allowed_size">تصویر کو تجاوز نہیں کرنا چاہیے 512x512</string>
+    <string name="invalid_icon_from_uri">تصویر کو مواد مہیا کرنے والے سے لوڈ نہیں کر سکا</string>
+    <string name="picker_activities">سرگرمیاں</string>
+    <string name="select_custom_app_title">مخصوص اپلی کیشن منتخب کریں</string>
+    <string name="select_custom_activity_title">مخصوص سرگرمی منتخب کریں</string>
+    <string name="profile_applist_title">اپلیکیشنز</string>
+    <string name="smartbar_doubletap_sleep_title">سونے کے لیے ٹیپ کریں</string>
+    <string name="smartbar_doubletap_sleep_summary">ڈیوائس کو سلانے کے لیے نیوبار کی خالی جگہوں پہ دو بار ٹیپ کریں</string>
+    <string name="one_handed_mode_title">ایک ہاتھ والا موڈ</string>
+    <string name="one_handed_mode_summary">ایک ہاتھ والا موڈ فعال کرنے کے لیے نیوبار پہ سوائپنگ کی اجازت دیں</string>
+    <string name="system_navigation_summary">3 بٹن، 2 بٹن یا اشارہ نیویگیشن کے درمیان ٹوگل کریں۔</string>
+    <!-- Actions dialog and default task values set in ActionPreference xml-->
+    <string name="choose_action_title">کارروائی کا انتخاب کریں</string>
+    <string name="action_entry_default_action">پہلے سے طے شدہ ترتیبات</string>
+    <string name="action_entry_select_app">ایپلیکیشن منتخب کریں</string>
+    <string name="action_entry_custom_action">اپنی مرضی کے عمل کا انتخاب کریں</string>
+    <!-- Fling -->
+    <string name="fling_settings">فلنگ ترتیبات</string>
+    <string name="fling_settings_summary">فلنگ اشاروں کو اپنی مرضی کے مطابق بنائیں</string>
+    <string name="fling_interface">فلنگ</string>
+    <string name="fling_enable_title">فلنگ فعال بنائیں</string>
+    <string name="fling_back_home_policy">بیک اور ہوم ہر وقت سیٹ کرنے کی ضرورت ہے. بیک یا ہوم تفویض کو تبدیل کرنے کے لئے، مطلوبہ تفویض پہلے مقرر کریں</string>
+    <string name="fling_split_bar_policy">جب صرف ایک دائیں یا بائیں کارروائی کو تفویض کیا جاتا ہے، تو عمل مکمل بار پر لاگو ہوتا ہے۔</string>
+    <string name="fling_def_summary">کوئی عمل سیٹ نہیں کیا گیا</string>
+    <string name="fling_swipe_actions">اشارے سوائپ کریں</string>
+    <string name="fling_tap_actions">اشارے ٹیپ کریں</string>
+    <string name="fling_short_swipe_right">دائیں مختصر سوائپ</string>
+    <string name="fling_short_swipe_left">بائیں مختصر سوائپ</string>
+    <string name="fling_long_swipe_right">دائیں لمبا سوائپ</string>
+    <string name="fling_long_swipe_left">بائیں لمبا سوائپ</string>
+    <string name="fling_right_up_swipe">دائیں اوپر کی طرف سوائپ</string>
+    <string name="fling_left_up_swipe">بائیں اوپر کی طرف سوائپ</string>
+    <string name="fling_single_tap">سنگل ٹیپ دائیں</string>
+    <string name="fling_double_tap">دو بار ٹیپ دائیں</string>
+    <string name="fling_long_press">دائیں طرف لمبا دبائیں</string>
+    <string name="fling_single_left_tap">اکیلا دائیں دبائیں</string>
+    <string name="fling_double_left_tap">دو دفع بائیں دبائیں</string>
+    <string name="fling_long_left_press">دیر تک بائیں دبائیں</string>
+    <string name="long_swipe_portrait_title">عمودی انداز</string>
+    <string name="long_swipe_landscape_title">افقی انداز</string>
+    <string name="portrait_right_swipe_title">تصویر دائیں گھمائیں</string>
+    <string name="portrait_left_swipe_title">تصویر بائیں گھمائیں</string>
+    <string name="landscape_right_swipe_title">عفقی دائیں گھائیں</string>
+    <string name="landscape_left_swipe_title">عفقی بائیں گھمائیں</string>
+    <string name="vertical_up_swipe_title">عمودی اوپر گھمائیں</string>
+    <string name="vertical_down_swipe_title">عمودی نیچے گھمائیں</string>
+    <string name="up_swipe_title">اوپر گھمائیں</string>
+    <string name="down_swipe_title">نیچے گھمائیں</string>
+    <string name="long_swipe_reset">اپنی اصلی حالت میں بحال کریں</string>
+    <string name="fling_advanced">اعلی درجے کی</string>
+    <string name="fling_long_swipe_title">لمبا سوائپ کرنے کی حد</string>
+    <string name="fling_long_swipe_summary">فلنگ انٹرفیس کی چوڑائی یا اونچائی کے فیصد کی بنیاد پر لمبی سوائپ تھریشولڈز کو ٹھیک کریں</string>
+    <string name="fling_trails_enable_title">اشارہ کے نشانات کو فعال بنائیں</string>
+    <string name="fling_trails_enable_summary">سوائپ کے اشاروں پر ایک راستہ دکھائیں</string>
+    <string name="fling_trails_color_title">نشان کے رنگ</string>
+    <string name="fling_trails_width_title">اشارہ کی چوڑائی</string>
+    <string name="fling_appearance">صورت</string>
+    <string name="fling_show_logo_title">فلنگ لوگو دکھائیں</string>
+    <string name="fling_animate_logo_title">لوگو کو متحرک کریں</string>
+    <string name="fling_animate_logo_summary">علامت رابطے کے واقعات پر حرکت کرتا ہے</string>
+    <string name="fling_logo_color">لوگو کا رنگ</string>
+    <string name="fling_logo_custom_logo_pick_title">لوگو آئیکون کو اپنی مرضی کے مطابق کریں</string>
+    <string name="fling_logo_custom_logo_image_pick_title">لوگو تصویر کو اپنی مرضی کے مطابق کریں</string>
+    <string name="fling_logo_custom_logo_reset_title">لوگو آئیکون کو دوبارہ ترتیب دینا</string>
+    <string name="fling_show_ripple_title">لہر دکھائیں</string>
+    <string name="fling_show_ripple_summary">چھونے کی صورت میں لہراتا اثر</string>
+    <string name="fling_ripple_color">لہر کا رنگ</string>
+    <string name="fling_longpress_timeout_label_left">کم تاخیر</string>
+    <string name="fling_longpress_timeout_label_right">مزید تاخیر</string>
+    <string name="fling_longpress_title">طویل دبانیں کی تاخیر</string>
+    <string name="fling_longpress_summary">ایک طویل پریس کو انجام دینے کے لۓ وقت بڑھائیں یا کم کریں</string>
+    <string name="fling_keyboard_cursors_title">متحرک کی بورڈ کرسرز کی کارروائی</string>
+    <string name="fling_keyboard_cursors_summary">اگر کی بورڈ کھلا ہے تو بائیں اور دائیں حرکت کو دو بار کرنے سے بائیں اور دائیں کی بورڈ کرسر کے اعمال بن جاتے ہیں</string>
+    <string name="fling_logo_opacity_title">فلنگ لوگو کا دھندلا پن</string>
+    <string name="fling_factory_reset_title">سٹاک پہ دوبارہ سیٹ کریں</string>
+    <string name="fling_factory_reset_confirm">کیا آپ واقعی فلنگ کی ترتیبات کو دوبارہ ترتیب دینا چاہتے ہیں؟</string>
+    <string name="fling_backup_current_config_title">پروفائل محفوظ کریں</string>
+    <string name="fling_restore_config_title">پروفائل بحال کریں</string>
+    <string name="fling_config_name_edit_dialog_title">فلنگ پروفائیل کا نام</string>
+    <string name="fling_config_name_edit_dialog_message">نام درج کریں یا خالی رہنے دیں</string>
+    <string name="fling_config_dialog_title">فلنگ پروفائیل</string>
+    <string name="fling_config_backup_success_toast">فلنگ پروفائل کامیابی سے محفوظ کر لی گئ</string>
+    <string name="fling_config_restore_success_toast">فلنگ پروفائل کامیابی سے بحال کر لی گئی</string>
+    <string name="fling_config_backup_error_toast">فلنگ پروفائل محفوظ کرنے میں خرابی</string>
+    <string name="fling_config_restore_error_toast">فلنگ پروفائل محفوظ کرنے میں خرابی</string>
+    <!-- Pulse navigation bar music visualizer -->
+    <string name="pulse_help_policy_notice_title">پلس کے بارے میں</string>
+    <string name="pulse_help_policy_notice_summary">جب آلہ پر موسیقی چلتی ہے تو پلس ایک شاندار آڈیو گرافک ایکویلائزر ہے۔</string>
+    <string name="pulse_settings">پلس</string>
+    <string name="pulse_settings_summary">نیویگیشن بار اور لاک اسکرین کے لیے آڈیو گرافک ایکویلائزر</string>
+    <string name="show_navbar_pulse_title">نیوی بار دھڑکن</string>
+    <string name="show_navbar_pulse_summary">نیویگیشن بار پر آڈیو گرافک ایکویلائزر</string>
+    <string name="show_lockscreen_pulse_title">مقفل کرنے والی سکرین پر دھڑکن</string>
+    <string name="show_lockscreen_pulse_summary">مقفل کرنے والی سکرین پر آڈیو گرافک ایکویلائزر</string>
+    <string name="show_ambient_pulse_title">محیطی دھڑکن</string>
+    <string name="show_ambient_pulse_summary">مقفل کرنے والی سکرین پر آڈیو گرافک ایکویلائزر</string>
+    <string name="pulse_render_mode_title">فراہمی کا انداز</string>
+    <string name="pulse_render_mode_fading_bars">دھندلا بلاک</string>
+    <string name="pulse_render_mode_solid_lines">ٹھوس لائنیں</string>
+    <string name="pulse_advanced_category">اعلیٰ</string>
+    <string name="pulse_legacy_mode_advanced_category">دھندلانے والے بلاکس کے موڈ کی ترتیبات</string>
+    <string name="pulse_custom_fudge_factor">صداقت کی سطح</string>
+    <string name="pulse_lavalamp_speed_title">لاوا چراغ کی رفتار</string>
+    <string name="pulse_solid_units_count">ٹھوس لائنوں کی گنتی</string>
+    <string name="pulse_solid_units_opacity">ٹھوس لائینوں کا دھندلا پن</string>
+    <string name="pulse_solid_units_rounded_title">گول کنارے</string>
+    <string name="pulse_solid_units_rounded_summary">گول نوکوں کے ساتھ ٹھوس لکیریں</string>
+    <string name="pulse_solid_dimen_category">ٹھوس لائنون کے موڈ کی ترتیبات</string>
+    <string name="fling_lavalamp_color_from">لاوا چراغ کے شروع ہونے کا رنگ</string>
+    <string name="fling_lavalamp_color_to">لاوا چراغ کے ختم ہونے کا رنگ</string>
+    <string name="pulse_custom_buttons_opacity_title">لہر کے آنے پر سمارٹ بار بٹنوں کا دھندلا پن</string>
+    <string name="pulse_color_mode_title">رنگ</string>
+    <string name="pulse_color_accent">لہجہ</string>
+    <string name="pulse_color_custom">حسب ضرورت</string>
+    <string name="pulse_color_lava_lamp">لاوا لیمپ</string>
+    <string name="pulse_color_auto">البم آرٹ</string>
+    <string name="pulse_color_user_title">رنگ چنیں</string>
+    <string name="pulse_smoothing_enabled_title">ہموار کرنے کو لاگو کریں</string>
+    <string name="pulse_smoothing_enabled_summary">ہر بار زیادہ آسانی سے متحرک ہے۔</string>
+    <!-- Pulse config -->
+    <string name="pulse_custom_dimen">بار کی چوڑائی</string>
+    <string name="pulse_custom_div">بار کا وقفہ</string>
+    <string name="pulse_filled_block_size">بلاک کا سائز</string>
+    <string name="pulse_empty_block_size">بلاک کا وقفہ</string>
+    <string name="pulse_blacklist_title">ایپس کی بلیک لسٹ</string>
+    <string name="pulse_blacklist_summary">پلس کے لیے چھوڑی جانے والی ایپس</string>
+    <string name="pulse_blacklist_apps_cat_title">بلیک لسٹ</string>
+    <string name="pulse_blacklist_apps_title">ایپس کی بلیک لسٹ</string>
+    <string name="pulse_blacklist_apps_summary">پینل میں نہ دکھانے کے لیے ایپس</string>
+    <string name="pulse_blacklist_add_apps_title">ایپس شامل کریں</string>
+    <string name="pulse_blacklist_add_apps_summary">شامل کرنے کے لیے یہاں تھپتھپائیں، اسے ہٹانے کے لیے شامل کردہ ایپ پر ٹیپ کریں۔</string>
+    <!-- Navbar height -->
+    <string name="navigation_bar_size_title">بار سائز</string>
+    <string name="portrait_title">عمودی اونچائی</string>
+    <string name="land_vert_title">افقی چوڑائی</string>
+    <string name="land_hor_title">افقی اونچائی</string>
+    <string name="positive_done">تکمیل</string>
+    <!-- Stock navbar -->
+    <string name="navbar_settings_title">نیوبار کی ترتیبات کو سٹاک کریں</string>
+    <string name="navbar_settings_summary">اسٹاک نیویگیشن بار کے لیے حسب ضرورت</string>
+    <string name="navbar_layout_title">لے آؤٹ</string>
+    <string name="navbar_layout_normal">عام</string>
+    <string name="navbar_layout_compact">کمپیکٹ</string>
+    <string name="navbar_layout_leftleaning">بائیں جانب جھکاؤ</string>
+    <string name="navbar_layout_rightleaning">دائیں جانب جھکاؤ</string>
+    <string name="navbar_invert_layout_title">الٹا لے آؤٹ</string>
+    <string name="navbar_invert_layout_summary">نیویگیشن بار اور دیگر آئٹمز کی ترتیب کو الٹ دیتا ہے، جیسے کہ IME سوئچر</string>
+    <string name="navbar_tuner_title">نوبار ٹونر</string>
+    <string name="navbar_tuner_summary">بٹن اور لے آؤٹ کو حسب ضرورت بنائیں</string>
+    <string name="navbar_arrow_keys_title">لکھتے وقت تیر والے نشانات دکھائیں۔</string>
+    <string name="navbar_arrow_keys_summary">لکھتے وقت بائیں اور دائیں کرسر بٹن دکھائیں. اوورائڈس IME سوئچر.</string>
+    <string name="navbar_left_summary">نیویگیشن بار کو سکرین کے افقی موڈ میں بائیں طرف لگائیں</string>
+    <string name="navbar_back_long_press_title">طویل پریس عمل</string>
+    <string name="navbar_home_long_press_title">ہوم طویل پریس ایکشن</string>
+    <string name="navbar_home_double_tap_title">ڈبل ٹیپ عمل</string>
+    <string name="navbar_app_switch_long_press_title">حالیہ طویل پریس ایکشن</string>
+    <string name="navbar_edge_long_swipe_title">کنارے لمبی سوائپ ایکشن</string>
+    <!-- SmartBar -->
+    <string name="smartbar_category">سمارٹ بار</string>
+    <string name="smartbar_settings_title">سمارٹ بار ترتیبات</string>
+    <string name="smartbar_settings_summary">مکمل طور پر حسب ضرورت نیویگیشن بار</string>
+    <string name="smartbar_editor_title">ترمیم موڈ شروع کریں</string>
+    <string name="smartbar_editor_summary">سمارٹ بار بٹنوں کا ترمیم کار کھولیں</string>
+    <string name="smartbar_help_policy_notice_summary">جب ایڈیٹر موڈ میں، درمیانے پریس اور اس کی پوزیشن کو تبدیل کرنے کے لئے ایک بٹن کو گھسیٹنا یا ترمیم مینو کو دکھانے کےلئےلمبا بٹن دبائیں. بٹن پوزیشن میں تبدیلی ہوسکتی ہے جب مینو\n\n شو کر رہا ہوڈبل تیپ کارروائی کی ترتیب کسی ایک تیپ میں تھوڑا سا تاخیر دے گا.</string>
+    <string name="smartbar_context_menu_position_title">سیاق بٹنوں کی ترتیب کی جگہ</string>
+    <string name="smartbar_context_menu_position_summary">متفرق بٹنوں کی پوزیشن مقرر کریں جیسے انتخاب کنندہ ime اورمینوبٹن</string>
+    <string name="smartbar_right">دائیں</string>
+    <string name="smartbar_left">بائیں</string>
+    <string name="smartbar_button_animation_title">بٹن چھونے پہ حرکت کرنا</string>
+    <string name="smartbar_button_animation_summary">جب ان پر زور دیا جاے تو وہ بنیادی بٹنوں کی حرکت پذیری کو مقرر کریں</string>
+    <string name="smartbar_button_animation_ripple">لہر</string>
+    <string name="smartbar_button_animation_spring">چشمہ</string>
+    <string name="smartbar_button_animation_flip">پلٹائیں</string>
+    <string name="smartbar_button_animation_pixel">پگزل (تمام بٹن)</string>
+    <string name="smartbar_button_animation_pixel_home">پگزل (صرف گھر کا بٹن)</string>
+    <string name="smartbar_button_animation_pixel_home_ripple">پگزل (صرف گھر کا بٹن) اور لہر</string>
+    <string name="smartbar_factory_reset_title">سٹاک پہ دوبارہ سیٹ کریں</string>
+    <string name="smartbar_factory_reset_confirm">کیا آپ واقعی اسٹاک ترتیبات پر Smartbar ری سیٹ کرنا چاہتے ہیں?</string>
+    <string name="smartbar_ime_action_title">داخل کرنے کا طریقہ اور میڈیا کے افعال</string>
+    <string name="smartbar_ime_action_summary">جب آن اسکرین کی بورڈ دکھائی دیتا ہے یا موسیقی ہو رہی ہو تب دکھائے جانے والے بٹن کو سیٹ کریں</string>
+    <string name="smartbar_ime_action_none">کوئی بھی نہیں</string>
+    <string name="smartbar_ime_action_arrows">تیروں کا داخلہ</string>
+    <string name="smartbar_ime_action_switcher">کی بورڈ تبدیل کرنے والا</string>
+    <string name="smartbar_ime_action_dynamic">داخلہ/میڈیا تیر</string>
+    <string name="smartbar_backup_current_config_title">پروفائل محفوظ کریں</string>
+    <string name="smartbar_restore_config_title">پروفائل بحال کریں</string>
+    <string name="smartbar_config_name_edit_dialog_title">سمارٹ بار پروفائل کا نام</string>
+    <string name="smartbar_config_name_edit_dialog_message">نام درج کریں یا خالی رہنے دیں</string>
+    <string name="smartbar_config_dialog_title">سمارٹ بار پروفائلز</string>
+    <string name="smartbar_config_backup_success_toast">سمارٹ بار پروفائل کامیابی سے محفوظ کر لی گئ</string>
+    <string name="smartbar_config_restore_success_toast">سمارٹ بار پروفائل کامیابی سے بحال کر لی گئی</string>
+    <string name="smartbar_config_backup_error_toast">سمارٹ بار پروفائل محفوظ کرنے میں خرابی</string>
+    <string name="smartbar_config_restore_error_toast">اسمارٹبار پروفائل کو بحال کرنے میں خرابی</string>
+    <string name="navbar_buttons_alpha_title">بٹن کی شفافیت</string>
+    <string name="smartbar_longpress_delay_title">بٹن کو زیادہ دیر تک دبانے کا دورانیہ</string>
+    <string name="smartbar_longpress_delay_summary">مقرر کریں کہ سسٹم کتنا انتظار کرے گا طویل دباوٓ کی کارروائی کےعمل سے پہلے</string>
+    <string name="smartbar_longpress_delay_default">پہلے سے طے شدہ دورانیہ (تیز)</string>
+    <string name="smartbar_longpress_delay_normal">عام تاخیر</string>
+    <string name="smartbar_longpress_delay_long">طویل تاخیر</string>
+    <string name="smartbar_custom_icon_size_title">آئیکون کی اپنی مرضی سے سکیلنگ</string>
+    <!-- Allow fake signature -->
+    <string name="allow_signature_fake">دستخط کی جعل سازی کی اجازت دیں</string>
+    <string name="allow_signature_fake_summary">ایپس کو ایک مختلف ایپ بنا کر سیکورٹی کے نظام کو بائی پاس کرنے کی اجازت دیں.</string>
+    <!-- Status bar -->
+    <string name="status_bar_toggle_brightness">چمک کنٹرول</string>
+    <string name="status_bar_toggle_brightness_summary">اسٹیٹس بار میں سلائڈنگ کرکے چمک کو ایڈجسٹ کریں</string>
+    <string name="status_bar_notif_count_title">تعداد اطلاعات</string>
+    <string name="status_bar_notif_count_summary">زیر التواء اطلاعات کی تعداد دکھائیں</string>
+    <string name="status_bar_quick_qs_pulldown_title">تیزی سے نیچے کھینچنا</string>
+    <string name="status_bar_quick_qs_pulldown_summary">%1$s سٹیٹس بار کا کونہ فوری ترتیبات کو نیچے کھینچتا ہے</string>
+    <string name="status_bar_quick_qs_pulldown_summary_left">بائیں</string>
+    <string name="status_bar_quick_qs_pulldown_summary_right">دائیں</string>
+    <string name="status_bar_quick_qs_pulldown_off">بند</string>
+    <string name="status_bar_quick_qs_pulldown_left">بائیں</string>
+    <string name="status_bar_quick_qs_pulldown_right">دائیں</string>
+    <string name="status_bar_quick_qs_pulldown_always">ہمیشہ اسٹیٹس بار پر فوری ترتیبات دکھائیں</string>
+    <!-- Status bar - Clock -->
+    <string name="status_bar_clock_title">گھڑی &amp; تاریخ</string>
+    <string name="status_bar_clock_summary">گھڑی &amp; تاریخ کو اپنے انداز میں ڈھالیں</string>
+    <string name="status_bar_clock_seconds_title">گھڑی کے سیکنڈ</string>
+    <string name="status_bar_clock_seconds_summary">اسٹیٹس بار میں گھڑی کے ساتھ سیکنڈ دکھائیں</string>
+    <string name="status_bar_clock_position_title">گھڑی طرز</string>
+    <string name="status_bar_clock_position_right">دائیں</string>
+    <string name="status_bar_clock_position_left">بائیں</string>
+    <string name="status_bar_clock_position_center">درمیان</string>
+    <string name="status_bar_clock_position_hidden">پوشیدہ</string>
+    <string name="status_bar_clock_auto_hide_title">خود بخود چُھپنا</string>
+    <string name="status_bar_clock_auto_hide_summary">اسٹیٹس بار کی جگہ بچانے کے لیے باقاعدہ وقفہ کے لیے گھڑی کو چھپائیں اور دکھائیں</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">چھپانے کا دورانیہ</string>
+    <string name="status_bar_clock_auto_hide_hdur_summary">گھڑی کو چھپانے کے لیے سیکنڈز کی تعداد</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">دورانیہ دکھایئں</string>
+    <string name="status_bar_clock_auto_hide_sdur_summary">گھڑی کو چھپانے سے پہلے سیکنڈز کی مقدار کا وقفہ</string>
+    <string name="status_bar_am_pm_title">صبح/شام طرز</string>
+    <string name="status_bar_am_pm_info">24-گھنٹہ گھڑی فعال ہے</string>
+    <string name="status_bar_am_pm_normal">عام</string>
+    <string name="status_bar_am_pm_small">چھوٹا</string>
+    <string name="status_bar_am_pm_hidden">پوشیدہ</string>
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">بیٹری سٹائل</string>
+    <string name="status_bar_battery_style_icon_portrait">آئیکون افقی</string>
+    <string name="status_bar_battery_style_icon_rlandscape">آیکون عمودی (دائیں)</string>
+    <string name="status_bar_battery_style_icon_landscape">آیکون عمودی (بائیں)</string>
+    <string name="status_bar_battery_style_circle">دائرہ</string>
+    <string name="status_bar_battery_style_dotted_circle">دانے دار دائرہ</string>
+    <string name="status_bar_battery_style_filled_circle">بھرا ہوا دائرہ</string>
+    <string name="status_bar_battery_style_text">متن</string>
+    <string name="status_bar_battery_style_hidden">پوشیدہ</string>
+    <string name="status_bar_battery_style_tile_title">بیٹری ٹائٹل منسوخ کریں</string>
+    <string name="status_bar_battery_style_tile_summary">اسی آئکن سٹائل کا استعمال کریں جیسا کہ اوپر QS بیٹری ٹائل میں ہے</string>
+    <!-- Status bar - Battery custom charging symbol -->
+    <string name="text_charging_symbol_title">لکھای کے سٹائل کے لئے اپنی مرضی کے مطابق چارج کا نشان</string>
+    <string name="text_charging_symbol_dialog">بیٹری کی شرح فی صد کے قریب اپنی مرضی کے مطابق چارج کا نشان</string>
+    <string name="text_charging_symbol_default">غیرفعال</string>
+    <string name="text_charging_symbol_flash">فلیش</string>
+    <string name="text_charging_symbol_tilde">ٹلڈ</string>
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">بیٹری کی شرح فیصد</string>
+    <string name="status_bar_battery_percentage_default">چھپا ہوا</string>
+    <string name="status_bar_battery_percentage_text_inside">آئیکون کے اندر</string>
+    <string name="status_bar_battery_percentage_text_next_right">آیکن کے ساتھ (دائیں)</string>
+    <string name="status_bar_battery_percentage_text_next_left">آیکن کے ساتھ (بائیں)</string>
+    <string name="status_bar_battery_text_position_title">بیٹری فیصد کی جگہ</string>
+    <string name="status_bar_battery_text_position_left">آئیکون کے بائیں جانب</string>
+    <string name="status_bar_battery_text_position_right">آئیکون کے دائیں جانب</string>
+    <string name="status_bar_battery_text_charging_title">چارجنگ کے دوران بیٹری کی شرح</string>
+    <string name="status_bar_battery_text_charging_summary">چارج کرتے وقت ہمیشہ بیٹری کی شرح دکھائیں۔</string>
+    <!-- Status bar - icon blacklist -->
+    <string name="status_bar_icons_title">سٹیٹس بار کے آئیکون</string>
+    <string name="status_bar_icons_summary">قابو کریں کونسی اسٹیٹس بار شبیہیں دکھائے جائیں</string>
+    <!-- Power notification controls -->
+    <string name="power_notification_title">پاور اطلاعات کنٹرولز</string>
+    <string name="power_notification_summary">اعلی درجے کی نوٹیفکیشن کنٹرول اور معلومات</string>
+    <string name="sound_dnd_category">تنگ نہ کریں</string>
+    <!-- Volume down enter do not disturb -->
+    <string name="volbtn_down_zen_title">آواز کم کرنا</string>
+    <string name="volbtn_down_zen_summary">آواز کم کرنے کو DND موڈ میں داخل ہونے کی اجازت دیں</string>
+    <!-- Volume up exit do not disturb -->
+    <string name="volbtn_up_zen_title">آواز زیادہ کریں</string>
+    <string name="volbtn_up_zen_summary">آواز زیادہ کرنے کو DND موڈ میں داخل ہونے کی اجازت دیں</string>
+    <!-- Volume do not disturb switch -->
+    <string name="vol_zen_title">آواز کا پینل</string>
+    <string name="vol_zen_summary">DND کو آواز کے کنٹرول کے ساتھ ظاہر کریں</string>
+    <!-- Battery Bar -->
+    <string name="battery_bar_title">بیٹری بار</string>
+    <string name="battery_bar_summary">اسٹیٹس بار سے اوپر بیٹری بار کو ظاہر اور اپنی مرضی کے مطابق کریں</string>
+    <string name="battery_bar">جگہ</string>
+    <string name="battery_bar_no_navbar">محل وقوع</string>
+    <string name="battery_bar_location_hide">چھپائیں</string>
+    <string name="battery_bar_location_statusbar">سٹیٹس بار</string>
+    <string name="battery_bar_location_top_navbar">نیو بار کے سب سے اوپر</string>
+    <string name="battery_bar_location_bottom_navbar">نیو بار کے سب سے نیچے</string>
+    <string name="battery_bar_color">رنگ</string>
+    <string name="battery_bar_charging_color">چارجنگ کا رنگ</string>
+    <string name="battery_bar_battery_low_color">بیٹری کم ہونے کا رنگ</string>
+    <string name="battery_bar_cat">سٹائل</string>
+    <string name="battery_bar_style_title">سیدھ</string>
+    <string name="battery_bar_thickness_title">موٹائی</string>
+    <string name="battery_bar_animate_title">چارجنگ کی حرکات</string>
+    <string name="battery_bar_style_regular">باقاعدگی سے</string>
+    <string name="battery_bar_style_center_mirrored">مرکزی عکس والا</string>
+    <string name="battery_bar_style_reversed">الٹ</string>
+    <string name="battery_bar_use_charging_color">حسب ضرورت چارجنگ رنگ</string>
+    <string name="battery_bar_blend_color_title">رنگوں کا ملاپ</string>
+    <string name="battery_bar_blend_color_summary">بیٹری کی شرح فی صد کے مطابق مکمل / خالی رنگوں کا امتزاج کریں</string>
+    <string name="battery_bar_blend_color_reverse_title">رنگ کی سمت کو الٹ کریں</string>
+    <string name="battery_bar_blend_color_reverse_summary_off">مکمل &#8594; خالی: سرخ &#8592; سبز &#8592; نیلا &#8592; سرخ</string>
+    <string name="battery_bar_blend_color_reverse_summary_on">مکمل &#8594; خالی: سرخ &#8594; سبز &#8594; نیلا &#8594; سرخ</string>
+    <!-- Status Bar Ticker -->
+    <string name="ticker_screen_title">ٹکر</string>
+    <string name="ticker_screen_summary">اسٹیٹس بار میں اطلاعات ٹکر سٹائل دکھائیں</string>
+    <string name="ticker_screen_footer">ٹکر صرف اس وقت نظر آتا ہے جب نوٹیفکیشن ہیڈ اپ نہیں دکھایا جاتا ہے۔ سینٹر نوچ والی ڈیوائسز کو یوزر انٹرفیس سیٹنگز کے تحت یا ڈیولپر آپشنز کے تحت کٹ آؤٹ کو چھپانا چاہیے۔</string>
+    <string name="ticker_title">اسٹیٹس بار ٹکر</string>
+    <string name="ticker_summary">اسٹیٹس بار ٹکر کو فعال کریں۔</string>
+    <string name="ticker_restore_defaults_title">ڈیفالٹس بحال کریں</string>
+    <string name="text_title">متن</string>
+    <string name="icon_title">آئیکن</string>
+    <string name="colors_title">رنگ</string>
+    <string name="values_restored_title">قدریں بحال ہو گئیں۔</string>
+    <string name="ticker_disabled">کوئی ٹکر نہیں۔</string>
+    <string name="ticker_enabled">نوٹیفکیشن ٹکر</string>
+    <string name="ticker_media_enabled">اطلاعات اور موسیقی ٹکر</string>
+    <string name="ticker_animation_mode_title">ٹکر اینیمیشن اسٹائل</string>
+    <string name="ticker_animation_mode_alpha_fade">مدھم</string>
+    <string name="ticker_animation_mode_scroll">سکرول</string>
+    <string name="ticker_tick_duration_title">ٹکر کا دورانیہ</string>
+    <!-- Pie -->
+    <string name="pie_settings">پائی کی ترتیبات</string>
+    <string name="pie_enable_title">پائی کو فعال کریں۔</string>
+    <string name="pie_settings_summary">اپنی پسند کے مطابق پائی کو ایڈجسٹ کریں۔</string>
+    <string name="pie_theme_mode_title">موضوع</string>
+    <string name="pie_auto">خودکار</string>
+    <string name="pie_white">سفید</string>
+    <string name="pie_dark">گہرا</string>
+    <string name="pie_battery_title">بیٹری نشانگر</string>
+    <string name="pie_battery_text">صرف متن</string>
+    <string name="pie_battery_circle">صرف دائرہ</string>
+    <string name="pie_battery_both">دونوں</string>
+    <string name="pie_status_indicator">شبکہ(نیٹ ورک) نشانگر</string>
+    <string name="pie_status_wifi">صرف وائی فائی</string>
+    <string name="pie_status_mobile">صرف شبکہ(نیٹ ورک) موبائل</string>
+    <string name="pie_status_none">کوئی بھی نہیں</string>
+    <string name="pie_status_both">دونوں</string>
+    <string name="pie_gravity_title">پائی کشش ثقل</string>
+    <string name="pie_gravity_summary">اس مقام کو منتخب کریں جہاں پائی رکھی جائے گی</string>
+    <string name="pie_gravity_bottom">پیندہ</string>
+    <string name="pie_gravity_right">دائیں</string>
+    <string name="pie_gravity_left">بائیں</string>
+    <!-- Breathing Notifications -->
+    <string name="breathing_notifications_category">اعلان های تنفسی</string>
+    <string name="missed_call_breath_title">کال گنوا دی</string>
+    <string name="missed_call_breath_summary">اسٹیٹس بار میں مس کال کی اطلاعات کو سانس لینے کا اثر دے دو</string>
+    <string name="voicemail_breath_title">صوتی میل</string>
+    <string name="voicemail_breath_summary">اسٹیٹس بار میں صوتی میل کی اطلاعات کو سانس لینے کا اثر دے دو</string>
+    <string name="sms_breath_title">پیغام</string>
+    <string name="sms_breath_summary">سٹیٹس بار میں پیغام کی اطلاعات کو سانس لینے کا اثر دیں</string>
+    <!-- CPU Info -->
+    <string name="show_cpu_info">CPU کی معلومات دکھائیں</string>
+    <string name="show_cpu_info_summary">سکرین اوورلے موجودہ CPU کی معلومات دکھا رہی ہے</string>
+    <!-- Heads up -->
+    <string name="notification_heads_up_title">ہیڈز اپ</string>
+    <string name="notification_heads_up_summary">پاپ اپ اطلاعات کی اجازت دیں</string>
+    <!-- Heads up timeout -->
+    <string name="heads_up_category">ہیڈز اپ</string>
+    <string name="heads_up_time_out_title">وقت ختم</string>
+    <string name="heads_up_time_out_summary">سرسری اطلاعات <xliff:g id="number">%d</xliff:g> سیکنڈ کے لیے دکھائی دیں گی</string>
+    <string name="heads_up_time_out_2sec">2 سیکنڈ</string>
+    <string name="heads_up_time_out_4sec">4 سیکنڈ</string>
+    <string name="heads_up_time_out_5sec">5 سیکنڈ</string>
+    <string name="heads_up_time_out_6sec">6 سیکنڈ</string>
+    <string name="heads_up_time_out_8sec">8 سیکنڈ</string>
+    <string name="heads_up_time_out_10sec">10 سیکنڈ</string>
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">اونگھ وقت</string>
+    <string name="heads_up_snooze_summary_one_minute">سرسری اطلاعات پر اوپر سوائپ کرنے پہ ہیڈز اپ کو اس اپلیکیشن سے 1 منٹ کے لئے اونگھ پہ لگا دے گی</string>
+    <string name="heads_up_snooze_summary">سرسری اطلاعات پر اوپر سوائپ کرنے پہ ہیڈز اپ کو اس اپلیکیشن سے <xliff:g id="number">%d</xliff:g> منٹ کے لئے اونگھ پہ لگا دے گی</string>
+    <string name="heads_up_snooze_disabled_summary">اونگھ وقت غیر فعال ہے</string>
+    <string name="heads_up_snooze_1min">1 منٹ</string>
+    <string name="heads_up_snooze_5min">5 منٹ</string>
+    <string name="heads_up_snooze_10min">10 منٹ</string>
+    <string name="heads_up_snooze_15min">15 منٹ</string>
+    <string name="heads_up_snooze_20min">20 منٹ</string>
+    <!-- Option to enable/disable scrolling cache -->
+    <string name="pref_scrollingcache_title">کیشے سکرول کرنا</string>
+    <string name="pref_scrollingcache_force_enable">جبری فعال بنائیں</string>
+    <string name="pref_scrollingcache_default_enable">طے شدہ فعال کریں</string>
+    <string name="pref_scrollingcache_default_disable">طے شدہ نااہل کریں</string>
+    <string name="pref_scrollingcache_force_disable">جبری غیر فعال بنائیں</string>
+    <!-- Screenshot type  -->
+    <string name="screenshot_type_title">جزوی سکرین شاٹ</string>
+    <string name="screenshot_type_fullscreen">مکمل سکرین پہ سکرین شاٹ لیں</string>
+    <string name="screenshot_type_partial">والیوم کیز کے ذریعے اسکرین شاٹ کے لیے انتخاب کو علاقے پر گھسیٹیں۔</string>
+    <!-- Screenshot delay  -->
+    <string name="screenshot_delay_title">اسکرین شاٹ میں تاخیر</string>
+    <string name="screenshot_delay_summary">اسکرین شاٹ لینے کے لیے آپ کو پاور اور والیوم بٹنوں کو پکڑنے کے لیے وقت کی مقدار</string>
+    <!-- Screenshot compression  -->
+    <string name="screenshot_compression_title">اسکرین شاٹ کا معیار</string>
+    <string name="screenshot_compression_summary">تصویر کے معیار میں کمی کے ساتھ اسکرین شاٹ کا سائز کمپریس کریں۔</string>
+    <!-- Screenshot editor -->
+    <string name="screenshot_options_category">اسکرین شاٹ کے اختیارات</string>
+    <string name="screenshot_edit_app">اسکرین شاٹ محرر</string>
+    <string name="screenshot_edit_app_summary">اسکرین شاٹس میں ترمیم کرنے کے لیے کون سا تصویری محرر استعمال کرنا ہے اسے منتخب کریں۔</string>
+    <string name="screenshot_edit_app_no_editor">کوئی تصویر محرر دستیاب نہیں ہے</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">اسکرین شاٹ کے لیے سوائپ کریں۔</string>
+    <string name="three_finger_gesture_summary">اسکرین شاٹ لینے کے لیے تین انگلیوں کو نیچے کی طرف سوائپ کریں</string>
+    <!-- Transparency porn -->
+    <string name="trans">شفافیت</string>
+    <string name="trans_summary">مختلف عناصر کے لئے شفافیت کی سطح کو حسب ضرورت بنائیں</string>
+    <string name="trans_qs">فوری ترتیبات</string>
+    <string name="trans_vol_dialog">والیوم ڈائیلاگ</string>
+    <string name="trans_power_menu">پاور مینو</string>
+    <string name="qs_transparent_shade">QS سایہ کی دھندلاپن</string>
+    <string name="qs_stroke_title">QS شیڈ بارڈر</string>
+    <string name="qs_stroke_disabled">غیرفعال</string>
+    <string name="qs_stroke_accent">لہجے کا رنگ</string>
+    <string name="qs_stroke_custom">منپسند رنگ</string>
+    <string name="qs_stroke_color_title">QS شیڈ بارڈر کا رنگ</string>
+    <string name="qs_stroke_thickness_title">QS شیڈ بارڈر کی موٹائی</string>
+    <string name="qs_corner_radius_title">QS شیڈ کونے کا رداس</string>
+    <string name="qs_dash_width_title">QS بارڈر ڈیش چوڑائی</string>
+    <string name="qs_dash_gap_title">QS بارڈر ڈیش چوڑائی</string>
+    <string name="volume_dialog_transparency">والیوم ڈائیلاگ کی دھندلاپن</string>
+    <string name="volume_dialog_stroke_title">والیوم ڈائیلاگ بارڈر</string>
+    <string name="volume_dialog_stroke_disabled">غیرفعال</string>
+    <string name="volume_dialog_stroke_accent">لہجے کا رنگ</string>
+    <string name="volume_dialog_stroke_custom">مخصوص رنگ</string>
+    <string name="volume_dialog_stroke_color_title">والیوم ڈائیلاگ بارڈر</string>
+    <string name="volume_dialog_stroke_thickness_title">والیوم ڈائیلاگ بارڈر</string>
+    <string name="volume_dialog_corner_radius_title">والیوم ڈائیلاگ بارڈر</string>
+    <string name="volume_dialog_dash_width_title">والیوم ڈائیلاگ بارڈر ڈیش چوڑائی</string>
+    <string name="volume_dialog_dash_gap_title">والیوم ڈائیلاگ بارڈر ڈیش چوڑائی</string>
+    <string name="power_menu_transparency">پاور/ریبوٹ مینو کی دھندلاپن</string>
+    <string name="power_menu_dialog_dim">پاور / ریبوٹ ڈائلاگ ڈم پس منظر کی رقم کو دوبارہ ترتیب دیں</string>
+    <string name="soft_restart_required">تبدیلیوں کو لاگو کرنے کیلئے سوفٹ ری اسٹارٹ کرنا ضروری ہے</string>
+    <!-- Doze pulse options -->
+    <string name="summary_doze_enabled">فعال بنا دیا گیا</string>
+    <string name="summary_doze_disabled">غیرفعال کردہ</string>
+    <string name="doze_overwrite_value_title">ڈیفالٹس کو اوور رائٹ کریں۔</string>
+    <string name="doze_overwrite_value_summary">صارف کی ترتیب کے ساتھ ڈیفالٹ اقدار کی منسوخی کی اجازت دیں</string>
+    <string name="doze_pulse_title">صارف کے قابل ترتیب ترتیبات</string>
+    <string name="doze_fade_in_pickup_title">دھندلا پن (پک اپ)</string>
+    <string name="doze_fade_in_doubletap_title">دھندلا پن (دو بار تھپتھپائیں)</string>
+    <string name="doze_pulse_duration_in_summary"></string>
+    <string name="doze_pulse_duration_visible_title">نظر آنے والا دورانیہ</string>
+    <string name="doze_pulse_duration_visible_summary"></string>
+    <string name="doze_pulse_duration_out_title">دھندلا ہو جانا</string>
+    <string name="doze_pulse_duration_out_summary"></string>
+    <string name="doze_brightness_level_title">چمک کی سطح</string>
+    <string name="onehundred_ms">100 ms</string>
+    <string name="twofifty_ms">250 ms</string>
+    <string name="fivehundred_ms_default">500 ms (default)</string>
+    <string name="sevenfifty_ms">750 ms</string>
+    <string name="one_second">1 s</string>
+    <string name="onehalf_second">1.5 s</string>
+    <string name="two_second">2 s</string>
+    <string name="twohalf_second">2.5 s</string>
+    <string name="three_second_default">3 s (default)</string>
+    <string name="threehalf_second">3.5 s</string>
+    <string name="four_second">4 s</string>
+    <string name="fourhalf_second">4.5 s</string>
+    <string name="five_second">5 s</string>
+    <string name="doze_notification_color_invert_title">اطلاع کا الٹا</string>
+    <string name="doze_notification_color_invert_summary_off">نوٹیفکیشن اْلٹ ہو جائے گی. روشنی / اسٹاک تھیم کے لئے استعمال کریں.</string>
+    <string name="doze_notification_color_invert_summary_on">نوٹیفکیشن اْلٹ ہو جائے گی. روشنی / اسٹاک تھیم کے لئے استعمال کریں.</string>
+    <string name="doze_vibrate_on_pickup_title">فون اٹھانے پر تھرتھراہٹ کریں</string>
+    <string name="doze_check_proximity_before_pulse_title">نبض سے پہلے قربت کی جانچ کریں۔</string>
+    <string name="sensor_warning_title">تنبیہ</string>
+    <string name="sensor_warning_message">سینسر کی بنیاد پر ترتیبات ہارڈ ویئر مطابقت کے تابع ہیں. وسیع پیمانے پر ڈسپلے کے لئے سینسر کو چالو کرنے میں بجلی کے ضیاں میں اضافہ ہوسکتا ہے.</string>
+    <!-- Doze: switches -->
+    <string name="doze_display_title">محیطی ڈسپلے</string>
+    <string name="doze_display_summary">وسیع ڈسپلے کیلئے ترتیبات ترتیب دیں</string>
+    <string name="doze_sensor_title">محسوس کرنے والے آلہ پر منحصر</string>
+    <string name="raise_to_wake_title">جاگنا</string>
+    <string name="raise_to_wake_summary">اطلاعات پر آلہ کو دھڑکنے کی بجائے سکرین آن کرے</string>
+    <string name="tilt_title">جھکاؤ</string>
+    <string name="tilt_summary">جھکائو پر دھڑکتی اطلاعات</string>
+    <string name="pickup_title">اٹھائیں</string>
+    <string name="pickup_summary">آلہ کو اٹھانے پر پر دھڑکتی اطلاعات</string>
+    <string name="handwave_title">ہاتھ ہلانا</string>
+    <string name="handwave_summary">ہاتھ ہلانے پر دھڑکتی اطلاعات</string>
+    <string name="pocket_title">جیب</string>
+    <string name="pocket_summary">پاکٹ سے ہٹانے پر پلس اطلاعات</string>
+    <string name="doze_vibrate">تھرتھراہٹ</string>
+    <string name="doze_vibrate_summary">پلسنگ اطلاعات کے وقت ہلنے کا دورانیہ</string>
+    <!-- Changelog -->
+    <string name="changelog_rebornos_title">موجودہ تبدیلیاں</string>
+    <string name="changelog_rebornos_summary">انسٹال کردہ ROM میں تبدیلیاں دیکھیں</string>
+    <string name="changelog_rebornos_error">تبدیلیاں دیکھانے سے قاصر</string>
+    <!-- About RebornOS -->
+    <string name="about_rebornos">سی آر ڈرائیڈ کے بارے میں</string>
+    <!-- Share RebornOS -->
+    <string name="share_rebornos_title">سی -آر- ڈرائیڈ کو آگے بانٹیں</string>
+    <string name="share_rebornos_summary">سی -آر- ڈرائیڈ کے بارے میں دوسروں کو جاننے دیں</string>
+    <string name="share_message">Check out what #RebornOS Android is all about @ https://rebornos.net/</string>
+    <string name="share_chooser_title">سی -آر- ڈرائیڈ کو آگے بانٹیں</string>
+    <!-- Sites RebornOS -->
+    <string name="rebornos_source_title">گٹ ہب</string>
+    <string name="rebornos_source_summary">ہمیں اوپن سورس پسند ہے، ہمیں چیک کریں۔</string>
+    <string name="rebornos_telegram_title">RebornOS کمیونٹی</string>
+    <string name="rebornos_telegram_summary">ہم ٹیلیگرام پر ہیں۔ ہمارے ساتھ شامل ہوں!</string>
+    <string name="rebornos_telegram_channel_title">اپ ڈیٹس کا چینل</string>
+    <string name="rebornos_telegram_channel_summary">ٹیلیگرام پر نئی تعمیرات کی اطلاع حاصل کریں۔</string>
+    <string name="rebornos_website_title">آفیشل ویب سائٹ</string>
+    <string name="rebornos_website_summary">ہماری سرکاری ویب سائٹ ملاحظہ کریں۔</string>
+    <string name="rebornos_translate_title">ترجمے</string>
+    <string name="rebornos_translate_summary">اپنی زبان میں ROM کی لوکلائزیشن میں مدد کریں!</string>
+    <string name="rebornos_sponsor_summary">ہماری ویب سائٹ کے میزبان شراکت دار کو ملیں</string>
+    <!-- Maintainers -->
+    <string name="maintainers_rebornos_title">آلے اور انکی دیکھ بھال کرنے والے</string>
+    <string name="maintainers_rebornos_summary">معاون آلات اور ان کےمحافظوں کی فہرست</string>
+    <string name="maintainers_rebornos_error">آلات اور برقرار رکھنے والی فہرست کو لوڈ کرنے میں ناکام</string>
+    <!-- Donate RebornOS -->
+    <string name="donate_rebornos_title">ہماری مددکریں</string>
+    <string name="donate_rebornos_summary">حوصلہ افزائی کے لیے چندہ کریں</string>
+    <string name="donate_team_title">سی ٓار ڈرایڈ کی جماعت</string>
+    <string name="donate_team_summary">سرور اور دیگر امور کے لیے چندہ کریں</string>
+    <string name="donate_dev_summary">کور ڈویلپر- چندہ کریں</string>
+    <!-- Button settings -->
+    <string name="hardware_keys_power_key_title">بجلی کا بٹن</string>
+    <string name="hardware_keys_home_key_title">ہوم بٹن</string>
+    <string name="hardware_keys_back_key_title">واپسی بٹن</string>
+    <string name="hardware_keys_menu_key_title">مینو بٹن</string>
+    <string name="hardware_keys_assist_key_title">تلاش بٹن</string>
+    <string name="hardware_keys_appswitch_key_title">گذشتہ ایپس بٹن</string>
+    <string name="hardware_keys_camera_key_title">کیمرہ بٹن</string>
+    <string name="hardware_keys_volume_keys_title">والیوم بٹن</string>
+    <string name="hardware_keys_short_press_title">مختصر پریس عمل</string>
+    <string name="hardware_keys_long_press_title">طویل پریس عمل</string>
+    <string name="hardware_keys_double_tap_title">ڈبل ٹیپ عمل</string>
+    <string name="hardware_keys_action_nothing">کوئی کارروائی نہیں</string>
+    <string name="hardware_keys_action_menu">مینیو کھولیں/بند کریں</string>
+    <string name="hardware_keys_action_app_switch">حالیہ استعمال کردہ آلہ سوئچ</string>
+    <string name="hardware_keys_action_search">تلاشی مددگار</string>
+    <string name="hardware_keys_action_voice_search">صوتی تلاش</string>
+    <string name="hardware_keys_action_in_app_search">دروان ایپ تلاش</string>
+    <string name="hardware_keys_action_launch_camera">کیمرا شروع کریں</string>
+    <string name="hardware_keys_action_sleep">سکرین بند کریں</string>
+    <string name="hardware_keys_action_last_app">گزشتہ ایپ</string>
+    <string name="hardware_keys_action_split_screen">اسکرین کو آدھا کریں</string>
+    <string name="hardware_keys_action_close_app">ایپ بند کریں</string>
+    <string name="hardware_keys_action_torch">ٹارچ</string>
+    <string name="hardware_keys_action_screenshot">سکرین کی تصویر</string>
+    <string name="hardware_keys_action_volume_panel">والیوم پینل کو ٹوگل کریں۔</string>
+    <string name="hardware_keys_action_clear_all_notifications">سبھی اطلاعات صاف کریں۔</string>
+    <string name="hardware_keys_action_notifications_panel">اطلاعاتی پینل کو ٹوگل کریں۔</string>
+    <string name="hardware_keys_action_toggle_qs_panel">QS پینل کو ٹوگل کریں</string>
+    <string name="hardware_keys_action_ringer_modes">رنگر موڈز</string>
+    <string name="hardware_keys_action_single_handed_left">سنگل ہینڈ موڈ (بائیں)</string>
+    <string name="hardware_keys_action_single_handed_right">سنگل ہینڈ موڈ (دائیں)</string>
+    <string name="camera_sleep_on_release_title">اسکرین جھانکنا</string>
+    <string name="camera_sleep_on_release_summary">نصف دباوٓ صرف اس وقت سکرین پر رکھے گا جب بٹن نیچے رہ جائے</string>
+    <string name="camera_launch_title">کیمرا شروع کریں</string>
+    <string name="camera_launch_summary">ایک طویل وقت کے لئے دبانے اور چھوڑ کر کیمرہ عمل میں آئيں گے</string>
+    <string name="volbtn_music_controls_title">پلے بیک کو کنٹرول کریں۔</string>
+    <string name="volbtn_music_controls_summary">ڈسپلے آف ہونے پر والیوم کیز کو دیر تک دبا کر میوزک ٹریکس تلاش کریں۔</string>
+    <string name="volbtn_cursor_control_title">کی بورڈ کرسر کنٹرول</string>
+    <string name="volbtn_cursor_control_off">غیرفعال</string>
+    <string name="volbtn_cursor_control_on">والیوم اوپر/نیچے کرسر کو بائیں/دائیں منتقل کرتا ہے۔</string>
+    <string name="volbtn_cursor_control_on_reverse">والیوم اوپر/نیچے کرسر کو دائیں/بائیں منتقل کرتا ہے۔</string>
+    <string name="power_end_call_title">کال ختم کریں</string>
+    <string name="power_end_call_summary">پاور کے بٹن کو دبا کےموجودہ کال کو ختم کریں</string>
+    <string name="swap_volume_buttons_title">دوبارہ ترتیب دینا</string>
+    <string name="swap_volume_buttons_summary">اسکرین کے گھومنے پر وُلیم بٹن بدلیں</string>
+    <string name="button_wake_title">آلہ کو بیدار</string>
+    <string name="button_wake_summary">بٹن پر دباؤ ڈال کرکےڈیولئس چالو کرو</string>
+    <string name="volume_answer_call_title">کال کا جواب دیں۔</string>
+    <string name="volume_answer_call_summary">وْلیم بٹنوں کو دبانے سے آنے والی کالوں کا جواب دیں</string>
+    <string name="home_answer_call_title">کال کا جواب دیں۔</string>
+    <string name="home_answer_call_summary">ہوم بٹن دبا کر آنے والی کالوں کا جواب دیں۔</string>
+    <string name="kill_app_longpress_back">ایپ بند کریں بیک بٹن سے</string>
+    <string name="kill_app_longpress_back_summary">پس منظر کے بٹن کو دباؤ کرکے پیش منظر اپلی کیشن کو مار ڈالو</string>
+    <string name="extras_title">ایکسٹراز</string>
+    <string name="additional_buttons_title">مزید بٹنز</string>
+    <!-- Key backlight -->
+    <string name="button_backlight_title">پیچھے کی لائٹ</string>
+    <string name="button_backlight_summary">بٹن بیک لائٹ کی ترتیبات کو حسب ضرورت بنائیں</string>
+    <string name="button_backlight_enabled">روشن بٹن</string>
+    <string name="button_backlight_only_when_pressed_title">صرف بٹن اس وقت روشن ہوگا جب اسے دبایا جائے گا</string>
+    <string name="keyboard_backlight_enabled">کی بورڈ کو روشن کریں۔</string>
+    <string name="button_backlight_seekbar_title">بٹن کی چمک</string>
+    <string name="keyboard_backlight_seekbar_title">کی بورڈ کی چمک</string>
+    <string name="backlight_timeout_title">روشنی کا دورانیہ</string>
+    <string name="backlight_timeout_unlimited">آف نہ کریں</string>
+    <string name="backlight_summary_disabled">غیرفعال کردہ</string>
+    <string name="backlight_summary_enabled_with_timeout">کے لئے عمل میں لایا <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">فعال بنا دیا گیا</string>
+    <!-- Power menu -->
+    <string name="power_menu_title">پاور مینو</string>
+    <string name="power_menu_actions_title">عمل</string>
+    <string name="power_menu_screenshot_title">سکرین کی تصویر</string>
+    <string name="power_menu_screenshot_summary">جزوی سکرین کی تصور کے لیے تھوڑی دیر دبا کی رکھیں</string>
+    <string name="power_menu_screenrecord_title">سكرين حفظ</string>
+    <string name="power_menu_onthego_title">آن-دی-گو موڈ</string>
+    <string name="power_menu_airplane_title">ہوائی جہاز وضع</string>
+    <string name="power_menu_users_title">صارف بدلنے والا</string>
+    <string name="power_menu_lockdown_title">مکمل بند کریں</string>
+    <string name="power_menu_lockdown_unavailable">کی-بورڈ محفوظ نہ ہونے کی وجہ سے مکمل بند کرنے کا عمل غیر فعال</string>
+    <string name="power_menu_emergency_title">ہنگامی</string>
+    <string name="volume_keys_control_ring_stream_title">رنگ ٹون والیوم کو کنٹرول کریں۔</string>
+    <string name="volume_keys_control_ring_stream_summary_on">والیوم کیز رنگ ٹون والیوم کو کنٹرول کرتی ہیں۔</string>
+    <string name="volume_keys_control_ring_stream_summary_off">والیوم کیز رنگ ٹون والیوم کو کنٹرول کرتی ہیں۔</string>
+    <string name="camera_double_tap_power_gesture_title">کیمرا کیلئے پاور بٹن دو بار دبائیں</string>
+    <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+    <string name="camera_double_tap_power_gesture_desc">اپنی اسکرین غیر مقفل کئے بغیر تیزی سے کیمرا کھولیں</string>
+    <string name="torch_long_press_power_gesture_title">ٹارچ کے لیے پاور بٹن کو دیر تک دبائیں۔</string>
+    <string name="torch_long_press_power_gesture_desc">ڈسپلے بند ہونے پر طاقت سے بٹن کو دباؤ ڈال کرکےٓٹارچ کو چالو کریں</string>
+    <string name="torch_long_press_power_timeout_title">خود کار طریقے سے ٹارچ بند کریں</string>
+    <string name="auto_power_save_never">کبھی نہیں</string>
+    <string name="torch_long_press_power_timeout_1min">1 منٹ</string>
+    <string name="torch_long_press_power_timeout_2min">2 منٹ</string>
+    <string name="torch_long_press_power_timeout_5min">5 منٹ</string>
+    <string name="torch_long_press_power_timeout_10min">10 منٹ</string>
+    <!--Status bar date -->
+    <string name="status_bar_date_title">تاریخ</string>
+    <string name="status_bar_date_none">پوشیدہ (پہلے سے طے شدہ)</string>
+    <string name="status_bar_date_small">چھوٹا</string>
+    <string name="status_bar_date_normal">عام</string>
+    <string name="status_bar_date_format_title">تاریخ وضع کریں</string>
+    <string name="status_bar_date_style">تاریخ کی طرز</string>
+    <string name="status_bar_date_style_normal">عام</string>
+    <string name="status_bar_date_style_lowercase">چھوٹے حروف</string>
+    <string name="status_bar_date_style_uppercase">بڑے حروف</string>
+    <string name="status_bar_date_format_custom">اپنی مرضی کے مطابق جاوا فارمیٹ</string>
+    <string name="status_bar_date_string_edittext_title">DateFormat میں ہونا چاہیئے مثلاً MM/dd/yy</string>
+    <string name="status_bar_date_string_edittext_summary">سٹرنگ داخل کریں</string>
+    <string name="clock_date_position">تاریخ کی جگہ</string>
+    <string name="clock_date_right">گھڑی کے دائیں جانب</string>
+    <string name="clock_date_left">گھڑی کے بائیں جانب</string>
+    <string name="font_style_title">لکھائی کا انداز</string>
+    <string name="font_normal">عام</string>
+    <string name="font_italic">ترچھا</string>
+    <string name="font_bold">بولڈ</string>
+    <string name="font_bold_italic">بولڈ اٹالک</string>
+    <string name="font_light">روشنی</string>
+    <string name="font_light_italic">ہلکا اٹالک</string>
+    <string name="font_thin">باریک</string>
+    <string name="font_thin_italic">پتلا اٹالک</string>
+    <string name="font_condensed">گاڑھا ہوا</string>
+    <string name="font_condensed_italic">گاڑھا اٹالک</string>
+    <string name="font_condensed_light">گاڑھی روشنی</string>
+    <string name="font_condensed_light_italic">کنڈینسڈ لائٹ اٹالک</string>
+    <string name="font_condensed_bold">گاڑھا بولڈ</string>
+    <string name="font_condensed_bold_italic">گاڑھا بولڈ اٹالک</string>
+    <string name="font_medium">درمیانہ</string>
+    <string name="font_medium_italic">درمیانہ ترچھا</string>
+    <string name="font_black">سیاہ</string>
+    <string name="font_black_italic">سیاہ ترچھا</string>
+    <string name="font_dancingscript">سیاہ ترچھا</string>
+    <string name="font_dancingscript_bold">ڈانسنگ اسکرپٹ بولڈ</string>
+    <string name="font_comingsoon">جلد آرہا ہے۔</string>
+    <string name="font_notoserif">نوٹ سیرف نارمل</string>
+    <string name="font_notoserif_italic">نوٹ سیرف اٹالک</string>
+    <string name="font_notoserif_bold">نوٹ سیرف بولڈ</string>
+    <string name="font_notoserif_bold_italic">نوٹ سیرف بولڈ اٹالک</string>
+    <string name="font_size_title">حرف کا سائز</string>
+    <string name="clock_font_style_title">گھڑی کے فونٹ کا انداز</string>
+    <string name="date_font_style_title">تاریخ فونٹ کا انداز</string>
+    <string name="menu_save">محفوظ</string>
+    <string name="menu_cancel">رد کر دیں۔</string>
+    <!-- Recents Membar -->
+    <string name="systemui_recents_mem_display_title">میموری بار</string>
+    <string name="systemui_recents_mem_display_summary">حالیہ ایپ ویو میں میموری بار کو ٹوگل کریں۔</string>
+    <string name="systemui_recents_mem_display_color">میموری بار کا رنگ</string>
+    <string name="systemui_recents_mem_display_text_color">میموری بار ٹیکسٹ رنگ</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">تمام صاف کریں</string>
+    <string name="show_clear_all_recents_button_summary">حالیہ ایپ ویو میں تمام تیرتے بٹن کو صاف کرنے کو ٹوگل کریں۔</string>
+    <string name="recents_clear_all_location_title">تمام بٹن کی جگہ صاف کریں</string>
+    <string name="recents_clear_all_location_top_right">اوپر سے دایاں</string>
+    <string name="recents_clear_all_location_top_left">سب سے اوپر بائیں</string>
+    <string name="recents_clear_all_location_top_center">اوپر درمیان میں</string>
+    <string name="recents_clear_all_location_bottom_right">نیچے دائیں طرف</string>
+    <string name="recents_clear_all_location_bottom_left">نیچے بائیں</string>
+    <string name="recents_clear_all_location_bottom_center">نیچے درمیان میں</string>
+    <!-- Dynamic Navbar -->
+    <string name="navbar_dynamic_title">متحرک نوبار رنگ</string>
+    <string name="navbar_dynamic_summary">پیش منظر میں چلنے والی ایپ سے ملنے کے لیے نوبار رنگ کو اپنائیں</string>
+    <string name="restart_app_required">اثر دیکھنے کے لئے متعلقہ ایپ کو دوبارہ شروع کریں</string>
+    <!-- Scrolling Animation Controls -->
+    <string name="scrolling_title">اسکرولنگ اینیمیشن</string>
+    <string name="scrolling_summary">اسکرولنگ اینیمیشن پیرامیٹرز کو حسب ضرورت بنائیں</string>
+    <string name="animation_fling_velocity_title">اڑانے کی رفتار</string>
+    <string name="animation_scroll_friction_title">اسکرول رگڑ</string>
+    <string name="animation_overscroll_distance_title">اوور سکرول فاصلہ</string>
+    <string name="animation_overfling_distance_title">حد سے زیادہ فاصلہ</string>
+    <string name="animation_duration_summary">مدت مقرر کریں۔</string>
+    <string name="animation_no_scroll_title">اپنی مرضی کے مطابق اقدار</string>
+    <string name="scroll_disclaimer_summary">زیادہ ایپس کو اپنی مرضی کے اقدار کے اثرات کے لۓ دوبارہ شروع کرنے کی ضرورت ہے</string>
+    <string name="animation_settings_reset_message">تمام اینیمیشن سیٹنگز کو ڈیفالٹ پر ری سیٹ کریں؟</string>
+    <!-- Alarm Fullscreen -->
+    <string name="show_alarm_fullscreen_title">فل سکرین الارم</string>
+    <string name="show_alarm_fullscreen_summary">الارم کو ہیڈ اپ کے بجائے فل سکرین کے طور پر ڈسپلے کریں۔</string>
+    <!-- Animations -->
+    <string name="animation_title">متحرک تصاویر</string>
+    <string name="animation_summary">مختلف متحرک تصاویر کو اپنی مرضی کے مطابق بنائیں</string>
+    <!-- Custom System Animations -->
+    <string name="system_animation_title">سسٹم اینیمیشنز</string>
+    <string name="system_animation_summary">سسٹم میں ہر ونڈو کے اینیمیشن کو حسب ضرورت بنائیں</string>
+    <string name="activity_open_title">سرگرمی کھولنے پر اینیمیشن</string>
+    <string name="activity_close_title">سرگرمی بند ہونے پر اینیمیشن</string>
+    <string name="task_open_title">ٹاسک کھلنے پر اینیمیشن</string>
+    <string name="task_open_behind_title">ٹاسک اینیمیشن کے پیچھے کھلا ہے۔</string>
+    <string name="task_close_title">ٹاسک کلوز اینیمیشن</string>
+    <string name="task_move_to_front_title">فرنٹ اینیمیشن پر جائیں۔</string>
+    <string name="task_move_to_back_title">پیچھے کی حرکت پذیری پر جائیں۔</string>
+    <string name="wallpaper_open_title">وال پیپر کھلنے پر اینیمیشن</string>
+    <string name="wallpaper_close_title">وال پیپر بند ہونے پر اینیمیشن</string>
+    <string name="wallpaper_intra_open_title">وال پیپر انٹرا اوپن اینیمیشن</string>
+    <string name="wallpaper_intra_close_title">وال پیپر انٹرا کلوژ اینیمیشن</string>
+    <string name="animation_duration_title">اینیمیشن کا دورانیہ</string>
+    <string name="animation_duration_default">معین شدہ</string>
+    <string name="animation_duration_custom">حسب ضرورت</string>
+    <!-- Toast Animations -->
+    <string name="toast_animation_title">ٹوسٹ اینیمیشن</string>
+    <string name="toast_animation_test">یہ ٹوسٹ اینیمیشن کا ٹیسٹ ہے۔</string>
+    <string name="toast_none_animation">کوئی بھی نہیں</string>
+    <string name="toast_default_animation">معین شدہ</string>
+    <string name="toast_fade_animation">پھیکا</string>
+    <string name="toast_SlideRight_animation">سلائیڈ کریں دائیں جانب</string>
+    <string name="toast_SlideLeft_animation">سلائیڈ کریں بائیں جانب</string>
+    <string name="toast_Xylon_animation">زائیلون</string>
+    <string name="toast_Toko_animation">ٹوکو</string>
+    <string name="toast_Tn_animation">ٹن</string>
+    <string name="toast_Honami_animation">ہونامی</string>
+    <string name="toast_FastFade_animation">تیز رفتار مدھم</string>
+    <string name="toast_GrowFade_animation">بڑھتی ہوئی مدھم</string>
+    <string name="toast_GrowFadeCenter_animation">درمیان سے باہر کی طرف مدھم</string>
+    <string name="toast_GrowFadeBottom_animation">مدھم نیچے بڑھ</string>
+    <string name="toast_Translucent_animation">شفاف</string>
+    <string name="toast_SlideLeftRight_animation">سلائیڈ بائیں سے دائیں</string>
+    <string name="toast_SlideRightLeft_animation">سلائیڈ دائیں سے بائیں</string>
+    <!-- ListView animation -->
+    <string name="listview_animation_title">لسٹ ویو اینیمیشن</string>
+    <string name="listview_off">معین شدہ</string>
+    <string name="listview_wave_left">لہر (بائیں)</string>
+    <string name="listview_wave_right">لہر (دائیں)</string>
+    <string name="listview_alpha">الفا</string>
+    <string name="listview_scale">پیمانہ</string>
+    <string name="listview_stack_top">اسٹیک (اوپر)</string>
+    <string name="listview_stack_bottom">اسٹیک (نیچے)</string>
+    <string name="listview_unfold">ان فولڈ</string>
+    <string name="listview_fold">فولڈ</string>
+    <string name="listview_translate_left">ترجمہ کریں (بائیں)</string>
+    <string name="listview_translate_right">ترجمہ کریں (دائیں)</string>
+    <!-- ListView interpolator -->
+    <string name="listview_interpolator_title">فہرست دیدن درون یابی</string>
+    <string name="listview_accelerate_interpolator">تیز کرنا</string>
+    <string name="listview_decelerate_interpolator">رفتار کم کرنا</string>
+    <string name="listview_accelerate_decelerate_interpolator">تیز کریں اور کم کریں</string>
+    <string name="listview_anticipate_interpolator">اندازہ لگانا</string>
+    <string name="listview_overshoot_interpolator">بیش از حد</string>
+    <string name="listview_anticipate_overshoot_interpolator">پیش بینی و بیش از حد</string>
+    <string name="listview_bounce_interpolator">اچھالنا</string>
+    <!-- Power menu animation -->
+    <string name="power_menu_animation_title">پاور مینو اینیمیشن</string>
+    <string name="power_menu_animation_default">معین شدہ</string>
+    <string name="power_menu_animation_bottom">پیندہ</string>
+    <string name="power_menu_animation_top">چوٹی</string>
+    <string name="power_menu_animation_rotate">گردش</string>
+    <string name="power_menu_animation_xylon">اڑنا</string>
+    <string name="power_menu_animation_slide">سلائیڈ</string>
+    <string name="power_menu_animation_turn">مڑنا</string>
+    <string name="power_menu_animation_fly">چمک</string>
+    <string name="power_menu_animation_card">سه بعدی</string>
+    <string name="power_menu_animation_translucent_top">شفاف (بالا)</string>
+    <string name="power_menu_animation_translucent_bottom">شفاف (زیریں)</string>
+    <!-- Tiles animation style  -->
+    <string name="qs_tile_animation_style_title">کیو ایس ٹائل اینیمیشن</string>
+    <string name="qs_tile_animation_duration_title">کیو ایس ٹائل اینیمیشن کا دورانیہ</string>
+    <string name="qs_tile_animation_style_off">کوئی حرکت پذیری نہیں۔</string>
+    <string name="qs_tile_animation_style_flip">پلٹائیں</string>
+    <string name="qs_tile_animation_style_rotate">گھمائیں</string>
+    <string name="qs_tile_animation_duration_low">کم</string>
+    <string name="qs_tile_animation_duration_default">معین شدہ</string>
+    <string name="qs_tile_animation_duration_fast">تیز</string>
+    <!-- Tiles animation interpolator -->
+    <string name="qs_tile_animation_interpolator_title">کیو ایس ٹائل اینیمیشن کا دورانیہ</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">خطی</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">تیز کرنا</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">رفتار کم کرنا</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">تیز کریں اور کم کریں</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">اچھالنا</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">بیش از حد</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">اندازہ لگانا</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">پیش بینی و بیش از حد</string>
+    <!-- Fancy tiles animation -->
+    <string name="qs_fancy_animation_title">فینسی QS اینیمیشن</string>
+    <string name="qs_fancy_animation_summary">اسٹیٹس بار کو نیچے کھینچتے وقت متحرک کریں۔</string>
+    <!-- Disable animations -->
+    <string name="disable_animations">متحرک تصاویر کو غیر فعال کریں۔</string>
+    <string name="disable_animations_summary">ٹرانزیشن اینیمیشنز کو غیر فعال کرتا ہے جیسے کہ ایپ لانچ کرتے وقت</string>
+    <!-- Sounds: Charging sounds -->
+    <string name="charging_sounds_settings_title">چارجنگ کی آوازیں</string>
+    <string name="charging_sounds_settings_summary">پاور ذریعہ منسلک یا منقطع کرتے وقت آواز کو حسب ضرورت بنائیں</string>
+    <string name="charging_sounds_enabled_title">بیٹری چارج کرنے کی آواز</string>
+    <string name="charging_sounds_enabled_summary">بجلی کو منسلک یا منقطع کرتے وقت آواز چلائیں</string>
+    <string name="power_notifications_vibrate_title">تھرتھراہٹ</string>
+    <string name="charging_sounds_ringtone_silent">خاموش</string>
+    <string name="wired_charging_sounds_title">وائرڈ چارجنگ</string>
+    <string name="wireless_charging_sounds_title">وائرلیس چارجنگ</string>
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">ویک لاک بلاکر</string>
+    <string name="wakelock_blocker_summary">سسٹم ویک لاکس کو بلاک کریں۔</string>
+    <string name="wakelock_blocker_save">محفوظ</string>
+    <string name="wakelock_list_header">دستیاب ویک لاکس</string>
+    <string name="wakelock_blocker_reload">دوبارہ لوڈ کریں۔</string>
+    <string name="wakelock_blocker_warning_title">احتیاط سے آگے بڑھو</string>
+    <string name="wakelock_blocker_warning">ویکلاکس کو روکنےسےعدم استحکام، حادثے یا ڈیٹا نقصان کا امکان ہے</string>
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker_title">الارم روکنے والا</string>
+    <string name="alarm_blocker_summary">اسکرین آف ہونے پر الارم کو مسدود کریں۔</string>
+    <string name="alarm_blocker_save">محفوظ</string>
+    <string name="alarm_list_header">دستیاب الارم</string>
+    <string name="alarm_blocker_reload">دوبارہ لوڈ کریں۔</string>
+    <string name="alarm_blocker_warning_title">احتیاط سے آگے بڑھو</string>
+    <string name="alarm_blocker_warning">الارم کو روکنےسےعدم استحکام، حادثے یا اعداد و شمار کے نقصان کا امکان ہے.</string>
+    <!-- Custom header -->
+    <string name="custom_header_title">حسب ضرورت ہیڈر</string>
+    <string name="custom_header_summary">اطلاعی پینل کے اوپر تصویر ڈسپلے کریں۔</string>
+    <string name="daylight_header_pack_title">ہیڈر امیج کا مجموعہ</string>
+    <string name="status_bar_custom_header_shadow_title">ہیڈر تصویر کا سائۃ</string>
+    <string name="status_bar_custom_header_shadow_summary">روشن تصاویر پر بہتر نموداری کے لئے</string>
+    <string name="unit_percent">\u0025</string>
+    <string name="static_header_provider_title">جامد تصویر</string>
+    <string name="daylight_header_provider_title">تصویری مجموعہ</string>
+    <string name="custom_header_provider_title">ہیڈر فراہم کرنے والا</string>
+    <string name="custom_header_browse_title">انسٹال شدہ ہیڈرز کو براؤز کریں۔</string>
+    <string name="custom_header_browse_summary">ساکن موڈ کے لیے استعمال کرنے کے لئے کسی بھی تصویر پر کلک کریں</string>
+    <string name="custom_header_browse_summary_new">تمام دستیاب ہیڈر مجموعہ براؤز کریں</string>
+    <string name="custom_header_pick_title">اشاروں کے تسلسل کو فعال کریں</string>
+    <string name="custom_header_pick_summary">ایک تصویر منتخب کریںساکن موڈ کو استعمال کرنے کے لئے</string>
+    <string name="header_provider_disabled">غیرفعال کردہ</string>
+    <string name="file_header_select_title">تصویر منتخب کریں</string>
+    <string name="file_header_select_summary">حسب ضرورت تصویر منتخب کریں۔</string>
+    <string name="file_header_provider_title">حسب ضرورت تصویر</string>
+    <!-- Screen state service -->
+    <string name="screen_state_toggles_title">کارروائیاں معطل کریں۔</string>
+    <string name="screen_state_toggles_summary">اسکرین آف پر کارروائیوں پرعملدرآمد</string>
+    <string name="screen_state_toggles_enable_title">فعال کرنا</string>
+    <string name="screen_state_toggles_enable_summary">اسکرین آف پر کارروائیاں کی جائیں گی۔ اسکرین پر پچھلی حالت کو بحال کیا جائے گا۔</string>
+    <string name="screen_state_toggles_mobile_title">موبائل نیٹ ورکس</string>
+    <string name="screen_state_toggles_location_title">جگہ</string>
+    <string name="screen_state_toggles_twog">2G پر سوئچ کریں۔</string>
+    <string name="screen_state_toggles_twog_summary">نیٹ ورک کا موڈ اسکرین آف پر2جی سوئچ کردیا جائے گا</string>
+    <string name="screen_state_toggles_gps">GPS کو غیر فعال کریں۔</string>
+    <string name="screen_state_toggles_gps_summary">GPS کی بنیاد پر مقام کی تفصیلات بند اسکرین پر غیر فعال ہوجائے گی</string>
+    <string name="screen_state_toggles_mobile_data">موبائل ڈیٹا کو غیر فعال کریں۔</string>
+    <string name="screen_state_toggles_mobile_data_summary">موبائل ڈیٹا اسکرین بند ہونے پر غیر فعال ہوجائے گا</string>
+    <string name="screen_state_off_delay_title">اسکرین آف ایکشنز میں تاخیر</string>
+    <string name="screen_state_off_delay_summary">اسکرین آف ہونےکے بعد اعمال انجام دینے سے پہلے انتظار کرنے کے لئے سیکنڈ کی تعداد</string>
+    <string name="screen_state_on_delay_title">اسکرین آن ایکشنز میں تاخیر</string>
+    <string name="screen_state_on_delay_summary">اسکرین آن ہونے کے بعد حرکت کرنےسے پہلے انتظار کرنے کے لئے سیکنڈ کی تعداد</string>
+    <!-- Data/Wifi activity arrows -->
+    <string name="data_activity_arrows_title">ڈیٹا کی سرگرمی</string>
+    <string name="data_activity_arrows_summary">ڈیٹا کی سرگرمی کے تیر دکھائیں۔</string>
+    <string name="wifi_activity_arrows_title">وائی ​​فائی کی سرگرمی</string>
+    <string name="wifi_activity_arrows_summary">وائی ​​فائی سرگرمی کے تیر دکھائیں۔</string>
+    <!-- The Drill -->
+    <string name="drill_title">ڈرل</string>
+    <string name="drill_summary"> کویٗ بگ ملا؟ کویٗ مسٗلہ آ گیا؟</string>
+    <!-- Show Statusbar on Lockscreen -->
+    <string name="lockscreen_status_bar_title">صورتحال بار</string>
+    <string name="lockscreen_status_bar_summary">لاک اسکرین پر اسٹیٹس بار ڈسپلے کریں۔</string>
+    <!-- Slim Recent panel -->
+    <string name="slim_recents_title">سلم حالیہ</string>
+    <string name="use_slim_recents_title">سلم حالیہ</string>
+    <string name="use_slim_recents_summary">پہلے سے طے شدہ حالیہ منظر کی بجائے سلم ریسینٹس کا استعمال کریں</string>
+    <string name="slim_recents_settings_title">ترتیبات</string>
+    <string name="slim_recents_settings_summary">سلم ریسینٹس کی ترتیبات دیکھیں</string>
+    <string name="recent_panel_category">سلم حالیہ ایپس پینل</string>
+    <string name="show_running_tasks_title">صرف چلنے والی ایپس دکھائیں۔</string>
+    <string name="recents_max_apps_title">زیادہ سے زیادہ اجازت شدہ ایپس</string>
+    <string name="recent_panel_scale_title">اندازه</string>
+    <string name="recent_panel_expanded_mode_title">توسیع شدہ حالت</string>
+    <string name="recent_panel_expanded_mode_summary">حالیہ کاموں نے پیش نظارہ موڈ کو بڑھا دیا</string>
+    <string name="recent_panel_expanded_mode_auto">خودکار (طے شدہ)</string>
+    <string name="recent_panel_expanded_mode_always">ہمیشہ</string>
+    <string name="recent_panel_expanded_mode_never">کبھی نہیں</string>
+    <string name="recent_panel_show_topmost_title">سب سے اوپر کا کام دکھائیں۔</string>
+    <string name="recent_panel_show_topmost_summary">ریسنٹس منظر کے نقطہ نظر میں سب سے اوپر والے کام کو خارج نہ کریں</string>
+    <string name="recent_panel_bg_color_title">پینل پس منظری رنگ</string>
+    <string name="recent_card_bg_color_title">کارڈ پس منظری رنگ</string>
+    <string name="recent_card_text_color_title">کارڈ پہ متن کا رنگ</string>
+    <string name="recent_reset_title">ترتیبات واپس بحال کریں</string>
+    <string name="recent_reset_confirm">کیا آپ واقعی اسٹاک کے مطابق سلم ریسینٹس کو دوبارہ ترتیب دینا چاہتے ہیں?</string>
+    <string name="default_auto_string">ڈیفالٹ (ایپ کی بنیاد پر)</string>
+    <string name="recents_icon_pack_title">آئیکون پیک</string>
+    <string name="recents_icon_pack_summary">پینل میں اطلاقات کیلئے اپنی مرضی کے آئیکن پیک کو لاگو کریں</string>
+    <string name="no_iconpacks_summary">کوئی آئیکن پیک انسٹال نہیں ہے۔</string>
+    <string name="dialog_pick_iconpack_title">آئیکن پیک منتخب کریں۔</string>
+    <string name="default_iconpack_title">ڈیفالٹ شبیہیں</string>
+    <string name="dialog_delete_title">حذف کریں</string>
+    <string name="dialog_delete_message">منتخب کردہ کو حزف کریں؟</string>
+    <string name="slim_recents_corner_radius_title">کارڈ کے لئے گول کونوں کا استعمال کریں</string>
+    <string name="slim_blacklist_apps_cat_title">بلیک لسٹ ایپس</string>
+    <string name="slim_blacklist_apps_title">ایپس کی بلیک لسٹ</string>
+    <string name="slim_blacklist_apps_summary">پینل میں دکھایا جانے والے ایپس کو خارج کردیں</string>
+    <string name="slim_blacklist_add_apps_title">ایپس شامل کریں</string>
+    <string name="slim_blacklist_add_apps_summary">بلیک لسٹ میں اپلی کیشن کو شامل کرنے کیلئے یہاں ٹپ کریں</string>
+    <string name="slim_blacklist_apps_info">اسے خارج کرنے کے لئے شامل ایپ پر ٹیپ کریں</string>
+    <string name="slim_recents_hints_footer">تمام ایپس کو صاف کرنے کے لیے، پینل پر دو انگلیوں سے پنچ ان کریں۔ کسی ایپ کو صاف ہونے سے روکنے کے لیے، اسے ستارہ کرنے کے لیے اس کے آئیکن کو دیر تک دبائیں۔\n\nمٹی ونڈو یا ایپ کو ختم کرنے جیسی حالیہ خصوصیات کے لیے، پینل میں ایپ کارڈ کو دیر تک دبائیں یا گھسیٹیں۔</string>
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">بائیں کنارے پر دکھائیں۔</string>
+    <string name="recent_panel_lefty_mode_summary">بائیں کنارے پر حالیہ ایپس پینل دکھائیں۔</string>
+    <!-- Disable FC notifications -->
+    <string name="disable_fc_notifications_title">طاقت بند کو غیر فعال کریں۔</string>
+    <string name="disable_fc_notifications_summary">تمام زبردستی بند نوٹیفکیشن ڈائیلاگ چھپائیں۔</string>
+    <!-- OmniJaws -->
+    <string name="omnijaws_settings_title">موسم کی خدمت</string>
+    <string name="omnijaws_settings_summary">سروس ترتیبات اور آئیکن پیک اپنی مرضی کے مطابق بنائیں</string>
+    <string name="weather_config_title">سروس کی ترتیبات</string>
+    <string name="weather_config_summary">موسم کی تفصیلات کو فعال کرنے کے لئے سروس کو ترتیب دیں</string>
+    <string name="weather_icon_pack_title">موسم کا آئیکن پیک</string>
+    <string name="find_icon_pack_title">آئیکن پیک تلاش کریں۔</string>
+    <string name="find_icon_pack_summary">پلے اسٹور سے نئے آئیکن پیک تلاش کریں اور انسٹال کریں۔</string>
+    <string name="weather_icon_pack_note">نوٹ\u003a آپ \"کرونس آئیکنز\" کو تلاش کر کے پلے اسٹور سے نئے آئیکن پیک انسٹال کر سکتے ہیں</string>
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G آئیکن</string>
+    <string name="show_fourg_icon_summary">ایل ٹی ای کے بجائے سگنل آئکن میں 4 جی آئکن دکھائیں</string>
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">رومنگ انڈیکیٹر</string>
+    <string name="roaming_indicator_icon_summary">رولنگ موڈ میں جب سگنل آئیکن میں روومنگ اشارے دکھایئں</string>
+    <!-- In-call DND -->
+    <string name="dnd_when_call_title">کال میں ڈسٹرب نہ کریں۔</string>
+    <string name="dnd_when_call_summary">کالز کے دوران DND کو خودکار طور پر فعال کریں۔</string>
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">بلوٹوتھ بیٹری کی حیثیت</string>
+    <string name="bluetooth_battery_summary">بیٹری کی حیثیت کو ظاہر کریں منسلک بلوٹوتھ آلہ کے لئے ، اگر دستیاب ہو</string>
+    <!-- Status bar temperature -->
+    <string name="status_bar_weather_title">موسم</string>
+    <string name="status_bar_weather_summary">اسٹیٹس بار پر موسم کو ظاہرکریں اور اپنی مرضی کے مطابق بنائیں</string>
+    <string name="status_bar_temperature_title">موسم</string>
+    <string name="status_bar_temperature_hidden">پوشیدہ</string>
+    <string name="status_bar_temperature_location_title">مقام</string>
+    <string name="status_bar_temperature_location_right">دائیں طرف دکھائیں۔</string>
+    <string name="status_bar_temperature_location_left">بائیں طرف دکھائیں۔</string>
+    <string name="status_bar_weather_color_title">درجہ حرارت کا رنگ</string>
+    <string name="status_bar_weather_hidden">موسم چھپائیں۔</string>
+    <string name="status_bar_temperature_image_show_scale">پیمانے کے ساتھ تصویر اور درجہ حرارت دکھائیں۔</string>
+    <string name="status_bar_temperature_image_hide_scale">پیمانے کے بغیر تصویر اور درجہ حرارت دکھائیں۔</string>
+    <string name="status_bar_temperature_show_scale_hide_image">پیمانے کے ساتھ صرف درجہ حرارت دکھائیں۔</string>
+    <string name="status_bar_temperature_hide_scale_hide_image">پیمانے کے بغیر صرف درجہ حرارت دکھائیں۔</string>
+    <string name="status_bar_show_image">صرف حالت کی تصویر دکھائیں۔</string>
+    <string name="status_bar_weather_image_color_title">حالت کی تصویر کا رنگ</string>
+    <!-- VoLTE icon -->
+    <string name="volte_icon_title">وولٹی آیکون</string>
+    <string name="volte_icon_summary">وولٹی آیکون جب میسر ہو دیکھاے</string>
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">وووایئفائ آیکون</string>
+    <string name="vowifi_icon_summary">وو-وایئفائی جب میسر ہو دیکھایے</string>
+    <string name="volte_vowifi_override_title">وو-وایئفائی اوور رائڈ</string>
+    <string name="volte_vowifi_override_summary">VoLTE کو چھپائیں جب VoWiFi دستیاب ہو۔ یہ VoWiFi کے لیے پرانے طرز کے سگنل آئیکن کو بھی اوور رائیڈ کرتا ہے۔</string>
+    <!-- Ad Away -->
+    <string name="adaway_title">اشتہار دور</string>
+    <string name="adaway_summary">جڑ کا استعمال کرتے ہوئے ناپسندیدہ اشتہارات کو مسدود کریں۔</string>
+    <!-- Carrier Label -->
+    <string name="custom_carrier_title">کیریئر لیبل</string>
+    <string name="custom_carrier_summary">اپنی مرضی کے مطابق کیریئر دکھائیں اور بنائیں</string>
+    <string name="custom_carrier_label_title">کسٹم کیریئر لیبل</string>
+    <string name="custom_carrier_label_explain">براہ کرم ایک نیا لیبل درج کریں. اصل میں واپس لوٹنے کیلئے خالی چھوڑ دیں.</string>
+    <string name="custom_carrier_label_notset">اپنی مرضی کے لیبل کو ابھی مقرر نہیں کیا گیا</string>
+    <string name="show_carrier_title">کیریئر لیبل</string>
+    <string name="show_carrier_disabled">غیرفعال کردہ</string>
+    <string name="show_carrier_keyguard">صرف لوک اسکرین</string>
+    <string name="show_carrier_statusbar">صرف سٹیٹس بار</string>
+    <string name="show_carrier_enabled">لاک اسکرین &amp; اسٹیٹس بار</string>
+    <string name="status_bar_carrier_color">کیریئر لیبل کا رنگ</string>
+    <string name="status_bar_carrier_size">کیریئر لیبل کے متن کا سائز</string>
+    <string name="status_bar_carrier_title">اسٹیٹس بار کیریئر</string>
+    <string name="status_bar_carrier_summary">اسٹیٹس بار پر کیریئر ڈسپلے کریں۔</string>
+    <string name="lock_screen_carrier_title">لاک اسکرین کیریئر</string>
+    <string name="lock_screen_carrier_summary">مقفل اسکرین پر کیریئر ڈسپلے کریں۔</string>
+    <string name="quick_settings_carrier_title">فوری ترتیبات کا کیریئر</string>
+    <string name="quick_settings_carrier_summary">اسٹیٹس بارنیچے کھینچینے پر کیرئیر کو ڈسپلے کریں</string>
+    <!-- Lockscreen Weather -->
+    <string name="lock_screen_weather_title">موسم</string>
+    <string name="lock_screen_weather_summary">تاریخ کے ساتھ موسم کی معلومات دکھائیں۔</string>
+    <string name="lock_screen_weather_summaryOn">مقفل اسکرین پر موسم دکھائیں۔</string>
+    <string name="lock_screen_location_title">محل وقوع</string>
+    <string name="lock_screen_location_summary">مقفل اسکرین پر محل وقوع دکھائیں۔</string>
+    <string name="lock_screen_weather_condition_icon_title">حالت کی تصویر</string>
+    <string name="lock_screen_weather_condition_icon_summary">لاک اسکرین پر حالت کی تصویر دکھائیں۔</string>
+    <string name="lock_screen_ambient_weather_title">محیطی موسم</string>
+    <string name="lock_screen_ambient_weather_summary">محیطی اسکرین پر موسم دکھائیں۔</string>
+    <string name="lock_screen_weather_style_title">پکسل اسٹائل</string>
+    <string name="lock_screen_weather_style_summary">بڑے ویجیٹ کی بجائے تاریخ کے ساتھ موسم دکھائیں۔</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="fp_success_vibrate_title">فنگر پرنٹ کی توثیق تھرتھراہٹ</string>
+    <string name="fp_success_vibrate_summary">Vibrate on successful fingerprint authentication</string>
+    <string name="fp_error_vibrate_title">فنگر پرنٹ کی ناکامی پر تھرتھراہٹ</string>
+    <string name="fp_error_vibrate_summary">فنگر پرنٹ کی تصدیق ناکام ہونے پر تھرتھراہٹ چلائیں۔</string>
+    <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">فنگر پرنٹ غیر مقفل</string>
+    <string name="fp_unlock_keystore_summary">پن / پاسورڈ / پیٹرن کے بغیر ریبوٹ کے بعد فنگر پرنٹ کے ساتھ ڈیوائس کھولیں</string>
+    <!-- Toast icon -->
+    <string name="toast_icon_title">ٹوسٹ کا آئکن</string>
+    <string name="toast_icon_summary">سرگرمی کا آئیکن دکھائیں جو ٹوسٹ پیغام تیار کرتا ہے۔</string>
+    <!-- Lockscreen battery info indicator -->
+    <string name="lockscreen_battery_info_title">بیٹری کی معلومات</string>
+    <string name="lockscreen_battery_info_summary">چارجنگ کے وقت بیٹری کی معلومات دکھائیں</string>
+    <!-- Recents lock icon -->
+    <string name="recents_lock_icon_title">مقفل کام</string>
+    <string name="recents_lock_icon_summary">حالیہ ایپ ویو میں لاک ٹاسک آئیکن کو ٹوگل کریں۔</string>
+    <!-- AOSP Recents Grid -->
+    <string name="recents_use_grid_title">گرڈ طرز کے حالیہ</string>
+    <string name="recents_use_grid_summary">گرڈ طرز کے حالیہ ٹوگل کریں۔</string>
+    <!-- Recents dismiss icon -->
+    <string name="recents_dismiss_icon_title">کام کو برخاست کریں۔</string>
+    <string name="recents_dismiss_icon_summary">حالیہ ایپ ویو میں برخاست ٹاسک آئیکن کو ٹوگل کریں۔</string>
+    <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">زبردستی اسٹاپ بٹن</string>
+    <string name="notification_guts_kill_app_button_summary">نوٹیفکیشن کے لانگ پریس مینو میں فورس اسٹاپ بٹن دکھائیں۔</string>
+    <!-- ANBI -->
+    <string name="anbi_title">حادثاتی لمس</string>
+    <string name="anbi_summary">اسکرین کو چھونے کے دوران نیویگیشن بٹنوں کے ساتھ تعامل کو روکیں۔</string>
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Sensor block</string>
+    <string name="sensor_block_summary">چند زیادہ بیٹری استعمال کرنے والی ایپس کے لئے اہم تحریک سینسر تک رسائی روکی جاے</string>
+    <string name="sensor_block_app_picker_title">ان ایپس کے لیے سینسرز کو مسدود کریں۔</string>
+    <string name="add_sensor_block_package_title">سینسر بلاک کے لیے ایپس شامل کریں۔</string>
+    <string name="add_sensor_block_package_summary">ان ایپس کے لیے اہم موشن، ایکسلرومیٹر، لکیری ایکسلریشن سینسرز کو بلاک کر دیا جائے گا</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">جیب کا پتہ لگانا</string>
+    <string name="pocket_judge_summary">جب آلہ جیب میں ہو تو اسکرین اور بٹن ان پٹ کو مسدود کریں۔</string>
+    <!-- MediaScanner behavior on boot -->
+    <string name="media_scanner_on_boot_title">بوٹ پر میڈیا سکینر کا برتاؤ</string>
+    <string name="media_scanner_on_boot_enabled">میڈیا اسکین کریں</string>
+    <string name="media_scanner_on_boot_ask">اسکین کرنے کے لیے پوچھیں (اطلاع)</string>
+    <string name="media_scanner_on_boot_disabled">میڈیا کو اسکین نہ کریں۔</string>
+    <!-- Reset settings -->
+    <string name="reset_settings_title">ترتیبات واپس بحال کریں</string>
+    <string name="reset_settings_message">یہ موجودہ صارف کے لیے زیادہ تر rebornos کی ترتیبات کو ان کی ڈیفالٹ اقدار پر دوبارہ ترتیب دے گا۔ کیا آپ جاری رکھنا چاہیں گے؟</string>
+    <!-- OTA -->
+    <string name="ota_rebornos_title">تازہ ترین</string>
+    <string name="ota_rebornos_summary">Check for OTA update and links for your device</string>
+    <!-- Categories -->
+    <string name="ota_category">او-ٹی-اے</string>
+    <string name="links_category">پیوندها</string>
+    <!-- ROM info -->
+    <string name="latest_version">تازہ ترین ورژن: %1$s</string>
+    <string name="unknown">نامعلوم</string>
+    <string name="system_uptodate">آپ کا سسٹم تازہ ترین ہے</string>
+    <string name="maintainer_title">دیکھ بھال کرنے والا</string>
+    <string name="maintainer_unknown">کوئی دیکھ بھال کرنے والا نہیں ہے</string>
+    <string name="changelog_title">موجودہ تبدیلیاں</string>
+    <string name="changelog_summary">تازہ ترین دستیاب اپ ڈیٹ کا تغییرات ثبت شده دیکھیں</string>
+    <string name="download_title">تازہ ترین اثاثے ڈاؤنلوڈ کریں</string>
+    <string name="download_summary">ڈاؤن لوڈ صفحہ دیکھیں</string>
+    <string name="gapps_title">gapps ڈاؤن لوڈ کریں۔</string>
+    <string name="gapps_summary">گوگل ایپس ڈاؤن لوڈ پیج پر جائیں۔</string>
+    <string name="forum_title">انجمن</string>
+    <string name="forum_summary">تازہ ترین مباحثے دیکھیں</string>
+    <string name="ota_firmware_title">ہم آہنگ فرم ویئر ڈاؤن لوڈ کریں۔</string>
+    <string name="ota_firmware_summary">فرم ویئر ڈاؤن لوڈ صفحہ دیکھیں</string>
+    <string name="modem_title">ہم آہنگ فرم ویئر ڈاؤن لوڈ کریں۔</string>
+    <string name="modem_summary">موڈیم ڈاؤن لوڈ صفحہ دیکھیں</string>
+    <string name="bootloader_title">ہم آہنگ بوٹ لوڈر ڈاؤن لوڈ کریں۔</string>
+    <string name="bootloader_summary">بوٹ لوڈر ڈاؤن لوڈ صفحہ دیکھیں</string>
+    <string name="recovery_title">مطابقت پذیر ریکوری ڈاؤن لوڈ کریں۔</string>
+    <string name="recovery_summary">ریکوری ڈاؤن لوڈ کا صفحہ دیکھیں</string>
+    <string name="paypal_title">عطیہ کریں۔</string>
+    <string name="paypal_summary">ڈیوائس کی ترقی کی حمایت کریں۔</string>
+    <string name="telegram_title">ٹیلیگرام</string>
+    <string name="telegram_summary">اس ڈیوائس کے لیے ٹیلیگرام پر تازہ ترین مباحثوں میں شامل ہوں۔</string>
+    <!-- Check update -->
+    <string name="check_update_title">اپ ڈیٹ چیک کریں۔</string>
+    <string name="last_check_summary">آخری چیک: %1$s</string>
+    <string name="last_check_never">کبھی نہیں</string>
+    <string name="check_update_failed">اپ ڈیٹ چیک نہیں کر سکتے</string>
+    <string name="no_update_available">کوئی اپ ڈیٹ دستیاب نہیں ہے۔</string>
+    <!-- Update interval -->
+    <string name="interval_title">خودکار اپ ڈیٹ چیک وقفہ</string>
+    <string name="interval_entry_disable">غیرفعال</string>
+    <string name="interval_entry_15s">ہر 15 سیکنڈ میں</string>
+    <string name="interval_entry_30s">ہر 30 سیکنڈ میں</string>
+    <string name="interval_entry_1m">ہر 1 منٹ</string>
+    <string name="interval_entry_2m">ہر 2 منٹ</string>
+    <string name="interval_entry_5m">ہر 5 منٹ</string>
+    <string name="interval_entry_10m">ہر 10 منٹ</string>
+    <string name="interval_entry_15m">ہر 15 منٹ</string>
+    <string name="interval_entry_20m">ہر 20 منٹ</string>
+    <string name="interval_entry_30m">ہر 30 منٹ</string>
+    <string name="interval_entry_1h">ہر گھنٹے</string>
+    <string name="interval_entry_12h">ہر 12 گھنٹے بعد</string>
+    <string name="interval_entry_24h">ہر 24 گھنٹے</string>
+    <string name="autoupdate_enabled">خودکار اپ ڈیٹ فعال ہے۔</string>
+    <string name="autoupdate_disabled">خودکار اپ ڈیٹ غیر فعال ہے</string>
+    <!-- Notification -->
+    <string name="notification_title">روم اپ ڈیٹ</string>
+    <string name="notification_message">نئی اپ ڈیٹ دستیاب ہے!</string>
+    <!-- Dialog -->
+    <string name="dialog_message">ROM اپ ڈیٹس کی جانچ ہو رہی ہے، براہ کرم انتظار کریں…</string>
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">پکسل اینیمیشن</string>
+    <string name="pixel_navbar_anim_summary">نیویگیشن بار کے لیے پکسل اسٹائل اینیمیشن ٹوگل کریں۔</string>
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">اسمارٹ پل ڈاؤن</string>
+    <string name="smart_pulldown_summary">جب %1$s اطلاعات ہوں تو فوری ترتیبات کھولیں۔</string>
+    <string name="smart_pulldown_none_summary">جب اطلاعات نہیں ہیں تو فوری ترتیبات کھولیں</string>
+    <string name="smart_pulldown_off">بند</string>
+    <string name="smart_pulldown_none">کوئی اطلاعات نہیں ہیں۔</string>
+    <string name="smart_pulldown_dismissable">کوئی مسترد نہیں</string>
+    <string name="smart_pulldown_ongoing">کوئی جاری نہیں</string>
+    <!-- Tap to sleep on status bar -->
+    <string name="statusbar_doubletap_sleep_title">سونے کے لیے ٹیپ کریں</string>
+    <string name="statusbar_doubletap_sleep_summary">ڈیوائس کو مقفل کرنے کے لیے سٹیٹس بار پہ دو بار تھپتپھائیں</string>
+    <!-- Auto USB mode chooser -->
+    <string name="auto_usb_mode_chooser_title">خودکار USB موڈ منتخب کنندہ</string>
+    <string name="auto_usb_mode_chooser_summary">جب آلہ پی سی سے منسلک ہوتا ہے تو پاپ اپ USB موڈ چننے والا</string>
+    <!-- Vibrate on plugged -->
+    <string name="vibration_on_charge_state_changed_title">پلگ پر تھرتھراہٹ چلائیں</string>
+    <string name="vibration_on_charge_state_changed_summary">جب ڈیوائس پاور ذریعہ سے منسلک ہو تو اٌس کو ہلانا</string>
+    <!-- Recents deep clear -->
+    <string name="recents_deep_clear_title">گہری صفائی</string>
+    <string name="recents_deep_clear_summary">حالیہ منظر سے کام کو برخاست کرنے کے لیے برخاست کرنے کا آئیکن استعمال کرتے وقت پس منظر کا عمل صاف کریں۔ یہ غیر ارادی نتائج کی قیادت کر سکتا ہے. کچھ ایپس کام کرنا بند کر سکتی ہیں جب تک کہ آپ انہیں دوبارہ شروع نہ کریں۔</string>
+    <string name="qs_tile_title_visibility_title">ٹکڑی کا عنوان</string>
+    <string name="qs_tile_title_visibility_summary">ہر ٹکڑی کے نیچے عنوان دکھائیں۔</string>
+    <!-- Dark SysUI Theme -->
+    <string name="dark_theme_title">موضوع</string>
+    <string name="dark_theme_automatic">خودکار</string>
+    <string name="dark_theme_light">روشنی</string>
+    <string name="dark_theme_dark">گہرا</string>
+    <!-- Disable HW keys -->
+    <string name="hwkeys_disabled_title">HW کیز کو غیر فعال کریں۔</string>
+    <string name="hwkeys_disabled_summary">اس کو چالو کرنےپر نیویگیشن کے لئے ہارڈ ویئر کی چابیاں غیر فعال کرنی ہوگی</string>
+    <!-- Quick QS scroller -->
+    <string name="qqs_scroll_title">چھوٹی ٹکڑیاں فوری سکرول کریں۔</string>
+    <string name="qqs_scroll_summary">چھوٹے QS ٹائل کے ذریعہ اسکرول کرنے کی اجازت دیں</string>
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">ایڈوانس ری سٹارٹ</string>
+    <string name="advanced_reboot_summary">جب کھلا ہوتو، ریکوری یا بوٹ لوڈر میں دوبارہ شروع کرنے کیلئے پاور مینو میں اختیارات شامل ہیں</string>
+    <string name="advanced_reboot_secured_title">محفوظ لاک سکرین</string>
+    <string name="advanced_reboot_secured_summary">محفوظ لاک سکرین میں ہونے پر پاور مینو میں ایڈوانس ری سٹارٹ کے اختیارات شامل ہیں</string>
+    <!-- Allow lights in zen mode -->
+    <string name="zen_allow_lights">فعال کریں</string>
+    <string name="zen_allow_lights_summary">جب ڈسٹرب نہ کریں فعال ہو تو روشنی کو تیز کرنے کی اجازت دیں۔</string>
+    <string name="light_brightness_category">روشنی کی چمک کی ترتیبات</string>
+    <!-- Ambient Ticker -->
+    <string name="pulse_on_new_tracks_title">موسیقی ٹکر</string>
+    <string name="pulse_on_new_tracks_summary">نیا میوزک ٹریک چلنے پر ایمبیئنٹ ڈسپلے دکھائیں۔</string>
+    <!-- Face Auto Unlock -->
+    <string name="face_auto_unlock_title">چہرہ سے خودکار غیر مقفل کریں</string>
+    <string name="face_auto_unlock_summary">قابل اعتماد چہرہ کو تسلیم کرنے کے بعد خود کار طریقے سے لاک سکرین کو خالی کریں</string>
+    <string name="face_auto_unlock_not_available">مناسب فیس انلاک پیکیج دستیاب نہیں ہے۔</string>
+    <!-- Battery image -->
+    <string name="battery_image_title">بیٹری کی تصویر</string>
+    <string name="battery_image_summary">بیٹری کی تصویر دکھائیں۔</string>
+    <!-- Battery percent -->
+    <string name="battery_percent_title">بیٹری کی شرح فیصد</string>
+    <string name="battery_percent_stock">پہلے سے طے شدہ رویہ</string>
+    <string name="battery_percent_always">ہمیشہ دکھائیں</string>
+    <string name="battery_percent_never">کبھی ظاہر نہ کریں۔</string>
+    <string name="twilight_mode_location_dialog">مقام غیر فعال ہے۔</string>
+    <string name="twilight_mode_location_disabled">جگہ کی رسائی غیر فعال ہے</string>
+    <string name="twilight_mode_location_enable">فعال کرنا</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">فوری غیر مقفل</string>
+    <string name="unlock_quick_unlock_control_summary">صحیح پن / پاسورڈ داخل ہونے پر خود کار طریقے سے غیر فعال ہو جاتا ہے</string>
+    <string name="background_processes_settings_title">پس منظر کے عوامل</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">گوگل پلے</string>
+    <!-- Screen off animation -->
+    <string name="screen_off_animation_title">اسکرین آف اینیمیشن</string>
+    <string name="screen_off_animation_fade">سادہ دھندلا</string>
+    <string name="screen_off_animation_color">رنگ دھندلا</string>
+    <string name="screen_off_animation_crt">سی- آر- ٹی</string>
+    <string name="screen_off_animation_scale">پیمانہ</string>
+    <!-- System default animation -->
+    <string name="system_default_animation_title">اینڈرائیڈ پی اینیمیشن اسٹائل</string>
+    <string name="system_default_animation_summary">اینڈرائیڈ پی \"ڈیفالٹ\" اینیمیشنز کو فعال کریں۔</string>
+    <!-- Gestures -->
+    <string name="gestures_title">اشارے</string>
+    <string name="gestures_summary">اشارے کی ترتیبات کو حسب ضرورت بنائیں</string>
+    <string name="system_gestures_title">سسٹم کے اشارے</string>
+    <string name="system_gestures_summary">دیگر اشارے کی ترتیبات کو حسب ضرورت بنائیں</string>
+    <!-- Font picker -->
+    <string name="font_picker_title">فونٹ</string>
+    <string name="disable_fonts_installed_title">حسب ضرورت فونٹس غیر فعال ہیں۔</string>
+    <string name="font_picker_progress">نیا فونٹ لاگو کیا جا رہا ہے\u2026</string>
+    <!-- Ambient display battery percentage -->
+    <string name="ambient_battery_percent_title">بیٹری کی معلومات</string>
+    <string name="ambient_battery_percent_summary">سوتے وقت بیٹری کی موجودہ معلومات دکھائیں۔</string>
+    <!-- Wake And Unlock -->
+    <string name="fp_wake_and_unlock_title">فنگر پرنٹ کے زریعے فعال کرنا اور غیر مقفل کرنا</string>
+    <string name="fp_wake_and_unlock_summary">اسکرین آف ہونے یا ڈوز ہونے پر فنگر پرنٹ کا استعمال کرتے ہوئے آلہ کو غیر مقفل کرنے کی اجازت دیں۔</string>
+    <!-- Force disable transition animation -->
+    <string name="disable_transition_animations_title">منتقلی متحرک تصاویر کو غیر فعال کریں۔</string>
+    <string name="disable_transition_animations_summary">تمام منتقلی متحرک تصاویر کو زبردستی غیر فعال کریں۔</string>
+    <!-- Swipe FP to dismiss notifications -->
+    <string name="fp_swipe_to_dismiss_notifications_title">اطلاعات کو برخاست کرنے کے لیے فنگر پرنٹ کو بائیں یا دائیں سوائپ کریں۔</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">اپنی اطلاعات کو برخاست کرنے کے لیے، اپنے فون کے پیچھے فنگر پرنٹ سینسر پر بائیں یا دائیں سوائپ کریں۔</string>
+    <!-- Full screen aspect ratio -->
+    <string name="full_screen_aspect_ratio_title">پوری اسکرین کا پہلو تناسب</string>
+    <string name="full_screen_aspect_ratio_summary">ایپس کو فل سکرین اسپیکٹ ریشو استعمال کرنے پر مجبور کریں، نوٹ کریں کہ ہو سکتا ہے کچھ ایپس پوری سکرین میں ٹھیک سے کام نہ کریں۔</string>
+    <!-- QS Brightness Slider -->
+    <string name="qs_brightness_slider_show_never">کبھی نہ دکھائیں۔</string>
+    <string name="qs_brightness_slider_show_expanded">پھیلنے پر دکھائیں۔</string>
+    <string name="qs_brightness_slider_show_always">ہمیشہ دکھائیں</string>
+    <!-- QS Brightness Slider position -->
+    <string name="qs_brightness_slider_hide">چھپائیں</string>
+    <string name="qs_brightness_slider_top">اوپر</string>
+    <string name="qs_brightness_slider_bottom">پیندہ</string>
+    <!-- Notification channels -->
+    <string name="channel_light_settings_name">روشنی کی ترتیبات کا پیش نظارہ</string>
+    <!-- Notification light dialogs -->
+    <string name="edit_light_settings">روشنی کی ترتیبات میں ترمیم کریں۔</string>
+    <string name="pulse_speed_title">نبض کی لمبائی اور رفتار</string>
+    <string name="default_time">نارمل</string>
+    <string name="custom_time">اپنی مرضی کے مطابق</string>
+    <string name="brightness">چمک کی سطح</string>
+    <!-- Values for the notification light pulse spinners -->
+    <string name="pulse_length_always_on">ہمیشہ دکھائیں</string>
+    <string name="pulse_length_very_short">بہت مختصر</string>
+    <string name="pulse_length_short">مختصر</string>
+    <string name="pulse_length_normal">عام</string>
+    <string name="pulse_length_long">لمبی</string>
+    <string name="pulse_length_very_long">بہت طویل</string>
+    <string name="pulse_speed_very_fast">بہت تیز</string>
+    <string name="pulse_speed_fast">تیز</string>
+    <string name="pulse_speed_normal">عام</string>
+    <string name="pulse_speed_slow">سست</string>
+    <string name="pulse_speed_very_slow">بہت سست</string>
+    <!-- Common light settings strings -->
+    <string name="light_brightness_title">چمک کی سطح</string>
+    <string name="light_brightness_normal">عام</string>
+    <string name="light_brightness_zen">پریشان نہ کریں</string>
+    <!-- Battery light settings -->
+    <string name="battery_light_title">بیٹری کی لائیٹ</string>
+    <string name="battery_light_summary">بیٹری کی سطح اور حیثیت کی بنیاد پر ایل ای ڈی رنگ کو ترتیب دیں۔</string>
+    <string name="battery_low_pulse_title">بیٹری کم ہونے پر پلس کریں۔</string>
+    <string name="battery_light_full_charge_disabled_title">مکمل چارج ہو جانے پر بند کریں</string>
+    <string name="battery_light_list_title">رنگ</string>
+    <string name="battery_light_low_color_title">بیٹری کم ہے</string>
+    <string name="battery_light_medium_color_title">چارج ہو رہا ہے</string>
+    <string name="battery_light_full_color_title">تقریبا چارجڈ (&gt;90%)</string>
+    <string name="battery_light_really_full_color_title">مکمل چارجڈ (100%)</string>
+    <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_title">اطلاعاتی روشنی</string>
+    <string name="notification_light_summary">اطلاعات کے لیے ایل ای ڈی کا رنگ ترتیب دیں۔</string>
+    <string name="notification_light_general_title">عام</string>
+    <string name="notification_light_advanced_title">پیشرفته</string>
+    <string name="notification_light_applist_title">ایپس</string>
+    <string name="notification_light_phonelist_title">فون</string>
+    <string name="notification_light_use_custom">اپنی مرضی کے مطابق اقدار</string>
+    <string name="notification_light_default_value">معین شدہ</string>
+    <string name="notification_light_missed_call_title">مسڈ کالز</string>
+    <string name="notification_light_voicemail_title">صوتی میل</string>
+    <string name="notification_light_screen_on">اسکرین کے ساتھ لائٹس آن ہیں۔</string>
+    <string name="notification_light_zen_mode">تنگ نہ کرنے کے دوران روشنیاں</string>
+    <string name="keywords_lights_brightness_level">روشنایی Led کم</string>
+    <string name="notification_light_automagic">خودکار طور پر رنگ منتخب کریں</string>
+    <string name="notification_light_automagic_summary">خودکار طور پر رنگ منتخب کرنا</string>
+    <string name="notification_light_override">تمام ایپس کو اوور رائیڈ کریں۔</string>
+    <!-- Lights settings, LED notification -->
+    <string name="led_notification_title">روشنی کی ترتیبات</string>
+    <string name="led_notification_text">ایل ای ڈی لائٹ سیٹنگز کے ذریعے فعال ہے۔</string>
+    <string name="notification_light_no_apps_summary">فی ایپ کنٹرول شامل کرنے کے لیے، \'%1$s\' کو فعال کریں اور مینو بار پر \'\u002b\' دبائیں</string>
+    <!-- Substratum -->
+    <string name="substratum_title">سبسٹریٹم</string>
+    <string name="themes_title">موضوع</string>
+    <string name="themes_summary">اپنے تھیمز کا نظم کریں۔</string>
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">ہر تھیم ایپ کو زبردستی اجازت دیں۔</string>
+    <string name="force_authorize_substratum_packages_summary">نامعلوم ذرائع سے تھیم ایپس کی اجازت دیں۔</string>
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">سبسٹریٹم اوورلیز</string>
+    <string name="menu_show_substratum">اوورلیز دکھائیں۔</string>
+    <string name="menu_hide_substratum">اوورلیز چھپائیں۔</string>
+    <!-- Lockscreen clock -->
+    <string name="lockscreen_clock_selection_title">گھڑی طرز</string>
+    <string name="lockscreen_clock_selection_hidden">پوشیدہ</string>
+    <string name="lockscreen_clock_selection_digital">ڈیجیٹل</string>
+    <string name="lockscreen_clock_selection_digital_bold">ڈیجیٹل (بولڈ)</string>
+    <string name="lockscreen_clock_selection_digital_accent">ڈیجیٹل (لہجہ)</string>
+    <string name="lockscreen_clock_selection_digital_accent_hour">ڈیجیٹل (لہجہ - گھنٹہ)</string>
+    <string name="lockscreen_clock_selection_digital_accent_min">ڈیجیٹل (لہجہ - منٹ)</string>
+    <string name="lockscreen_clock_selection_sammy">سامی</string>
+    <string name="lockscreen_clock_selection_sammy_bold">سامی (بولڈ)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">سامی (لہجہ)</string>
+    <string name="lockscreen_clock_selection_sammy_accent_dark">سیمی (سیاہ - لہجہ)</string>
+    <string name="lockscreen_clock_selection_analog">قیاسی</string>
+    <string name="lockscreen_clock_selection_analog_dark">قیاسی (گہرہ)</string>
+    <string name="lockscreen_clock_selection_analog_deadpool">Deadpool</string>
+    <string name="lockscreen_clock_selection_analog_spidey">Spidey</string>
+    <string name="lockscreen_clock_selection_analog_dot">Dot</string>
+    <string name="lockscreen_clock_selection_analog_spectrum">Spectrum</string>
+    <string name="lockscreen_clock_selection_analog_sneeky">Sneeky</string>
+    <string name="lockscreen_clock_selection_qstyle">Q سٹائل</string>
+    <string name="lockscreen_clock_selection_qstyle_accent">Q انداز (لہجہ)</string>
+    <string name="lockscreen_date_selection_title">تاریخ کی طرز</string>
+    <string name="lockscreen_date_selection_default">معین شدہ</string>
+    <string name="lockscreen_date_selection_default_big">پہلے سے طے شدہ (بڑا)</string>
+    <string name="lockscreen_date_selection_str_box">نیم شفاف خانہ</string>
+    <string name="lockscreen_date_selection_str_round">نیم شفاف خانہ (گول)</string>
+    <!-- Edge gestures -->
+    <string name="edge_gestures_title">کنارے کے اشارے</string>
+    <string name="edge_gestures_summary">کنارے کے اشاروں کا استعمال کرتے ہوئے نیویگیٹ کریں۔</string>
+    <string name="edge_gestures_description">ہوم ایکشن کو متحرک کرنے کے لیے اسکرین کے نیچے سے سوائپ کریں، حالیہ اسکرین کو کھولنے کے لیے اسے دبائے رکھیں۔ واپس جانے کے لیے بائیں یا دائیں سے سوائپ کریں۔</string>
+    <string name="edge_gestures_feedback_duration_title">ہیپٹک فیڈ بیک کا دورانیہ</string>
+    <string name="edge_gestures_long_press_delay_title">طویل پریس ایکشن شروع ہونے تک تاخیر کریں۔</string>
+    <string name="edge_gestures_back_category_title">پیچھے کا اشارہ</string>
+    <string name="edge_gestures_back_edges_title">سے پیچھے کا اشارہ ٹرگر کریں۔</string>
+    <string name="edge_gestures_landscape_back_edges_title">سے زمین کی تزئین پر پیچھے کے اشارے کو متحرک کریں۔</string>
+    <string name="edge_gestures_back_screen_percent_title">پیچھے کا اشارہ اسکرین کے اس فیصد سے نیچے شروع ہونا چاہیے۔</string>
+    <string name="edge_gestures_back_screen_percent_summary">اسکرین کے % سے نیچے ٹرگر کریں۔</string>
+    <string name="edge_gestures_back_edges_left">بائیں</string>
+    <string name="edge_gestures_back_edges_right">دائیں</string>
+    <string name="edge_gestures_back_edges_both">دونوں اطراف</string>
+    <string name="edge_gestures_back_show_ui_feedback_title">پیچھے کے اشارے کی حرکت پذیری۔</string>
+    <string name="edge_gestures_back_show_ui_feedback_summary">جب پیچھے کا اشارہ استعمال کیا جائے تو کناروں پر متحرک تاثرات دکھائیں۔</string>
+    <!-- EdgeGesture service -->
+    <string name="edge_gesture_service_title">اشارہ ٹچ ایونٹس کو مسدود کریں۔</string>
+    <string name="edge_gesture_service_summary">ایپس کو نیویگیشن اور اسٹیٹس بار کے اشاروں کے لیے ٹچ ایونٹس نہ بھیجیں۔</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_warning_text">Smart pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see improvement in battery life.</string>
+    <string name="smart_pixels_title">اسمارٹ پکسلز</string>
+    <string name="smart_pixels_summary">اضافی پکسلز کو بند کرکے بیٹری بچائیں۔</string>
+    <string name="smart_pixels_enable_title">اسمارٹ پکسلز کو فعال کریں۔</string>
+    <string name="smart_pixels_enable_summary">بجلی کی کھپت کو کم کرنے کے لیے پکسلز کو بند کریں۔</string>
+    <string name="smart_pixels_on_power_save_title">بیٹری سیور پر خودکار طور پر فعال کریں۔</string>
+    <string name="smart_pixels_on_power_save_summary">بیٹری سیور فعال ہونے پر اسمارٹ پکسلز کو فعال کریں۔</string>
+    <string name="smart_pixels_percent">غیر فعال کرنے کے لیے پکسلز کا فیصد</string>
+    <string name="smart_pixels_shift_title">برن ان تحفظ</string>
+    <string name="smart_pixels_shift_summary">OLED ڈیوائسز پر بار بار پکسلز شفٹ کر کے برن ان کو روکتا ہے۔</string>
+    <!-- Carbon gestures -->
+    <string name="carbon_gesture_preference_title">کاربن کے اشارے</string>
+    <string name="carbon_gestures_summary">اپنی مرضی کے عالمی اشاروں کو ترتیب دیں۔</string>
+    <string name="carbon_gestures_fingers_title">اشارے کے لیے استعمال ہونے والی انگلیاں (پہلے سے طے شدہ 2)</string>
+    <string name="carbon_gestures_fingers_unit">انگلیاں</string>
+    <string name="carbon_gestures_right_title">دائیاں اشارہ</string>
+    <string name="carbon_gestures_left_title">بائیں اشارہ</string>
+    <string name="carbon_gestures_up_title">اوپر کا اشارہ</string>
+    <string name="carbon_gestures_down_title">نیچے کا اشارہ</string>
+    <string name="carbon_gesture_disabled">غیرفعال کردہ</string>
+    <string name="carbon_gesture_back">واپس</string>
+    <string name="carbon_gesture_home">گھر</string>
+    <string name="carbon_gesture_recents">حالیہ</string>
+    <string name="carbon_gesture_power">طاقت</string>
+    <string name="carbon_gesture_volume_down">آواز کم کرنا</string>
+    <string name="carbon_gesture_volume_up">آواز زیادہ کریں</string>
+    <string name="carbon_gesture_volume_mute">والیوم خاموش کریں۔</string>
+    <string name="carbon_gesture_screenshot">سکرین کی تصویر</string>
+    <string name="carbon_gesture_media_play_pause">میڈیا چلائیں/روکیں۔</string>
+    <string name="carbon_gesture_media_skip">میڈیا کو چھوڑیں۔</string>
+    <string name="carbon_gesture_media_previous">سابقہ ​​میڈیا</string>
+    <string name="carbon_gesture_customapp">ایپلیکیشن لانچ کریں۔</string>
+    <string name="carbon_gesture_launch">لانچ کریں</string>
+    <!-- OmniGesture -->
+    <string name="use_bottom_gesture_title">سوائپ اپ اشارے</string>
+    <string name="use_bottom_gesture_summary">نیویگیشن کو کنٹرول کرنے کے لیے اسکرین کے نیچے اشاروں کا استعمال کریں۔</string>
+    <string name="use_bottom_gesture_info">پیچھے\n- بائیں یا دائیں طرف سوائپ کریں\n\nہوم\n- اوپر مرکز کو سوائپ کریں\n\nحالیہ ایپس\n- اوپر سوائپ کریں اور ہولڈ کریں\n\nگھر کو دیر تک دبائیں\n- اوپر مختصر سوائپ کریں اور دبائے رکھیں مرکز\n\nنیویگیشن بار کے غیر فعال ہونے کے ساتھ بہترین کام کرتا ہے۔</string>
+    <!-- Recents style -->
+    <string name="recents_style_title">حالیہ انداز</string>
+    <string name="recents_style_quickstep">گام سریع</string>
+    <string name="recents_style_aosp">اے-او-ایس-پی</string>
+    <string name="device_restart_required">تبدیلیاں لاگو کرنے کے لیے اپنا موبائل بند کر کہ دوبارہ چلائیں۔</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">مقدار: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">معین شدہ</string>
+    <string name="custom_seekbar_default_value_to_set">معین شدہ مقدار: <xliff:g id="v">%s</xliff:g>\nسیٹ کرنے کے لیے دیر تک تھپتھپائیں</string>
+    <string name="custom_seekbar_default_value_is_set">پہلے سے طے شدہ وزن مقرر کیا گیا ہے</string>
+    <!-- Blink flashlight for incoming calls -->
+    <string name="flashlight_on_call_title">کال پر ٹارچ پلک جھپکائیں۔</string>
+    <string name="flashlight_on_call_disabled">غیرفعال کردہ</string>
+    <string name="flashlight_on_call_not_dnd">صرف خاموش موڈ میں</string>
+    <string name="flashlight_on_call_dnd">صرف DND موڈ میں</string>
+    <string name="flashlight_on_call_always">ہمیشہ</string>
+    <!-- Themes -->
+    <string name="style_title">انداز</string>
+    <string name="style_summary">سسٹم کے رنگ اور طرز کا انتخاب کریں۔</string>
+    <string name="style_dark_theme_title">سیاہ تھیم</string>
+    <string name="style_dark_theme_automatic">خودکار (وال پیپر)</string>
+    <string name="style_dark_theme_disabled">غیرفعال کردہ</string>
+    <string name="style_dark_theme_enabled">فعال بنا دیا گیا</string>
+    <string name="style_dark_theme_livedisplay">خودکار (لائیو ڈسپلے)</string>
+    <string name="accent_picker_dialog_title">لہجے کا رنگ منتخب کریں۔</string>
+    <string name="theme_accent_picker_title">لہجے کا رنگ</string>
+    <string name="theme_accent_picker_summary">سسٹم تھیم کے لہجے کا رنگ منتخب کریں۔</string>
+    <string name="theme_accent_picker_default">معین شدہ</string>
+    <string name="accent_picker_material_colors">مواد پیلیٹ</string>
+    <string name="accent_picker_custom_colors">صارف کی درخواست</string>
+    <string name="accent_picker_brand_colors">برانڈ کے رنگ</string>
+    <string name="style_dark_overlay_title">ڈارک موڈ</string>
+    <string name="style_dark_overlay_default">گہرا گرے</string>
+    <string name="style_dark_overlay_charcoal_black">چارکول سیاہ</string>
+    <string name="style_dark_overlay_amoled_black">امولڈ بلیک</string>
+    <string name="style_notification_title">اطلاع اسٹائل</string>
+    <string name="style_notification_auto">خودکار (سسٹم موضوعہ)</string>
+    <string name="style_notification_light">روشنی</string>
+    <string name="style_notification_dark">گہرا گرے</string>
+    <string name="style_notification_black">امولڈ بلیک</string>
+    <string name="style_and_wallpaper_title">طرزیں &amp; وال پیپر</string>
+    <string name="style_and_wallpaper_summary">لہجے کا رنگ، کلاک انٹرفیس اور بہت کچھ منتخب کریں۔</string>
+    <!-- Audio Panel view  -->
+    <string name="audio_panel_view_title">والیوم پینل</string>
+    <string name="audio_panel_view_summary">والیوم پینل ڈائیلاگ کو حسب ضرورت بنائیں</string>
+    <string name="audio_panel_view_info">یہاں غیر فعال ہونے پر بھی فعال والیوم اسٹریم اسکرین پر ظاہر ہوگا۔ یہاں فعال والیوم اسٹریمز کو زبردستی دکھایا جائے گا۔</string>
+    <string name="audio_panel_view_media_title">میڈیا</string>
+    <string name="audio_panel_view_ringer_title">رِنگ</string>
+    <string name="audio_panel_view_notification_title">اطلاعات</string>
+    <string name="audio_panel_view_notification_disabled">انگوٹی &amp; نوٹیفکیشن والیوم منسلک ہیں۔</string>
+    <string name="audio_panel_view_alarm_title">الارم</string>
+    <string name="audio_panel_view_voice_title">آواز</string>
+    <string name="audio_panel_view_bt_sco_title">بلوٹوتھ</string>
+    <string name="audio_panel_view_position_title">والیوم پینل بائیں طرف</string>
+    <string name="audio_panel_view_timeout_title">والیوم پینل کا ٹائم آؤٹ</string>
+    <!-- Weather -->
+    <string name="weather_unit">درجہ حرارت کی اکائی</string>
+    <string name="weather_client_not_available">موسم کا کلائنٹ دستیاب نہیں ہے۔</string>
+    <!-- Rounded corners -->
+    <string name="corners_title">گول کنارے</string>
+    <string name="corners_summary">اپنی مرضی کے مطابق گول کونے</string>
+    <string name="corner_radius">اسکرین کے لیے گول کونے کا رداس</string>
+    <string name="content_padding">کونے کے مواد کی پیڈنگ</string>
+    <string name="status_bar_padding">اسٹیٹس بار اضافی پیڈنگ</string>
+    <string name="corner_fwvals">پہلے سے طے شدہ اقدار کا استعمال کریں۔</string>
+    <!-- QS tile styles -->
+    <string name="qs_tile_style_title">فوری ترتیبات ٹائل سٹائل</string>
+    <string name="qstile_default">معین شدہ</string>
+    <string name="qstile_circle_gradient">دائرہ (گریڈینٹ)</string>
+    <string name="qstile_circle_trim">دائرہ (ٹرم)</string>
+    <string name="qstile_cookie">کوکیز</string>
+    <string name="qstile_cosmos">کاسموس</string>
+    <string name="qstile_dottedcircle">دانے دار دائرہ</string>
+    <string name="qstile_circle_dualtone">ڈوئل ٹونڈ سرکل</string>
+    <string name="qstile_divided_circle">منقسم حلقہ</string>
+    <string name="qstile_dual_tone_circle">ڈوئل ٹونڈ سرکل (ٹرم)</string>
+    <string name="qstile_ink">سیاہی</string>
+    <string name="qstile_inkdrop">انک ڈراپ</string>
+    <string name="qstile_just_icons">صرف شبیہیں</string>
+    <string name="qstile_mountain">پہاڑ</string>
+    <string name="qstile_ninja">ننجا</string>
+    <string name="qstile_oreo">Oreo</string>
+    <string name="qstile_oreo_circle_trim">Oreo (سرکل ٹرم)</string>
+    <string name="qstile_squaremedo">اسکوائر میڈو</string>
+    <string name="qstile_squircle">چار کونی دائرہ</string>
+    <string name="qstile_neon_like">نیین لائیک</string>
+    <string name="qstile_oos">آکسیجن او ایس</string>
+    <string name="qstile_oreo_squircle_trim">Oreo (سرکل ٹرم)</string>
+    <string name="qstile_pokesign">پوکیسائن</string>
+    <string name="qstile_squircle_trim">چار کونی دائرہ (ٹرم)</string>
+    <string name="qstile_teardrop">آنسو</string>
+    <string name="qstile_triangle">مثلث</string>
+    <string name="qstile_wavey">موجی</string>
+    <!-- QS header styles -->
+    <string name="qs_header_style_title">فوری ترتیبات ہیڈر اسٹائل</string>
+    <string name="qs_header_default">معین شدہ</string>
+    <string name="qs_header_grey">مٹیالا</string>
+    <string name="qs_header_lightgrey">ہلکا مٹیالا</string>
+    <string name="qs_header_accent">لہجے کی بنیاد پر</string>
+    <string name="qs_header_transparent">شفافیت</string>
+    <!-- Switch styles -->
+    <string name="switch_style_title">ترجیحی سوئچ اسٹائل</string>
+    <string name="switch_default">معین شدہ</string>
+    <string name="switch_md2">میٹریل ڈیزائن 2</string>
+    <string name="switch_oneplus">ون پلس</string>
+    <string name="switch_narrow">تنگ</string>
+    <string name="switch_contained">مشمول</string>
+    <string name="switch_retro">ریٹرو</string>
+    <string name="switch_stockish">ذخیرہ اندوز</string>
+    <string name="switch_telegram">ٹیلیگرام</string>
+    <!-- Rounded styles -->
+    <string name="rounded_style_title">سسٹم ڈائیلاگ کے لیے گول طرز</string>
+    <string name="rounded_default">معین شدہ</string>
+    <string name="rounded_none">کوئی بھی نہیں</string>
+    <string name="rounded_slight">معمولی</string>
+    <string name="rounded_medium">درمیانہ</string>
+    <string name="rounded_high">زیادہ</string>
+    <string name="rounded_extreme">انتہائی</string>
+    <!-- Signal / WiFi styles -->
+    <string name="signal_style_title">سگنل بار اسٹائل</string>
+    <string name="signal_style_summary">حسب ضرورت سگنل آئیکن اسٹائل سیٹ کریں۔</string>
+    <string name="wifi_style_title">WiFi آیکن کی شکل</string>
+    <string name="wifi_style_summary">اپنی مرضی کے مطابق وائی فائی آئیکن اسٹائل اختیارکریں۔</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">اعدادوشمار کو دوبارہ ترتیب دیں۔</string>
+    <string name="battery_stats_message">یہ بیٹری کی تاریخ کے اعدادوشمار کو دوبارہ ترتیب دے گا۔ کیا آپ جاری رکھنا چاہیں گے؟</string>
+    <!-- Units -->
+    <string name="unit_seconds">سیکنڈز</string>
+    <string name="unit_milliseconds">ملی سیکنڈ</string>
+    <string name="unit_pixels">ڈی پی</string>
+    <!-- Thermal control -->
+    <string name="thermal_controller">تھرمل کنٹرولر</string>
+    <string name="thermal_control_per_app">تھرمل پروفائل</string>
+    <string name="thermal_control_per_app_default">کوئی بھی نہیں</string>
+    <string name="thermal_control_per_app_benchmark">کارکردگی</string>
+    <string name="thermal_control_per_app_games">گیمز</string>
+    <string name="thermal_control_per_app_browser">براؤزر</string>
+    <string name="thermal_control_per_app_video_playback">ویڈیو پلے بیک</string>
+    <string name="thermal_control_per_app_dialer">ڈائلر</string>
+    <string name="thermal_control_per_app_camera">کیمرا</string>
+    <!-- QS clock -->
+    <string name="qs_clock_title">گھڑی</string>
+    <string name="qs_clock_summary">فوری اسٹیٹس بار ہیڈر میں گھڑی دکھائیں۔</string>
+    <!-- Full gesture mode -->
+    <string name="full_gesture_mode_title">مکمل اشارہ موڈ کو فعال کریں۔</string>
+    <string name="full_gesture_mode_summary">یہ موڈ بیک بٹن کو غیر فعال کر دیتا ہے اور آپ نیوبار پر بائیں سوائپ کے ذریعے بیک بٹن ایکشن کو متحرک کر سکتے ہیں۔ دائیں سوائپ اب بھی آخری ایپ اور اوور ویو ایپس کی اسکرولنگ کو متحرک کرتی ہے۔ گھر جانے کے لیے آپ کسی بھی نیوبار خالی جگہ پر ٹیپ کر سکتے ہیں، نہ صرف ہوم بٹن۔ جب کی بورڈ دکھائی دے رہا ہو تو ٹیکسٹ کرسر کو منتقل کرنے کے لیے navbar پر دیر تک دبائیں۔</string>
+    <string name="full_gesture_mode_dt2s_title">سونے کے لیے ڈبل تھپتھپائیں کو فعال کریں۔</string>
+    <string name="full_gesture_mode_dt2s_summary">اسکرین کو بند کرنے کے لیے خالی نیوبار اسپیس پر ٹیپ کریں لیکن ہوم بٹن پر نہیں۔</string>
+    <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">فوٹر الرٹس</string>
+    <string name="qs_footer_warnings_summary">جب نیٹ ورک کو بیرونی ایپس یا VPN کے ذریعے مانیٹر کیا جاتا ہے تو QS پینل کے نیچے ایک الرٹ دکھائیں</string>
+    <!-- QS footer icons -->
+    <string name="qs_footer_users_icon_title">صارف اکاؤنٹ کا آئیکن</string>
+    <string name="qs_footer_users_icon_summary">دستیاب ہونے پر ملٹی یوزر ایکسیسبیلٹی آئیکن دکھائیں۔</string>
+    <string name="qs_footer_edit_icon_title">ٹائل کے آئیکن میں ترمیم کریں۔</string>
+    <string name="qs_footer_edit_icon_summary">ٹائلوں میں ترمیم کا آئیکن دکھائیں۔</string>
+    <string name="qs_footer_services_icon_title">خدمات کا شارٹ کٹ چل رہا ہے۔</string>
+    <string name="qs_footer_services_icon_summary">خدمات کا شارٹ کٹ چل رہا ہے۔</string>
+    <string name="qs_footer_settings_icon_title">ترتیبات کا شارٹ کٹ</string>
+    <string name="qs_footer_settings_icon_summary">ڈسپلے سیٹنگز ایپ شارٹ کٹ</string>
+    <!-- Old mobiletype icon style -->
+    <string name="old_mobiletype_title">پرانے طرز کا سگنل آئیکن</string>
+    <string name="old_mobiletype_summary">سگنل اور سگنل کی قسم کی شبیہیں ضم کریں۔</string>
+    <string name="battery_charging">چارج ہو رہا ہے</string>
+    <string name="battery_discharging">ڈسچارجنگ</string>
+    <!-- Menu option to do WPS Push Button [CHAR LIMIT=25]-->
+    <string name="wifi_menu_wps_pbc">‏WPS پش بٹن</string>
+    <!-- Menu option to do WPS Pin Entry [CHAR LIMIT=25]-->
+    <string name="wifi_menu_wps_pin">WPS PIN اندراج</string>
+    <!-- Title for the WPS setup dialog [CHAR LIMIT=50] -->
+    <string name="wifi_wps_setup_title">وائی-فائی تحفظ شدہ سیٹ اپ</string>
+    <!-- Message in WPS dialog at start up [CHAR LIMIT=150] -->
+    <string name="wifi_wps_setup_msg">شروع WPS\u2026</string>
+    <!-- Message in WPS dialog for PBC after start up [CHAR LIMIT=150] -->
+    <string name="wifi_wps_onstart_pbc">دکمه Wi\u2011Protected Setup را روی روتر خود فشار دهید. ممکن است به نام \u201cWPS\u201d یا با این نماد مشخص شود:</string>
+    <!-- Message in WPS dialog for PIN after start up [CHAR LIMIT=150] -->
+    <string name="wifi_wps_onstart_pin">پین <xliff:g id="number">%1$s</xliff:g> را در روتر Wi\u2011 خود وارد کنید. تکمیل تنظیم ممکن است تا دو دقیقه طول بکشد.</string>
+    <!-- Text displayed when WPS succeeds [CHAR LIMIT=150] -->
+    <string name="wifi_wps_complete">WPS موفق شد. در حال اتصال به شبکه\u2026</string>
+    <!-- Text displayed when Wi-Fi is connected through WPS [CHAR LIMIT=150] -->
+    <string name="wifi_wps_connected">Wi\u2011Fi نیٹ ورک سے منسلک ہے <xliff:g id="network_name">%s</xliff:g></string>
+    <!-- Text displayed when WPS setup is in progress [CHAR LIMIT=150] -->
+    <string name="wifi_wps_in_progress">‏WPS پہلے سے ہی پیشرفت کے مرحلے میں ہے اور اسے مکمل ہونے میں دو منٹ تک لگ سکتے ہیں</string>
+    <!-- Text displayed when WPS fails to start [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_generic">‏WPS ناکام ہوگیا۔ براہ کرم چند منٹ میں دوبارہ کوشش کریں۔</string>
+    <!-- Text displayed when WPS fails due to WEP [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_wep">وائرلیس روٹر سیکیورٹی سیٹنگ (WEP) تعاون یافتہ نہیں ہے۔</string>
+    <!-- Text displayed when WPS fails to TKIP [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_tkip">وائرلیس روٹر سیکیورٹی سیٹنگ (TKIP) تعاون یافتہ نہیں ہے۔</string>
+    <!-- Text displayed when WPS fails due to authentication issues [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_auth">تصدیق ناکامی. دوبارہ کوشش کریں.</string>
+    <!-- Text displayed when WPS fails due to another session [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_overlap">ایک اور WPS سیشن کا پتہ چلا۔ براہ کرم چند منٹوں میں دوبارہ کوشش کریں۔</string>
+    <!-- Text displayed when WPS fails due to wifi disconnected [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_wifi_disconnected">Wi\u2011Fi منقطع ہو گیا۔ WPS سیٹ اپ منسوخ ہو گیا۔</string>
+    <!-- Display cutout options -->
+    <string name="cutout_main">کٹ آؤٹ ڈسپلے کریں۔</string>
+    <string name="cutout_main_summary">نشان کی ترتیبات کو حسب ضرورت بنائیں</string>
+    <string name="display_cutout_style_title">کٹ آؤٹ اسٹائل</string>
+    <string name="display_cutout_style_normal">عام</string>
+    <string name="display_cutout_style_immerse">غرق کرنا</string>
+    <string name="display_cutout_style_hide">چھپائیں</string>
+    <string name="stock_statusbar_in_hide">اسٹاک اسٹیٹس بار کی اونچائی</string>
+    <string name="stock_statusbar_in_hide_summary">Hide میں ڈیفالٹ اسٹیٹس بار کی اونچائی کا استعمال کریں۔</string>
+    <string name="display_kill_notch_title">نشان کو مار ڈالو</string>
+    <string name="display_kill_notch_summary">فل سکرین ایپس کے لیے نشان کو مکمل طور پر ختم کریں۔</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">فل سکرین ایپس</string>
+    <string name="display_cutout_force_fullscreen_summary">ایپس کو نوچ اسپیس کو نظر انداز کرنے پر مجبور کریں۔</string>
+    <!-- Lockscreen album art filter -->
+    <string name="lockscreen_albumart_filter_title">میڈیا کور آرٹ فلٹر</string>
+    <string name="lockscreen_albumart_filter_none">کوئی بھی نہیں</string>
+    <string name="lockscreen_albumart_filter_grayscale">گرے سکیل</string>
+    <string name="lockscreen_albumart_filter_tint">لہجہ رنگا ہوا</string>
+    <string name="lockscreen_albumart_filter_blur">دھندلا پن</string>
+    <string name="lockscreen_albumart_filter_grayblur">خاکستری اور دھندلا</string>
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">شور مچانے والی اطلاعات</string>
+    <string name="notification_sound_vib_screen_on_summary">اسکرین آن ہونے پر اطلاعات کے لیے آواز اور تھرتھراہٹ چلائیں۔</string>
+    <!-- Keyboard and IME  -->
+    <string name="ime_settings_title">کی بورڈ کی ترتیبات</string>
+    <string name="ime_settings_summary">کی بورڈ کی جدید ترتیبات کو حسب ضرورت بنائیں</string>
+    <string name="ime_switcher_notification_title">IME سلیکٹر کی اطلاع</string>
+    <string name="ime_switcher_notification_summary">نوٹیفکیشن میں ان پٹ میتھڈ سلیکٹر ڈسپلے کریں۔</string>
+    <string name="ime_fullscreen_title">فل سکرین کی بورڈ</string>
+    <string name="ime_fullscreen_summary">کی بورڈ کو زمین کی تزئین میں پوری اسکرین لینے کی اجازت دیں۔</string>
+    <string name="ime_show_enter_key_title">انٹر کلید دکھائیں۔</string>
+    <string name="ime_show_enter_key_summary">ایموٹیکن کلید کے بجائے کی بورڈ کو انٹر دکھانے پر مجبور کریں۔</string>
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">چارجنگ کی حرکات</string>
+    <string name="lockscreen_charging_animation_flash">فلیش</string>
+    <string name="lockscreen_charging_animation_battery">بیٹری</string>
+    <string name="lockscreen_charging_animation_drop">گراؤ</string>
+    <string name="lockscreen_charging_animation_explosion">دھماکہ</string>
+    <string name="lockscreen_charging_animation_water">پانی</string>
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">گیمنگ موڈ</string>
+    <string name="gaming_mode_summary">گیمنگ موڈ کی ترجیحات کو حسب ضرورت بنائیں</string>
+    <string name="gaming_mode_enabled_summary">گیمنگ موڈ کو آن کرنے کی اجازت دیں۔</string>
+    <string name="gaming_mode_app_picker_title">ان ایپس کے لیے خودکار طور پر آن کریں۔</string>
+    <string name="add_gaming_mode_package_title">گیمنگ موڈ کے لیے ایپس شامل کریں۔</string>
+    <string name="add_gaming_mode_package_summary">جب یہ ایپس کھلیں گی تو گیمنگ موڈ خود بخود آن ہو جائے گا اور بند ہونے پر آف ہو جائے گا۔</string>
+    <string name="gaming_mode_headsup_title">اطلاعات کو مسدود کریں۔</string>
+    <string name="gaming_mode_headsup_summary">کالز اور الارم مستثنیٰ ہیں۔</string>
+    <string name="gaming_mode_hardware_keys_title">واپسی بٹن</string>
+    <string name="gaming_mode_hardware_keys_summary">گیمنگ موڈ آن ہونے پر، بٹن مقفل ہو جائیں گے۔</string>
+    <string name="gaming_mode_adb_title">USB ڈیبگنگ کو غیر فعال کریں۔</string>
+    <string name="gaming_mode_adb_summary">گیمنگ موڈ آن ہونے پر USB ڈیبگنگ کو غیر فعال کریں۔</string>
+    <string name="gaming_mode_brightness_title">خودکار چمک کو غیر فعال کریں۔</string>
+    <string name="gaming_mode_brightness_summary">گیمنگ موڈ آن ہونے پر اسکرین کی چمک کو لاک کریں۔</string>
+    <string name="gaming_mode_ringer_title">گیمنگ موڈ میں رنگر</string>
+    <string name="gaming_mode_ringer_off_title">چارج نہ کریں</string>
+    <string name="gaming_mode_ringer_vibrate_title">تھرتھراہٹ</string>
+    <string name="gaming_mode_ringer_dnd_title">پریشان نہ کریں</string>
+    <string name="gaming_mode_ringer_silent_title">خاموش</string>
+    <string name="gaming_mode_notifications_title">گیمنگ موڈ کا اشارہ</string>
+    <string name="gaming_mode_notifications_off_title">غیرفعال کردہ</string>
+    <string name="gaming_mode_notifications_notif_title">اطلاع دکھائیں۔</string>
+    <string name="gaming_mode_notifications_toast_title">ٹوسٹ دکھائیں</string>
+    <string name="gaming_mode_notifications_all_title">ٹوسٹ اور اطلاع دکھائیں۔</string>
+    <string name="gaming_mode_dynamic_title">متحرک موڈ</string>
+    <string name="gaming_mode_dynamic_summary">خودکار طور پر گیمنگ ایپس کا پتہ لگانے اور شامل کرنے کی کوشش کریں۔</string>
+    <!-- Data disabled indicator -->
+    <string name="data_disabled_icon_title">ڈیٹا غیر فعال اشارے</string>
+    <string name="data_disabled_icon_summary">ڈیٹا غیر فعال ہونے پر سگنل آئیکن کے آگے کراس کا نشان دکھائیں۔</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">کم بورنگ</string>
+    <string name="less_boring_heads_up_summary">صرف الارم، ڈائلر اور میسجنگ ایپ کے لیے پاپ اپ اطلاعات دکھائیں۔</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">جارحانہ بیٹری</string>
+    <string name="aggressive_battery_summary">زیادہ سخت بیٹری کی بچت</string>
+    <string name="aggressive_battery_warning_text">یہ بجلی کی بچت کی خصوصیات ہیں۔ وہ ان سروسز میں مداخلت کر سکتے ہیں جن کا مقصد نیویگیشن ایپس جیسی بیکار پر چلنا ہے۔ آپ ایپ کی بیٹری کی ترتیبات میں ان ایپس کو متاثر ہونے سے وائٹ لسٹ کر سکتے ہیں۔</string>
+    <string name="aggressive_idle_title">جارحانہ بیکار</string>
+    <string name="aggressive_idle_summary">آلے کو زیادہ کثرت سے بیکار داخل کریں اور کم جاگیں۔</string>
+    <string name="aggressive_standby_title">جارحانہ اسٹینڈ بائی</string>
+    <string name="aggressive_standby_summary">ایپس کو پس منظر چلانے سے روکیں۔</string>
+    <string name="aggressive_battery_saver_title">بیٹری سیور پر خودکار طور پر فعال کریں۔</string>
+    <string name="aggressive_battery_saver_summary">بیٹری سیور کا استعمال کرتے وقت خود بخود جارحانہ بیٹری کو فعال کریں۔</string>
+    <!-- Battery estimate -->
+    <string name="battery_estimate_title">بیٹری کا تخمینہ</string>
+    <string name="battery_estimate_summary">دستیاب ہونے پر بیٹری کی بقایا زندگی کا تخمینہ دکھائیں۔</string>
+    <!-- Refresh rate -->
+    <string name="default_refresh_rate_title">ڈیفالٹ ریفریش ریٹ</string>
+    <string name="peak_refresh_rate_title_custom">چوٹی ریفریش کی شرح</string>
+    <string name="battery_saver_refresh_rate_title">ریفریش کی شرح کو کم کریں۔</string>
+    <string name="battery_saver_refresh_rate_summary">بیٹری سیور موڈ میں پاور بچانے کے لیے زیادہ سے زیادہ ریفریش ریٹ کے طور پر 60Hz استعمال کریں۔</string>
+    <!-- Ambient edge lighting -->
+    <string name="pulse_ambient_light_title">ایج لائٹنگ</string>
+    <string name="pulse_ambient_light_summary">نوٹیفکیشن پلس پر اسکرین کے سائیڈ کناروں کو روشن کریں۔</string>
+    <string name="pulse_ambient_light_color_title">کنارے کا ہلکا رنگ</string>
+    <string name="pulse_ambient_light_duration_title">کنارے کی روشنی کا دورانیہ</string>
+    <string name="pulse_ambient_light_duration_summary">ایمبیئنٹ لائٹ اینیمیشن کا دورانیہ سیٹ کرتا ہے۔</string>
+    <string name="pulse_ambient_light_layout_title">کنارے کی روشنی کا نظارہ</string>
+    <string name="pulse_ambient_light_layout_solid">ٹھوس</string>
+    <string name="pulse_ambient_light_layout_faded">مدھم</string>
+    <!-- QS battery -->
+    <string name="qs_battery_location_title">بیٹری کا مقام</string>
+    <string name="qs_battery_location_qs_panel">کیو ایس پینل</string>
+    <string name="qs_battery_location_qs_statusbar">فوری اسٹیٹس بار</string>
+    <string name="qs_use_status_bar_battery_style">اسٹیٹس بار اسٹائل کی پیروی کریں۔</string>
+    <!-- QS battery -->
+    <string name="lockscreen_lock_icon_title">لاک آئیکن</string>
+    <string name="lockscreen_lock_icon_summary">لاک اسکرین پر لاک آئیکن ڈسپلے کریں۔</string>
+    <!-- Notification Vibration -->
+    <string name="vibrate_on_notifications_title">اطلاع کی تھرتھراہٹ</string>
+    <string name="vibrate_on_notifications_summary">اطلاع پر تھرتھراہٹ</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">اسمارٹ چارجنگ</string>
+    <string name="smart_charging_summary">زیادہ سے زیادہ چارجنگ لیول سیٹ کریں۔</string>
+    <string name="smart_charging_switch_title">اسمارٹ چارجنگ کو فعال کریں۔</string>
+    <string name="smart_charging_level_title">ٹرگر لیول کو روکیں۔</string>
+    <string name="smart_charging_resume_level_title">ٹرگر لیول شروع کریں۔</string>
+    <string name="smart_charging_reset_stats_title">بیٹری کے اعدادوشمار کو دوبارہ ترتیب دیں۔</string>
+    <string name="smart_charging_reset_stats_summary">صارف کی طے شدہ چارجنگ لیول تک پہنچنے کے بعد بیٹری کے اعدادوشمار کو دوبارہ ترتیب دیں۔</string>
+    <string name="smart_charging_footer">اسمارٹ چارجنگ آپ کو اپنی بیٹری کی عمر بڑھانے کے لیے زیادہ سے زیادہ چارجنگ لیول سیٹ کرنے کی اجازت دیتی ہے۔ فعال ہونے پر، بیٹری اسٹاپ ٹرگر لیول پر چارج ہونا بند کر دیتی ہے اور اسٹارٹ ٹرگر لیول پر چارج ہونا دوبارہ شروع کر دیتی ہے۔ اسٹاپ ٹرگر لیول ہمیشہ اسٹارٹ ٹرگر لیول سے بڑا ہونا چاہیے۔.</string>
+    <!--FOD -->
+    <string name="fod_icon_picker_category_title">FOD حسب ضرورت کے اختیارات</string>
+    <string name="fod_icon_picker_title">ایف او ڈی آئیکن چننے والا</string>
+    <string name="fod_icon_picker_summary">اپنا پسندیدہ فنگر پرنٹ آئیکن منتخب کریں۔</string>
+    <string name="fod_icon_picker_footer">اپنا خود کا آئیکن شامل کرنے کے لیے، سب سے اوپر بائیں آئیکن کو منتخب کریں اور اپنے مطلوبہ آئیکن کو منتخب کرنے کے لیے OnePlus 6T FP Customizer ایپ استعمال کریں۔</string>
+    <string name="fod_wallpaper_color">FOD آئیکن کے لیے وال پیپر کا رنگ استعمال کریں۔</string>
+    <string name="fod_wallpaper_color_summary">ایف او ڈی آئیکن کے لیے وال پیپر کا رنگ استعمال کریں</string>
+    <!-- QS panel background opacity -->
+    <string name="qs_panel_alpha_title">پینل کی دھندلاپن</string>
+    <!-- Notification background opacity -->
+    <string name="notification_alpha_title">اطلاع کے پس منظر کی دھندلاپن</string>
+    <!-- Power menu background opacity -->
+    <string name="power_menu_alpha_title">پاور مینو کی دھندلاپن</string>
+    <!-- QS panel gradient below status bar -->
+    <string name="qs_panel_gradient_title">اسٹیٹس بار گریڈینٹ</string>
+    <string name="qs_panel_gradient_summary">QS پینل میں اسٹیٹس بار کے نیچے گریڈینٹ دکھائیں۔</string>
+    <!-- QS status bar background opacity -->
+    <string name="qs_sb_bg_alpha_title">اسٹیٹس بار کی دھندلاپن</string>
+    <!-- Navigation mode settings -->
+    <string name="back_height_low_label">مکمل</string>
+    <string name="back_height_high_label">پیندہ</string>
+    <string name="back_options_dialog_title">اختیارات</string>
+    <string name="back_height_message">پیچھے کے اشارے کے لیے چھونے کے قابل علاقے کے طور پر استعمال ہونے والی اسکرین کی اونچائی کی مقدار۔</string>
+    <string name="back_gesture_haptic">پیچھے کے اشارے پر ہیپٹک ٹک اثر کو فعال کریں۔</string>
+    <!-- FOD pressed color -->
+    <string name="fod_pressed_color_title">فنگر پرنٹ دبایا ہوا رنگ</string>
+    <string name="fod_pressed_color_footer">شبیہیں/رنگ اس لحاظ سے مختلف ہو سکتے ہیں کہ آپ کون سا آلہ استعمال کر رہے ہیں۔</string>
+    <string name="fod_pressed_color_white">سفید</string>
+    <string name="fod_pressed_color_cyan">سبزی مائل نیلا</string>
+    <string name="fod_pressed_color_green">سبز</string>
+    <string name="fod_pressed_color_yellow">پیلا</string>
+    <string name="fod_pressed_color_light_yellow">ہلکا زرد</string>
+    <!-- FOD animations -->
+    <string name="fod_recog_animation">فنگرپرنٹ اینیمیشن</string>
+    <string name="fod_recog_animation_summary">آپ کی انگلی کو پڑھتے ہوئے ایک اینیمیشن دکھاتا ہے۔</string>
+    <string name="fod_recog_animation_effect_title">فنگر پرنٹ اینیمیشن اثر منتخب کریں۔</string>
+    <string name="fod_recog_animation_miui_normal">MIUI default</string>
+    <string name="fod_recog_animation_miui_aod">MIUI AOD</string>
+    <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
+    <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
+    <string name="fod_recog_animation_miui_light">روشنی</string>
+    <string name="fod_recog_animation_miui_pop">Pop</string>
+    <string name="fod_recog_animation_miui_pulse">پلس</string>
+    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
+    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
+    <string name="fod_recog_animation_miui_star_cas">Starlight</string>
+    <string name="fod_recog_animation_op_cosmos">کاسموس</string>
+    <string name="fod_recog_animation_op_energy">Energy</string>
+    <string name="fod_recog_animation_op_mclaren">McLaren</string>
+    <string name="fod_recog_animation_op_ripple">لہر</string>
+    <string name="fod_recog_animation_op_scanning">Scanning (Cyberpunk 2077)</string>
+    <string name="fod_recog_animation_op_stripe">Stripe</string>
+    <string name="fod_recog_animation_op_wave">Wave</string>
+    <string name="fod_recog_animation_pureview_dna">DNA</string>
+    <string name="fod_recog_animation_pureview_future">Future</string>
+    <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
+    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_rog_fusion">Fusion</string>
+    <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
+    <string name="fod_recog_animation_rog_supernova">Supernova</string>
+    <string name="fod_recog_animation_shine">چمکنا</string>
+    <string name="fod_recog_animation_smoke">دھواں</string>
+    <string name="fod_recog_animation_strings">تاریں</string>
+    <string name="fod_recog_animation_quantum">کوانٹم</string>
+    <!-- Nightlight Fod -->
+    <string name="fod_night_light_title">FOD دکھاتے وقت رات کی روشنی کو غیر فعال کریں۔</string>
+    <string name="fod_night_light_summary">اگر ایف او ڈی فعال ہے تو لاک اسکرین پر رات کی روشنی کو غیر فعال کریں۔. </string>
+    <!-- NavigationBar Gestural Mode Tweaks -->
+    <string name="gesture_pill_message">بغیر کسی رکاوٹ کے پورے اسکرین اشاروں کے لیے نیویگیشن بار کی گولی کو چھپائیں۔</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Show an animated arrow for back gesture.</string>
+    <string name="back_gesture_arrow_summary">پیچھے کے اشارے کے لیے ایک متحرک تیر دکھائیں۔</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">پلیٹ فارم</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">ٹوٹل ریم</string>
+    <!-- Label for estimated remaining duration of dash battery charging -->
+    <string name="power_remaining_dash_charging_duration_only">ڈیش چارجنگ (<xliff:g id="time">%1$s</xliff:g> مکمل ہونے میں باقی ہے)</string>
+    <!-- Battery use screen.  Battery status shown in chart label when charging from a dash source.  -->
+    <string name="battery_info_status_dash_charging">ڈیش چارجنگ</string>
+    <!-- Title for the new device identifier access restrictions -->
+    <string name="device_identifier_access_restrictions_title">ڈیوائس شناخت کنندہ کی پابندیوں کو غیر فعال کریں۔</string>
+    <!-- Summary for the new device identifier access restrictions -->
+    <string name="device_identifier_access_restrictions_summary">ڈیوائس شناخت کنندگان کے لیے رسائی کی نئی پابندیوں کو غیر فعال کریں۔</string>
+    <!-- Alert Slider Notifications (OnePlus devices) -->
+    <string name="alert_slider_notifications_title">الرٹ سلائیڈر اطلاعات</string>
+    <string name="alert_slider_notifications_summary">الرٹ سلائیڈر کی پوزیشن تبدیل کرتے وقت اطلاع ڈسپلے کریں۔</string>
+    <!-- QS blur -->
+    <string name="qs_blur_title">پس منظر کا دھندلا پن</string>
+    <string name="qs_blur_summary">فوری ترتیبات کے نیچے نوٹیفکیشن پینل میں خالی جگہ کو دھندلا کریں۔</string>
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">کال میں تھرتھراہٹ</string>
+    <string name="incall_feeedback_summary">کال کی حیثیت کی نشاندہی کرنے کے لیے تھرتھراہٹ کریں۔</string>
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">تھرتھراہٹ &amp; ہیپٹکس</string>
+    <string name="summary_vibration_preferences">شدت، پیٹرن اور مزید تبدیل کریں۔</string>
+    <string name="keywords_vibration_preferences">کمپن پیٹرن، کمپن کی شدت، انکال، ہیپٹکس، نل، کمپن کی طاقت</string>
+    <string name="ringtone_vibration_pattern">رنگ ٹون تھرتھراہٹ نقش</string>
+    <string name="vibration_intensity_ringer">رنگ ٹون تھرتھراہٹ کی شدت</string>
+    <string name="vibration_intensity_notification">اطلاع کے لیے تھرتھراہٹ کی شدت</string>
+    <string name="vibration_intensity_disabled">غیرفعال کردہ</string>
+    <string name="vibration_intensity_light">کم</string>
+    <string name="vibration_intensity_medium">درمیانہ</string>
+    <string name="vibration_intensity_strong">زیادہ</string>
+    <string name="vibration_intensity_custom">حسب ضرورت</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">حسب ضرورت</string>
+    <string name="custom_vibration_pattern_title">Custom pattern</string>
+    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone1_title">فون رنگ ٹون - سم 1</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone2_title">فون رنگ ٹون - سم 2</string>
+    <!-- Display cutout -->
+    <string name="display_hide_notch_title">ڈسپلے کٹ آؤٹ چھپائیں۔</string>
+    <string name="display_hide_notch_summary">ڈسپلے کٹ آؤٹ کے لیے بلیک فل ان کو غیر فعال کریں۔</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_title">انکولی پلے بیک</string>
+    <string name="adaptive_playback_summary">والیوم خاموش ہونے پر میڈیا کو روکیں اور ٹائم آؤٹ کے اندر والیوم بڑھا کر اسے دوبارہ شروع کریں۔</string>
+    <string name="adaptive_playback_timeout_title">پلے بیک ٹائم آؤٹ</string>
+    <!-- Headset ringtone audio focus -->
+    <string name="ringtone_focus_mode_title">ہیڈ سیٹ کے منسلک ہونے پر، آنے والی کال آن ہوتی ہے۔</string>
+    <string name="ringtone_focus_mode_dynamic">ہیڈ سیٹ صرف اس صورت میں جب موسیقی فعال ہو۔</string>
+    <string name="ringtone_focus_mode_stock">اسپیکر اور ہیڈسیٹ دونوں</string>
+    <!-- Battery temperature -->
+    <string name="battery_temperature">بیٹری کا درجہ حرارت</string>
+    <!-- OOS style material dismiss all button for notifications -->
+    <string name="notification_material_dismiss_button_title">مواد کو خارج کرنے کا بٹن</string>
+    <string name="notification_material_dismiss_button_summary">فلوٹنگ بٹن کے ساتھ کلیئر تمام نوٹیفکیشن ٹیکسٹ کو تبدیل کریں۔</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">نیٹ ورک کی اجازت دیں۔</string>
+    <string name="data_usage_app_restrict_all_summary">نیٹ ورک کے استعمال کو فعال کریں۔</string>
+    <!-- A2DP codec priority -->
+    <string name="a2dp_source_codec_priority_title">بلوٹوتھ آڈیو کوڈیک (ترجیحی)</string>
+    <!-- Rotation button -->
+    <string name="show_rotation_button_title">گھماؤ بٹن</string>
+    <string name="show_rotation_button_summary">دستیاب ہونے پر نیویگیشن بار پر روٹیشن بٹن ڈسپلے کریں۔</string>
+    <!-- SBC HD (Dual Channel) priority -->
+    <string name="sbc_hd_priority_title">ایس بی سی ایچ ڈی آڈیو</string>
+    <string name="sbc_hd_priority_summary">آیا SBC کوڈیک کے لیے ڈیفالٹ کے لیے ڈوئل چینل موڈ استعمال کرنا ہے۔</string>
+    <!-- Settings Dashboard conditions and suggestions -->
+    <string name="settings_show_conditions_title">ڈیش بورڈ کے حالات</string>
+    <string name="settings_show_conditions_summary">سیٹنگز اسکرین میں کنڈیشن کارڈز ڈسپلے کریں۔</string>
+    <string name="settings_show_suggestions_title">ڈیش بورڈ کی تجاویز</string>
+    <string name="settings_show_suggestions_summary">ترتیبات کی سکرین میں تجویز کارڈ ڈسپلے کریں۔</string>
+    <!-- Minimal brightness -->
+    <string name="auto_brightness_min_title">کم سے کم چمک کی سطح</string>
+    <string name="auto_brightness_description_new">آپ کی اسکرین کی چمک خود بخود آپ کے ماحول اور سرگرمیوں کے مطابق ہو جائے گی۔\n\nآپ کم سے کم چمک کی سطح کو ایڈجسٹ کر سکتے ہیں جسے استعمال کیا جائے گا۔</string>
+    <!-- Clipboard toast info -->
+    <string name="clipboard_toast_info_title">کلپ بورڈ تک رسائی کے انتباہات</string>
+    <string name="clipboard_toast_info_show_important">صرف اہم انتباہات دکھائیں۔</string>
+    <string name="clipboard_toast_info_show_all">رسائی کے تمام انتباہات دکھائیں۔</string>
+    <!-- Navbar styles -->
+    <string name="navbar_style_title">نیوی گیشن بار کا انداز</string>
+    <string name="navbar_default">معین شدہ</string>
+    <string name="navbar_asus">ASUS</string>
+    <string name="navbar_oneplus">ون پلس</string>
+    <string name="navbar_oneui">One UI</string>
+    <string name="navbar_tecno">Tecno Camon</string>
+    <!-- App Lock -->
+    <string name="applock_title">ایپ مقفل کنندہ</string>
+    <string name="applock_locked">مقفل</string>
+    <string name="applock_unlocked">غیر مقفل</string>
+    <string name="applock_locked_apps">مقفل ایپس</string>
+    <string name="applock_unlocked_apps">غیر مقفل ایپس</string>
+    <string name="applock_lock_after_title">اس کے بعد ایپ کو مقفل کریں</string>
+    <string name="applock_lock_after_instantly">Instantly</string>
+    <string name="applock_lock_after_15_seconds">15 سیکنڈز</string>
+    <string name="applock_lock_after_screen_off">سکرین بند</string>
+    <string name="applock_lock_after_summary">منتخب شدہ ٹائم آؤٹ کے بعد ایپ کو مقفل کر دیا جائے گا۔</string>
+    <string name="applock_lock_after_instantly_summary">بند ہونے پر ایپ فوری طور پر مقفل ہو جائے گی۔</string>
+    <string name="applock_lock_after_15_seconds_summary">ایپ بند ہونے کے 15 سیکنڈ بعد مقفل ہو جائے گی۔</string>
+    <string name="applock_lock_after_screen_off_summary">اسکرین آف ہونے پر ایپ مقفل ہو جائے گی۔</string>
+    <string name="applock_notification_info">آپ ہر ایک مقفل ایپس کی ترجیح پر دکھائے گئے نوٹیفکیشن آئیکن پر کلک کر کے فی ایپ کی بنیاد پر نوٹیفکیشن مواد دکھا/چھپا سکتے ہیں۔</string>
+    <string name="applock_show_notif">اطلاعاتی مواد دکھائیں</string>
+    <string name="applock_hide_notif">اطلاعی مواد چھپا نا</string>
+    <string name="applock_setup">ایپ لاکر سیٹ کریں۔</string>
+    <string name="applock_overlay_summary">یہ فیچر دستیاب نہیں ہے کیونکہ یہ ایپ مقفل ہے۔</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 ایپ مقفل ہے۔
+%d ایپس مقفل ہیں۔</item>
+        <item quantity="other">%d ایپس مقفل ہیں۔</item>
+    </plurals>
+    <string name="keywords_applock_settings">ایپ مقفل کنندہ،ایپ مقفل کنندہ،ایپ مقفل کنندہ،ایپ مقفل کنندہ</string>
+    <!-- Navbar length -->
+    <string name="navbar_length">اشارہ بار کی لمبائی</string>
+    <string name="hidden_label">پوشیدہ</string>
+    <string name="long_label">طویل</string>
+    <!-- Additional version details -->
+    <string name="about_device_name">ڈیوائس</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">کال میں تھرتھراہٹ کے اختیارات</string>
+    <string name="incall_vibrate_connect_title">کنیکٹ ہونے پر تھرتھراہٹ</string>
+    <string name="incall_vibrate_call_wait_title">کال ویٹنگ پر تھرتھراہٹ کریں۔</string>
+    <string name="incall_vibrate_disconnect_title">ڈس-کنیکٹ ہونے پر تھرتھراہٹ</string>
+    <!-- Buttons - Swap capacitive keys -->
+    <string name="swap_capacitive_keys_title">Capacitive بٹنوں کو تبدیل کریں۔</string>
+    <string name="swap_capacitive_keys_summary">حالیہ اور بیک بٹنوں کے آرڈر کو تبدیل کریں۔</string>
+    <!-- QS themes -->
+    <string name="qs_bg_use_new_tint">QS ٹائلوں کو ٹنٹ کریں۔</string>
+    <string name="qs_bg_use_new_tint_summary">QS ٹائلوں پر لہجے کے رنگ ٹنٹ کو فعال کریں۔</string>
+    <string name="qs_icons_primary_color">QS ٹائل شبیہیں رنگ</string>
+    <string name="qs_icons_primary_color_summary">QS ٹائل کے آئیکنز کے لیے بنیادی سسٹم کا رنگ استعمال کریں۔</string>
+    <!-- Doze-on-Charge -->
+    <string name="doze_on_charge_title">چارج کرتے وقت معلومات دکھائیں۔</string>
+    <string name="doze_on_charge_summary">ڈیوائس چارج ہونے پر وقت، اطلاعات اور چارجنگ کی معلومات دیکھیں</string>
+    <!-- Deep Sleep percentage in device info -->
+    <string name="status_sleep_time">گہری نیند</string>
+    <!-- Partial screenshot on click -->
+    <string name="click_partial_screenshot_title">جزوی اسکرین شاٹ کے لیے کلک کریں۔</string>
+    <string name="click_partial_screenshot_summary">جزوی اسکرین شاٹ لینے کے لیے والیوم ڈاؤن اور پاور پر شارٹ کلک کریں۔</string>
+    <!-- Battery fully charged sound -->
+    <string name="battery_fully_charged_sound_enabled_title">بیٹری پوری طرح سے چارج ہونے والی آواز</string>
+    <string name="battery_fully_charged_sound_enabled_summary">بیٹری مکمل چارج ہونے پر آواز چلائیں۔</string>
+    <string name="battery_fully_charged_vibrate_title">تھرتھراہٹ</string>
+    <string name="battery_fully_charged_sound_ringtone_title">اطلاع کی آواز</string>
+    <string name="battery_fully_charged_sound_ringtone_silent">خاموش</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">اسکرین بند ہونے پر فنگر پرنٹ</string>
+    <string name="fod_gesture_summary">پہلے اسکرین کو جگائے بغیر آلہ کو غیر مقفل کرنے کی اجازت دیتا ہے۔</string>
+    <!-- Settings dashboard icon style -->
+    <string name="theming_settings_dashboard_icons_title">سیٹنگز ڈیش بورڈ آئیکنز</string>
+    <string name="theming_settings_dashboard_icons_default">پہلے سے طے شدہ پس منظر / شفاف پیش منظر</string>
+    <string name="theming_settings_dashboard_icons_white">پہلے سے طے شدہ پس منظر / سفید پیش منظر</string>
+    <string name="theming_settings_dashboard_icons_accent">لہجے کا پس منظر / شفاف پیش منظر</string>
+    <string name="theming_settings_dashboard_icons_plain">شفاف پس منظر / سادہ پیش منظر</string>
+    <string name="theming_settings_dashboard_icons_plain_accent">شفاف پس منظر / لہجہ پیش منظر</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_settings_remove_dialog_details_custom">فیس ان لاک کے ذریعے ریکارڈ کیا گیا ڈیٹا مستقل اور محفوظ طریقے سے حذف کر دیا جائے گا۔ ہٹانے کے بعد، آپ کو اپنے فون کو غیر مقفل کرنے کے لیے اپنے PIN، پیٹرن، یا پاس ورڈ کی ضرورت ہوگی۔</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">موجودہ چہرے کا اسکین ہٹائیں اور نیا اسکین بنائیں</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">چہرہ اسکین دوبارہ کریں۔</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">اسکرین لاک، فنگر پرنٹ، فیس انلاک</string>
+    <string name="face_redo_confirm_btn">دوبارہ کریں۔</string>
+    <string name="face_redo_warning_msg">کیا آپ موجودہ چہرے کا اسکین ہٹا کر نیا بنانا چاہتے ہیں؟</string>
+    <!-- QS Header data usage -->
+    <string name="qs_datausage_title">ڈیٹا کا استعمال</string>
+    <string name="qs_datausage_daily">ڈیٹا کا استعمال</string>
+    <string name="qs_datausage_monthly">ماہانہ استعمال</string>
+    <!-- Charging animation -->
+    <string name="charging_animation_title">چارجنگ کی حرکات</string>
+    <string name="charging_animation_summary">ڈیوائس کے پلگ ان ہونے پر ایک اینیمیشن دکھائیں کریں۔</string>
+    <!-- Lockscreen blur -->
+    <string name="lockscreen_blur_title">پس منظر کا دھندلا پن</string>
+    <string name="lockscreen_blur_summary">لاک اسکرین کے پس منظر کو دھندلا کریں۔</string>
+    <!-- Checkbox label that restricts network internet access of a specific application. [CHAR LIMIT=40] -->
+    <string name="data_usage_app_restrict_background_all">پس منظر نیٹ ورک تک رسائی</string>
+    <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_app_restrict_background_all_summary">پس منظر میں نیٹ ورک کے استعمال کو فعال کریں۔</string>
+    <!--  Volume Panel Plugin   -->
+    <string name="volume_panel">والیوم پینل اسٹائل</string>
+    <string name="volume_panel_stock">سٹاک</string>
+    <string name="volume_panel_aosp">اے-او-ایس-پی</string>
+    <string name="volume_panel_compact">فشرده - جمع و جور</string>
+    <string name="volume_panel_oreo">Oreo</string>
+    <string name="volume_panel_tiled">کاشی کاری شده</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">موجودہ بیٹری کی گنجائش</string>
+    <string name="designed_battery_capacity">بیٹری کی ڈیزائن کردہ صلاحیت</string>
+    <string name="battery_charge_cycles">چارج سائیکل مکمل ہو گئے۔</string>
+    <!-- Ambient Display Swipe Gesture -->
+    <string name="ambient_swipe_title">ایمبیئنٹ ڈسپلے سوائپ</string>
+    <string name="ambient_swipe_summary">ایمبیئنٹ ڈسپلے پر اوپر یا نیچے سوائپ کرکے ڈیوائس کو جگانے کی اجازت دیں۔</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
+</resources>

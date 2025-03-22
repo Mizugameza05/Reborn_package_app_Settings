@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2016-2021 RebornOS Android Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    xmlns:lineage="http://schemas.android.com/apk/res/lineageos.platform">
+
+    <PreferenceCategory 
+         android:title="@string/qs_tiles_category">
+
+        <!--<com.rebornos.settings.preferences.SystemSettingSwitchPreference
+            android:key="bluetooth_qs_show_battery"
+            android:icon="@drawable/ic_bluetooth_connect"
+            android:title="@string/bluetooth_battery_title"
+            android:summary="@string/bluetooth_battery_summary"
+            android:defaultValue="true"/>
+
+        <com.rebornos.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_quickbar_scroll_enabled"
+            android:icon="@drawable/ic_gesture_swipe_left"
+            android:title="@string/qqs_scroll_title"
+            android:summary="@string/qqs_scroll_summary"
+            android:defaultValue="false"/>
+
+        <com.rebornos.settings.preferences.CustomSeekBarPreference
+            android:key="sysui_qqs_count_key"
+            android:icon="@drawable/ic_qs_tile"
+            android:title="@string/sysui_qqs_count_title"
+            android:max="7"
+            settings:min="1"
+            settings:units=""
+            android:persistent="false" />-->
+
+        <com.rebornos.settings.preferences.SystemSettingSeekBarPreference
+            android:key="qs_columns_portrait"
+            android:icon="@drawable/ic_qs_tile"
+            android:title="@string/qs_columns_portrait_title"
+            android:defaultValue="4"
+            android:max="10"
+            settings:min="1"
+            settings:units="" />
+
+        <com.rebornos.settings.preferences.SystemSettingSeekBarPreference
+            android:key="qs_rows_portrait"
+            android:icon="@drawable/ic_qs_tile"
+            android:title="@string/qs_rows_portrait_title"
+            android:defaultValue="2"
+            android:max="7"
+            settings:min="1"
+            settings:units="" />
+
+        <com.rebornos.settings.preferences.SystemSettingSeekBarPreference
+            android:key="qs_columns_landscape"
+            android:icon="@drawable/ic_qs_tile"
+            android:title="@string/qs_columns_landscape_title"
+            android:defaultValue="5"
+            android:max="10"
+            settings:min="1"
+            settings:units="" />
+
+        <com.rebornos.settings.preferences.SystemSettingSeekBarPreference
+            android:key="qs_rows_landscape"
+            android:icon="@drawable/ic_qs_tile"
+            android:title="@string/qs_rows_landscape_title"
+            android:defaultValue="1"
+            android:max="3"
+            settings:min="1"
+            settings:units="" />
+
+        <com.rebornos.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_tile_title_visibility"
+            android:icon="@drawable/ic_text"
+            android:title="@string/qs_tile_title_visibility_title"
+            android:summary="@string/qs_tile_title_visibility_summary"
+            android:defaultValue="true" />
+
+        <com.rebornos.settings.preferences.SystemSettingSwitchPreference
+            android:key="quick_settings_vibrate"
+            android:icon="@drawable/ic_vibrate"
+            android:title="@string/quick_settings_vibrate_title"
+            android:summary="@string/quick_settings_vibrate_summary"
+            android:defaultValue="false"/>
+
+        <com.rebornos.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_panel_bg_use_new_tint"
+            android:title="@string/qs_bg_use_new_tint"
+            android:icon="@drawable/ic_invert_colors"
+            android:summary="@string/qs_bg_use_new_tint_summary"
+            android:defaultValue="false" />
+
+        <com.rebornos.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_panel_icons_primary_color"
+            android:icon="@drawable/ic_color_bucket"
+            android:title="@string/qs_icons_primary_color"
+            android:summary="@string/qs_icons_primary_color_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory 
+         android:title="@string/qs_toggles_category">
+        <com.rebornos.settings.preferences.SecureSettingSwitchPreference
+            android:key="qs_wifi_easy_toggle"
+            android:icon="@drawable/ic_wifi"
+            android:title="@string/qs_wifi_easy_toggle_title"
+            android:summary="@string/qs_wifi_easy_toggle_summary"
+            android:defaultValue="false" />
+
+        <com.rebornos.settings.preferences.SecureSettingSwitchPreference
+            android:key="qs_bt_easy_toggle"
+            android:icon="@drawable/ic_bt"
+            android:title="@string/qs_bt_easy_toggle_title"
+            android:summary="@string/qs_bt_easy_toggle_summary"
+            android:defaultValue="false" />
+
+        <com.rebornos.settings.preferences.SecureSettingSwitchPreference
+            android:key="qs_data_advanced"
+            android:icon="@drawable/ic_data"
+            android:title="@string/qs_advanced_data_title"
+            android:summary="@string/qs_advanced_data_summary"
+            android:defaultValue="false" />
+
+        <com.rebornos.settings.preferences.SecureSettingSwitchPreference
+            android:key="qs_battery_easy_toggle"
+            android:icon="@drawable/ic_battery_saver"
+            android:title="@string/qs_battery_easy_toggle_title"
+            android:summary="@string/qs_battery_easy_toggle_summary"
+            android:defaultValue="false" />
+
+        <com.rebornos.settings.preferences.SecureSettingSwitchPreference
+            android:key="qs_location_easy_toggle"
+            android:icon="@drawable/ic_map_marker"
+            android:title="@string/qs_location_easy_toggle_title"
+            android:summary="@string/qs_location_easy_toggle_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory> -->
+
+    <PreferenceCategory 
+         android:title="@string/qs_misc_category">
+
+        <!-- QS Header data usage -->
+        <com.rebornos.settings.preferences.SystemSettingListPreference
+            android:key="qs_datausage"
+            android:icon="@drawable/ic_data_usage_wifi"
+            android:title="@string/qs_datausage_title"
+            android:entries="@array/qs_datausage_entries"
+            android:entryValues="@array/qs_datausage_values"
+            android:defaultValue="0" />
+
+        <!-- Battery styles -->
+        <com.rebornos.settings.preferences.SystemSettingListPreference
+            android:key="qs_battery_style"
+            android:icon="@drawable/ic_battery"
+            android:title="@string/status_bar_battery_style_title"
+            android:dialogTitle="@string/status_bar_battery_style_title"
+            android:entries="@array/qs_battery_style_entries"
+            android:entryValues="@array/qs_battery_style_values"
+            android:defaultValue="-1" />
+
+        <!-- Battery location -->
+        <com.rebornos.settings.preferences.SystemSettingListPreference
+            android:key="qs_battery_location"
+            android:icon="@drawable/ic_battery"
+            android:title="@string/qs_battery_location_title"
+            android:dialogTitle="@string/qs_battery_location_title"
+            android:entries="@array/qs_battery_location_entries"
+            android:entryValues="@array/qs_battery_location_values"
+            android:defaultValue="0" />
+
+        <!-- Battery percent -->
+        <com.rebornos.settings.preferences.SystemSettingListPreference
+            android:key="qs_show_battery_percent"
+            android:icon="@drawable/ic_battery_alert"
+            android:title="@string/status_bar_battery_percentage_title"
+            android:entries="@array/status_bar_battery_percent_entries"
+            android:entryValues="@array/status_bar_battery_percent_values"
+            android:defaultValue="2" />
+
+        <!-- Battery estimate -->
+        <com.rebornos.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_show_battery_estimate"
+            android:icon="@drawable/ic_timelapse_cr"
+            android:title="@string/battery_estimate_title"
+            android:summary="@string/battery_estimate_summary" />
+
+        <!-- Custom header -->
+        <Preference
+            android:key="custom_header"
+            android:icon="@drawable/ic_header"
+            android:fragment="com.rebornos.settings.fragments.quicksettings.CustomHeader"
+            android:title="@string/custom_header_title"
+            android:summary="@string/custom_header_summary" />
+
+        <!-- QS status bar opacity -->
+        <com.rebornos.settings.preferences.SystemSettingSeekBarPreference
+            android:key="qs_sb_bg_alpha"
+            android:title="@string/qs_sb_bg_alpha_title"
+            android:icon="@drawable/ic_invert_colors"
+            android:defaultValue="255"
+            android:max="255"
+            settings:min="0"
+            settings:units="" />
+
+        <!-- QS panel gradient below status bar -->
+        <com.rebornos.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_sb_bg_gradient"
+            android:icon="@drawable/ic_invert_colors"
+            android:title="@string/qs_panel_gradient_title"
+            android:summary="@string/qs_panel_gradient_summary"
+            android:defaultValue="true"/>
+
+        <!-- QS panel opacity -->
+        <com.rebornos.settings.preferences.SystemSettingSeekBarPreference
+            android:key="qs_panel_bg_alpha"
+            android:title="@string/qs_panel_alpha_title"
+            android:icon="@drawable/ic_invert_colors"
+            android:defaultValue="255"
+            android:max="255"
+            settings:min="0"
+            settings:units="" />
+
+        <!-- QS blur
+        <com.rebornos.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_background_blur"
+            android:icon="@drawable/ic_blur"
+            android:title="@string/qs_blur_title"
+            android:summary="@string/qs_blur_summary" /> -->
+
+        <!-- QS clock -->
+        <com.rebornos.settings.preferences.SystemSettingSwitchPreference
+            android:key="show_qs_clock"
+            android:icon="@drawable/ic_clock"
+            android:title="@string/qs_clock_title"
+            android:summary="@string/qs_clock_summary"
+            android:defaultValue="true" />
+
+        <!-- QS Brightness Slider position -->
+        <lineageos.preference.LineageSecureSettingListPreference
+            android:key="qs_show_brightness_slider"
+            android:icon="@drawable/ic_brightness"
+            android:title="@string/qs_brightness_slider_title"
+            android:entries="@array/qs_brightness_slider_show_entries"
+            android:entryValues="@array/qs_brightness_slider_show_values"
+            android:defaultValue="1" />
+
+        <lineageos.preference.LineageSecureSettingSwitchPreference
+            android:key="qs_show_auto_brightness"
+            android:icon="@drawable/ic_brightness_auto"
+            android:title="@string/brightness_icon_title"
+            android:summary="@string/brightness_icon_summary"
+            lineage:requiresConfig="@*android:bool/config_automatic_brightness_available"
+            android:defaultValue="true" />
+
+        <!-- OOS style material dismiss all button for notifications -->
+        <com.rebornos.settings.preferences.SystemSettingSwitchPreference
+            android:key="notification_material_dismiss"
+            android:icon="@drawable/ic_notification_clear_all"
+            android:title="@string/notification_material_dismiss_button_title"
+            android:summary="@string/notification_material_dismiss_button_summary" />
+    </PreferenceCategory>
+
+    <PreferenceCategory 
+         android:title="@string/qs_footer_category">
+
+        <com.rebornos.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_warnings"
+            android:icon="@drawable/ic_key"
+            android:title="@string/qs_footer_warnings_title"
+            android:summary="@string/qs_footer_warnings_summary"
+            android:defaultValue="true"/>
+
+        <com.rebornos.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_show_user"
+            android:icon="@drawable/ic_account"
+            android:title="@string/qs_footer_users_icon_title"
+            android:summary="@string/qs_footer_users_icon_summary"
+            android:defaultValue="true" />
+
+        <com.rebornos.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_show_edit"
+            android:icon="@drawable/ic_pencil"
+            android:title="@string/qs_footer_edit_icon_title"
+            android:summary="@string/qs_footer_edit_icon_summary"
+            android:defaultValue="true" />
+
+        <com.rebornos.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_show_services"
+            android:icon="@drawable/ic_memory"
+            android:title="@string/qs_footer_services_icon_title"
+            android:summary="@string/qs_footer_services_icon_summary" />
+
+        <com.rebornos.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_show_settings"
+            android:icon="@drawable/ic_settings_main"
+            android:title="@string/qs_footer_settings_icon_title"
+            android:summary="@string/qs_footer_settings_icon_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

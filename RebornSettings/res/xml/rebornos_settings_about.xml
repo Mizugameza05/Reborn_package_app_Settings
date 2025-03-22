@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright (C) 2016-2020 RebornOS Android Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <!-- RebornOS Changelog -->
+    <Preference
+        android:key="rebornos_changelog"
+        android:icon="@drawable/ic_changelog"
+        android:title="@string/changelog_rebornos_title"
+        android:summary="@string/changelog_rebornos_summary"
+        android:fragment="com.rebornos.settings.fragments.about.Changelog" />
+
+    <!-- RebornOS Website -->
+    <Preference
+        android:key="rebornos_website"
+        android:icon="@drawable/ic_web"
+        android:title="@string/rebornos_website_title"
+        android:summary="@string/rebornos_website_summary" />
+
+    <!-- RebornOS Translate -->
+    <Preference
+        android:key="rebornos_translate"
+        android:icon="@drawable/ic_translate"
+        android:title="@string/rebornos_translate_title"
+        android:summary="@string/rebornos_translate_summary" />
+
+    <!-- RebornOS Share -->
+    <Preference
+        android:key="rebornos_share"
+        android:icon="@drawable/ic_share"
+        android:title="@string/share_rebornos_title"
+        android:summary="@string/share_rebornos_summary" />
+
+    <!-- RebornOS Donate -->
+    <Preference
+        android:key="rebornos_donate"
+        android:icon="@drawable/ic_donate"
+        android:title="@string/donate_rebornos_title"
+        android:summary="@string/donate_rebornos_summary" />
+
+    <!-- RebornOS Source -->
+    <Preference
+        android:key="rebornos_source"
+        android:icon="@drawable/ic_source"
+        android:title="@string/rebornos_source_title"
+        android:summary="@string/rebornos_source_summary" />
+
+    <!-- RebornOS Telegram -->
+    <Preference
+        android:key="rebornos_telegram"
+        android:icon="@drawable/ic_telegram"
+        android:title="@string/rebornos_telegram_title"
+        android:summary="@string/rebornos_telegram_summary" />
+
+    <!-- RebornOS Telegram Updates Channel -->
+    <Preference
+        android:key="rebornos_telegram_channel"
+        android:icon="@drawable/ic_telegram_channel"
+        android:title="@string/rebornos_telegram_channel_title"
+        android:summary="@string/rebornos_telegram_channel_summary" />
+
+    <!-- RebornOS Maintainers
+    <Preference
+        android:key="rebornos_maintainers"
+        android:icon="@drawable/ic_maintainers"
+        android:title="@string/maintainers_rebornos_title"
+        android:summary="@string/maintainers_rebornos_summary"
+        android:fragment="com.rebornos.settings.fragments.about.Maintainers" /> -->
+
+    <!-- RebornOS sponsor -->
+    <Preference
+        android:key="rebornos_sponsor"
+        android:icon="@drawable/ic_sponsor"
+        android:title="@string/rebornos_sponsor_title"
+        android:summary="@string/rebornos_sponsor_summary" />
+
+    <!-- RebornOS OTA update -->
+    <Preference
+        android:key="system_update_settings"
+        android:title="@string/ota_rebornos_title"
+        android:summary="@string/ota_rebornos_summary"
+        android:icon="@drawable/ic_update"
+        settings:controller="com.android.settings.system.SystemUpdatePreferenceController">
+        <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
+    </Preference>
+
+    <!-- RebornOS Drill -->
+    <Preference
+        android:key="rebornos_drill"
+        android:icon="@drawable/ic_drill"
+        android:title="@string/drill_title"
+        android:summary="@string/drill_summary"
+        android:fragment="com.rebornos.settings.fragments.about.Drill" />
+</PreferenceScreen>
